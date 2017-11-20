@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- this needs to be changed to the diplomatic schema when it gets created -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- this needs to be changed to the diplomatic schema when it gets created --><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,11 +40,7 @@
   </teiHeader>
   <text type="diplomatic" xml:lang="la">
     <front>
-      <div xml:id="includeList">
-      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
-    	<div xml:id="starts-on">
+      <div xml:id="starts-on">
     		<pb ed="#V" n="7-r"/><cb ed="#V" n="a"/>
     	</div>
     </front>
@@ -57,9 +49,9 @@
   			<head xml:id="grl1prolp2q2-Hd1e3495">Librum I, Prologus, Pars 2, Quaestio 2</head>
   			<head xml:id="grl1prolp2q2-Hd1e3498" type="questionTitle">Utrum ista scientia sit certior aliis</head>
   			<p xml:id="grl1prolp2q2-d1e3501"><lb ed="#V"/>Postea quaeritur de certitudine huius.</p>
-  			<div type="rationes-principales">
+  			<div xml:id="gr-l1prolp2q2-Dd1e3505" type="rationes-principales">
   				<p xml:id="grl1prolp2q2-d1e3507">Et videtur quod ista scientia non 
-  					<lb ed="#V"/>sit certior aliis: quia ut dicit <ref><name ref="#Averroes">Commentator</name> supra 2a 
+  					<lb ed="#V"/>sit certior aliis: quia ut dicit <ref xml:id="gr-l1prolp2q2-Rd1e3511"><name ref="#Averroes">Commentator</name> supra 2a 
   						<lb ed="#V"/><title>metaphysica</title></ref> demonstrationes mathematicae sunt in primo 
   					<lb ed="#V"/>ordine certitudinis, ergo etc</p>
   				
@@ -75,18 +67,18 @@
   				
   				<p xml:id="grl1prolp2q2-d1e3546">In contrarium est: quia secundum <name ref="#Augustine">Augustinum</name> <quote xml:id="grl1prolp2q2-Qd1e3551">Christus de aeternis 
   					<lb ed="#V"/>nobis exhibet in fallibilem veri<lb ed="#V"/>tatem:</quote> 
-  					sicut scribitur <ref>13 <title ref="#deTrinitate">de trinitate</title> capitulo penultimo</ref>. Sed ex hoc aliquid est 
+  					sicut scribitur <ref xml:id="gr-l1prolp2q2-Rd1e3558">13 <title ref="#deTrinitate">de trinitate</title> capitulo penultimo</ref>. Sed ex hoc aliquid est 
   					<lb ed="#V"/>certum inquantum est verum et infallibile. huiusmodi autem est quod habetur per 
   					<lb ed="#V"/>theologiam, ergo etc.</p>
   				
   				<p xml:id="grl1prolp2q2-d1e3569"><pc ana="#pilcrow"/>praeterea illud in quo magis erratur est minus 
-  					<lb ed="#V"/>certum. unde et in <ref>4o <title>metaphysicae</title></ref> illud principium de quolibet affirma<lb ed="#V"/>tivo 
+  					<lb ed="#V"/>certum. unde et in <ref xml:id="gr-l1prolp2q2-Rd1e3574">4o <title>metaphysicae</title></ref> illud principium de quolibet affirma<lb ed="#V"/>tivo 
   					probatur esse firmissimum et certissimum: quia circa illud minus 
   					<lb ed="#V"/>erratur. Sed philosophi in tradendo suas scientias erraverunt et non 
-  					<lb ed="#V"/>theologi: ut patet per <ref><name ref="#HughOfStVictor">Hugo</name> in principio commenti sui suae 
+  					<lb ed="#V"/>theologi: ut patet per <ref xml:id="gr-l1prolp2q2-Rd1e3586"><name ref="#HughOfStVictor">Hugo</name> in principio commenti sui suae 
   						<lb ed="#V"/>angelicae hierarchiae.</ref> ergo etc.</p>
   			</div>
-  			<div type="responsio">
+  			<div xml:id="gr-l1prolp2q2-Dd1e3595" type="responsio">
   				<p xml:id="grl1prolp2q2-d1e3597"><lb ed="#V"/>Respondeo dicendum quod certitudo in scientia tripliciter potest accipi. 
   					<lb ed="#V"/>Primo ex ipsis rebus de quibus considerat. 
   					<lb ed="#V"/>Secundo ex lumine cui innuitur. Tertio ex proportione scientiae ad 
@@ -98,7 +90,7 @@
   					<lb ed="#V"/>punctus dicitur subiecta posita: propter quod scientia de principiis est certior quam 
   					<lb ed="#V"/>sit alia: quia omnia se habent per additionem ad principia. propter quod et minima 
   					<lb ed="#V"/>quantitate principia describuntur: et de illo modo certitudinis deter<lb ed="#V"/>minatur 
-  					in primo <ref><title ref="#Metaphysics">metaphysicae</title></ref> ubi dicitur. Certissime autem scientiarum sunt: quae 
+  					in primo <ref xml:id="gr-l1prolp2q2-Rd1e3624"><title ref="#Metaphysics">metaphysicae</title></ref> ubi dicitur. Certissime autem scientiarum sunt: quae 
   					<lb ed="#V"/>maximę principiorum sunt: quae namque ex minoribus certiores his: quae 
   					<lb ed="#V"/>ex maxime de principiis: quia est de deo: qui omnium existit principium: et 
   					<lb ed="#V"/>omnia principia ordinat: iuxta illud de divinis nominibus capitulo 2 tota principia 
@@ -108,7 +100,7 @@
   					quae est de minus sensibilibus secundum quod videmus mathematicam 
   					<lb ed="#V"/>certiorem naturali. Tertius modus contingit ex propter quid et quia: quia 
   					<lb ed="#V"/>scientia quae dicit propter quid <pc type="virgula">/</pc> certior est scientia quia: ut geometrai cer<lb ed="#V"/>tior 
-  					perspectiva. Et isti duo modo tanguntur <ref>primo <title ref="#PosteriorAnalytics">posteriorum</title></ref> 
+  					perspectiva. Et isti duo modo tanguntur <ref xml:id="gr-l1prolp2q2-Rd1e3653">primo <title ref="#PosteriorAnalytics">posteriorum</title></ref> 
   					<lb ed="#V"/>capitulo de certitudine scientiarum ubi etiam tangitur primus modus. Isti 
   					<cb ed="#V" n="b"/><lb ed="#V"/>duo modi secundo <unclear>assignati</unclear> virtualiter continentur in primo: quia scientia 
   					<lb ed="#V"/>quae dicit quia: se habet per additionem ad scientiam propter quod. Item quae 
@@ -136,22 +128,22 @@
   					de certitudine speculationis scientia ista non est certissi<lb ed="#V"/>ma: 
   					quia est de quibus est fides: et fides est de non visis.</p>
   			</div>
-  			<div type="ad-rationes">
-  				<p xml:id="grl1prolp2q2-d1e3729"><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp2q2-d1e3507">Ad primum</ref> dicendum quod demonstrationes mathematicae dicuntur esse 
+  			<div xml:id="gr-l1prolp2q2-Dd1e3727" type="ad-rationes">
+  				<p xml:id="grl1prolp2q2-d1e3729"><lb ed="#V"/><ref xml:id="gr-l1prolp2q2-Rd1e3731" target="http://scta.info/resource/grl1prolp2q2-d1e3507">Ad primum</ref> dicendum quod demonstrationes mathematicae dicuntur esse 
   					<lb ed="#V"/>primae in certitudine rerum naturalium: unde 
   					<lb ed="#V"/>ibidem subditur quod demonstrationes naturales sequuntur eas in hoc: quia 
   					<lb ed="#V"/>non sunt ita certe sicut mathematicae: vel dicere possumus quod sunt 
   					<lb ed="#V"/>primae in certitudine rerum scientiae humanarum: quia aliam scientiam <name ref="#Averroes">Com<lb ed="#V"/>mentator</name> 
   					non posuit in homine nisi ab homine inventam.</p>
   				
-  				<p xml:id="grl1prolp2q2-d1e3746"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp2q2-d1e3522">Ad 2m</ref> 
+  				<p xml:id="grl1prolp2q2-d1e3746"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp2q2-Rd1e3751" target="http://scta.info/resource/grl1prolp2q2-d1e3522">Ad 2m</ref> 
   					<lb ed="#V"/>dicendum quod metaphysica differt in certitudine ab ista: quia simpliciter 
   					<lb ed="#V"/>loquendo est minus certa quam sit ista: quod si dicatur quod <name ref="#Aristotle">Philosophus</name> dicit 
   					<lb ed="#V"/>eam esse certissimam: intelligendum est in genere scientiarum humanarum: 
   					<lb ed="#V"/>habet etiam alias differentias theologia ad metaphysicam quas determinare 
   					<lb ed="#V"/>non est praesentis <unclear>speculationis</unclear></p>
   				
-  				<p xml:id="grl1prolp2q2-d1e3766"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp2q2-d1e3535">Ad 3m</ref> dicendum quod bene concludit argumentum 
+  				<p xml:id="grl1prolp2q2-d1e3766"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp2q2-Rd1e3773" target="http://scta.info/resource/grl1prolp2q2-d1e3535">Ad 3m</ref> dicendum quod bene concludit argumentum 
   					<lb ed="#V"/>quod via speculationis aliae scientiae sunt certiores illa. Sunt tamen alii 
   					<lb ed="#V"/>modi certitudinis qui ab ista excellit alia: propter quod con<lb ed="#V"/>cluditur 
   					istam esse simpliciter certiorem.</p>

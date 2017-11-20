@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- this needs to be changed to the diplomatic schema when it gets created -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- this needs to be changed to the diplomatic schema when it gets created --><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,43 +40,39 @@
   </teiHeader>
   <text type="diplomatic" xml:lang="la">
     <front>
-      <div xml:id="includeList">
-      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
-    	<div xml:id="starts-on">
+      <div xml:id="starts-on">
     		<pb ed="#V" n="6-r"/><cb ed="#V" n="a"/>
     	</div>
     </front>
   	<body>
   		<div xml:id="gr-l1prolp1p2q3">
-  			<head>Librum I, Prologus, Pars 1, Principalis 2, Quaestio 3</head>
-  			<head type="questionTitle">Utrum sit aliqua scientia necessaria praeter physicas disciplinas</head>
-  			<p><lb ed="#V"/>Quarto quaeritur Utrum sit aliqua scientia 
+  			<head xml:id="gr-l1prolp1p2q3-Hd1e3495">Librum I, Prologus, Pars 1, Principalis 2, Quaestio 3</head>
+  			<head xml:id="gr-l1prolp1p2q3-Hd1e3498" type="questionTitle">Utrum sit aliqua scientia necessaria praeter physicas disciplinas</head>
+  			<p xml:id="gr-l1prolp1p2q3-d1e3501"><lb ed="#V"/>Quarto quaeritur Utrum sit aliqua scientia 
   				<lb ed="#V"/>necessaria praeter <sic>phisi<lb ed="#V"/>cas</sic> 
   				disciplinas:</p>
-  			<div type="rationes-principales">
-  				<p>Et videtur quod non: quia secantur scientiae 
+  			<div xml:id="gr-l1prolp1p2q3-Dd1e3512" type="rationes-principales">
+  				<p xml:id="gr-l1prolp1p2q3-d1e3514">Et videtur quod non: quia secantur scientiae 
   				<lb ed="#V"/>quemadmodum et res: sed de omnibus rebus dtermi<lb ed="#V"/>nant 
   				physicae discipulinae. ergo nulla alia scientia est 
   				<cb ed="#V" n="b"/>necessaria.</p>
   				
-  				<p><pc ana="#pilcrow"/>praeterea. Omnis scientia vel est communis vel specialis. si igitur alia scientia 
+  				<p xml:id="gr-l1prolp1p2q3-d1e3523"><pc ana="#pilcrow"/>praeterea. Omnis scientia vel est communis vel specialis. si igitur alia scientia 
   					<lb ed="#V"/>a physicis disciplinis est necessaria: illo vel erit communis vel specialis. 
   					<lb ed="#V"/>communis non: quia non est dare plures scientias communes. cum igitur habeamus 
   					<lb ed="#V"/>metaphysicam non indigemus alia. specialis non: quia de partibus entis 
   					<lb ed="#V"/>sufficienter determinant speciales scientiae. si ergo nec generalem nec spe<lb ed="#V"/>cialem 
   					est dare praeter physicas disciplinas. ergo nullam.</p>
   				
-  				<p><lb ed="#V"/>In contrarium est: quia superfluum et inanae dicitur aliquid ex 
+  				<p xml:id="gr-l1prolp1p2q3-d1e3537"><lb ed="#V"/>In contrarium est: quia superfluum et inanae dicitur aliquid ex 
   					<lb ed="#V"/>eo quod non attingit de habitum finem: sed theologia 
   					<lb ed="#V"/>maxime attingit debitum finem ut patuit. ergo est maxime necessaria.</p>
   			</div>
-  			<div>
-  				<p><lb ed="#V"/>Respondeo dicendum quod ars necessaria dicitur tripliciter. Uno modo quando habet esse 
+  			<div xml:id="gr-l1prolp1p2q3-Dd1e3546">
+  				<p xml:id="gr-l1prolp1p2q3-d1e3548"><lb ed="#V"/>Respondeo dicendum quod ars necessaria dicitur tripliciter. Uno modo quando habet esse 
   					<lb ed="#V"/>ad supplendam indigentiam corporalem et sic neces<lb ed="#V"/>sarium 
   					dividitur etiam contra artes quae propter modum sciendi inveniuntur: et de 
-  					<lb ed="#V"/>illo modo necessarii loquitur <ref><name ref="#Aristotle">Philosophus</name> primo <title ref="#Metaphysics">metaphysica</title></ref> dicens quod aliae artes repertae 
+  					<lb ed="#V"/>illo modo necessarii loquitur <ref xml:id="gr-l1prolp1p2q3-Rd1e3557"><name ref="#Aristotle">Philosophus</name> primo <title ref="#Metaphysics">metaphysica</title></ref> dicens quod aliae artes repertae 
   					<lb ed="#V"/>sunt propter necessarium. Aliae propter modum sciendi sive propter introductio<lb ed="#V"/>nem: 
   					et huiusmodi necessariae solum sunt artes mechanicae. Alio modo dicitur 
   					<lb ed="#V"/>ars necessaria: quando est propter alium finem extrinsecum: et sic necessarium divi<lb ed="#V"/>ditur 
@@ -96,7 +88,7 @@
   					per aliam: et illud necessarium dividitur contra superfluum: et 
   					<lb ed="#V"/>scientia est necessaria illo modo quae non superfluit.</p>
   				
-  				<p><lb ed="#V"/>Hoc viso possumus respondere ad quaestionem per distinctionem. 
+  				<p xml:id="gr-l1prolp1p2q3-d1e3596"><lb ed="#V"/>Hoc viso possumus respondere ad quaestionem per distinctionem. 
   					<lb ed="#V"/>Nam secundum principium necessitatis modum scientia ista 
   					<lb ed="#V"/>nullo modo est necessaria. Nam secundum illum modum solum mechanicae 
   					<lb ed="#V"/>necessariae erant. Secundum autem 2m <unclear>necessitatis <!-- definitely necessitatis; this glyp show that words with a strang vertical line from the cross mark of the t with a slight decender should be rendered as "is" --></unclear> modum etiam theologia non est necessaria. 
@@ -114,12 +106,12 @@
   					modo: speculative autem ab homine inventae duplici: theologia autem per 
   					<lb ed="#V"/>inspirationem habita uno solo modo necessaria dicitur: quia non superfluit.</p>
   				
-  				<p><lb ed="#V"/>Quod autem non superfluit tripliciter causa assignari consuevit. una 
+  				<p xml:id="gr-l1prolp1p2q3-d1e3646"><lb ed="#V"/>Quod autem non superfluit tripliciter causa assignari consuevit. una 
   					<lb ed="#V"/>quia et si scientiae philosophorum determinant de omni ente: tamen 
-  					<lb ed="#V"/>hoc est cum ammixtione errorum. unde dicitur in <ref>commento <name ref="#HughOfStVictor">hugonis</name> super angelica hierarchia</ref> 
+  					<lb ed="#V"/>hoc est cum ammixtione errorum. unde dicitur in <ref xml:id="gr-l1prolp1p2q3-Rd1e3653">commento <name ref="#HughOfStVictor">hugonis</name> super angelica hierarchia</ref> 
   					<lb ed="#V"/>quod philosophi erraverunt: quia non habuerunt lumen gratiae et fidei christia<lb ed="#V"/>nae. 
   					Ideo necesse fuit tradi scientiam ab omni erroris contagio absolutam. 
-  					<lb ed="#V"/>Secunda causa huius ponitur: quia finis noster deus est: et secundum quod scribitur in <ref>primo <title ref="#Ethics">ethicorum</title></ref> 
+  					<lb ed="#V"/>Secunda causa huius ponitur: quia finis noster deus est: et secundum quod scribitur in <ref xml:id="gr-l1prolp1p2q3-Rd1e3666">primo <title ref="#Ethics">ethicorum</title></ref> 
   					<lb ed="#V"/>cognitio finis ad vitam <pc type="virgula">/</pc> magnum habet incrementum: quemadmodum 
   					<lb ed="#V"/>sagittatores signum habentes: magis utique adipiscemur quod oportet: 
   					<lb ed="#V"/>ideo necessarium fuit quod proponeretur <unclear>nobis</unclear> cognitio dei ut magis finem 
@@ -129,7 +121,7 @@
   					pagina necessaria sunt. Sed in istis causis consideratur solum quod 
   					<lb ed="#V"/>est per accidens: et dimittitur quod est per se: quia quaestio est de ipsa scientia in 
   					<lb ed="#V"/>se: utrum superfluat vel sit necessaria: non est quaestio de ipsa in compara<lb ed="#V"/>tione 
-  					ad nos vel ad tradentes scientiam. nam secundum <ref><name ref="#Aristotle">Philosophum</name> 6 <title ref="#Metaphysics">metaphysica</title></ref> 
+  					ad nos vel ad tradentes scientiam. nam secundum <ref xml:id="gr-l1prolp1p2q3-Rd1e3705"><name ref="#Aristotle">Philosophum</name> 6 <title ref="#Metaphysics">metaphysica</title></ref> 
   					<lb ed="#V"/>modi essentiales philosophiae sunt tres: et si alius assignaretur esset 
   					<lb ed="#V"/>superfluus: et tamen alio modo posset tradi philosophia quia sit tradita: 
   					<lb ed="#V"/>et nobis magis proportionato: sed tamen modi essentiales 
@@ -139,7 +131,7 @@
   					<cb ed="#V" n="a"/>
   					<lb ed="#V"/>assignare superfluitatem et necessitatem est considerare quod est per accidens.</p>
   				
-  				<p><lb ed="#V"/>Et ideo dicendum est aliter quod ex hoc per se loquendo non dicitur scientia 
+  				<p xml:id="gr-l1prolp1p2q3-d1e3731"><lb ed="#V"/>Et ideo dicendum est aliter quod ex hoc per se loquendo non dicitur scientia 
   					<lb ed="#V"/>superflua: si tradat cognitionem aliquorum quae non pos<lb ed="#V"/>sent 
   					cognosci per alias scientias: et quia dictum est per theologiam cognosci<lb ed="#V"/>mus 
   					de deo ea ad quae cognoscenda aliae scientiae se non possunt extende<lb ed="#V"/>re: 
@@ -147,13 +139,13 @@
   					quam aliae: quanto cognitio quam: tradit nobis de deo super<lb ed="#V"/>excellit 
   					quicquid quicquid aliae tradiderunt.</p>
   				
-  				<p><lb ed="#V"/>Ad primum dicendum quod si de omnibus rebus tractant scientiae hu<lb ed="#V"/>manae: 
+  				<p xml:id="gr-l1prolp1p2q3-d1e3748"><lb ed="#V"/>Ad primum dicendum quod si de omnibus rebus tractant scientiae hu<lb ed="#V"/>manae: 
   					tamen quia ad omnem cognitionem rerum de omnibus 
   					<lb ed="#V"/>rebus tribuunt: immo aliquam cognitionem rerum tradidit ista quam non 
   					<lb ed="#V"/>tradunt aliae: ideo ista non superfluit: sicut nec scientiae particulares super<lb ed="#V"/>fluunt: 
   					licet metaphysica de omnibus consideret.</p>
   				
-  				<p><pc ana="#pilcrow"/>Ad 2m dicendum quod 
+  				<p xml:id="gr-l1prolp1p2q3-d1e3761"><pc ana="#pilcrow"/>Ad 2m dicendum quod 
   					<lb ed="#V"/>speciales scientiae non sufficienter determinant de partibus entis: acci<lb ed="#V"/>piendo 
   					partem entis quicquid habet causae distinctum ab aliis entibus. nam de 
   					<lb ed="#V"/>deo non considerant scientiae speciales: quod si diceretur de eo considerat 
@@ -164,4 +156,3 @@
   	</body>
   </text>
 </TEI>
- 

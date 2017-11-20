@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- this needs to be changed to the diplomatic schema when it gets created -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- this needs to be changed to the diplomatic schema when it gets created --><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,11 +40,7 @@
   </teiHeader>
   <text type="diplomatic" xml:lang="la">
     <front>
-      <div xml:id="includeList">
-      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
-    	<div xml:id="starts-on">
+      <div xml:id="starts-on">
     		<pb ed="#V" n="1-v"/><cb ed="#V" n="b"/>
     	</div>
     </front>
@@ -58,7 +50,7 @@
   			<head xml:id="grl1prolp1p1q1-Hd1e3498" type="questionTitle">Utrum idem sit aliquid esse subiectum in scientia et esse de consideratione scientiae</head>
   			<p xml:id="grl1prolp1p1q1-d1e3501"><lb ed="#V"/>Ad primum sic proceditur.</p>
   			
-  			<div type="rationes-principales">
+  			<div xml:id="gr-l1prolp1p1q1-Dd1e3505" type="rationes-principales">
   				<head xml:id="grl1prolp1p1q1-Hd1e3507">Rationes Principales</head>
   				<p xml:id="grl1prolp1p1q1-d1e3510">Videtur quod idem sit aliquid esse subiectum 
   					<lb ed="#V"/>in scientia. et causae de consideratione scientiae: quia subiectum 
@@ -74,11 +66,11 @@
   					<lb ed="#V"/>ergo etc.</p>
   				
   				<p xml:id="grl1prolp1p1q1-d1e3538"><pc ana="#pilcrow"/>Praeterea. <quote xml:id="grl1prolp1p1q1-Qd1e3541" ana="#aa-deanima-162">Secantur scientiae quemadmodum et res</quote>: ut scri<lb ed="#V"/>bitur 
-  					in <ref>3o <title ref="#deAnima">de anima</title></ref>. sed istae res secundum quas secantur scientiae sunt 
+  					in <ref xml:id="gr-l1prolp1p1q1-Rd1e3546">3o <title ref="#deAnima">de anima</title></ref>. sed istae res secundum quas secantur scientiae sunt 
   					<lb ed="#V"/>res quae considerantur in scientiis. Sed scientiae secantur per subiecta 
   					<lb ed="#V"/>sua, igitur idem est esse subiectum in scientia: et esse de consideratione scientiae.</p>
   				
-  				<p xml:id="grl1prolp1p1q1-d1e3556"><lb ed="#V"/>In contrarium est: quia secundum <ref><name ref="#Avicenna">Avicenna</name> in principio <title>metaphysicae</title> 
+  				<p xml:id="grl1prolp1p1q1-d1e3556"><lb ed="#V"/>In contrarium est: quia secundum <ref xml:id="gr-l1prolp1p1q1-Rd1e3559"><name ref="#Avicenna">Avicenna</name> in principio <title>metaphysicae</title> 
   					<lb ed="#V"/>suae</ref>: <quote xml:id="grl1prolp1p1q1-Qd1e3569">causa non est subiectum in meta<lb ed="#V"/>physica <!-- avicenna quote --></quote>: 
   					tamen secundum <name ref="#Aristotle">philosophum</name>: causa est de consideratione metaphysicae: 
   					<lb ed="#V"/>quia metaphysicus considerat de differentiis entis. sunt enim 
@@ -92,7 +84,7 @@
   					sed ex subiecto suo scientia recipit speciem: ut patebit. igitur 
   					<lb ed="#V"/>non est idem esse de consideratione scientiae: et esse subiectum in scientia.</p>
   			</div>
-  			<div type="responsio">
+  			<div xml:id="gr-l1prolp1p1q1-Dd1e3602" type="responsio">
   				<p xml:id="grl1prolp1p1q1-d1e3604"><lb ed="#V"/>Respondeo dicendum quod sicut in arguendo dicebatur. 
   					<lb ed="#V"/>Subiectum in scientia non est illud in 
   					<lb ed="#V"/>quo est scientia: sed illud de quo. nam si illud in quo est scientia 
@@ -114,7 +106,7 @@
   				<p xml:id="grl1prolp1p1q1-d1e3645"><pc ana="#pilcrow"/>Consequitur namque scien<lb ed="#V"/>tia 
   					quinque ex subiecto suo: per quae apparere potest quod non est 
   					<lb ed="#V"/>idem esse subiectum in scientia: et esse de consideratinoe. Primum 
-  					<lb ed="#V"/>autem est unitas: quia secundum <ref><name ref="#Aristotle">philosophum</name> in primo <title ref="#PosteriorAnalytics">Posteriorum</title></ref> <!-- quote here -->scientia una est: quae 
+  					<lb ed="#V"/>autem est unitas: quia secundum <ref xml:id="gr-l1prolp1p1q1-Rd1e3654"><name ref="#Aristotle">philosophum</name> in primo <title ref="#PosteriorAnalytics">Posteriorum</title></ref> <!-- quote here -->scientia una est: quae 
   					<lb ed="#V"/>est unius generis subiecti: partes et passiones considerans.</p> 
   				
   				<p xml:id="grl1prolp1p1q1-d1e3667">Se<lb ed="#V"/>cundum 
@@ -124,7 +116,7 @@
   					<lb ed="#V"/>scientia ex subiecto suo habet esse unum: habet et esse distin<lb ed="#V"/>ctum.</p>
   				
   				<p xml:id="grl1prolp1p1q1-d1e3680">Tertium est dignitas. nam una scientia est dignior alia: 
-  					<lb ed="#V"/>quia de digniori subiecto: ut patet per <ref><name ref="#Aristotle">philosophum</name> in principio <title ref="#deAnima">de anima</title></ref>.</p>
+  					<lb ed="#V"/>quia de digniori subiecto: ut patet per <ref xml:id="gr-l1prolp1p1q1-Rd1e3684"><name ref="#Aristotle">philosophum</name> in principio <title ref="#deAnima">de anima</title></ref>.</p>
   				
   				<p xml:id="grl1prolp1p1q1-d1e3692"><lb ed="#V"/>Quartum est ordo: quia quando subiectum est sub subiecto: et sunt ibi 
   					<lb ed="#V"/>aliae conditiones annexae: scientia est sub scientia: sicut videmus 
@@ -137,8 +129,8 @@
   					<lb ed="#V"/>non est subiectum alterius: et aliquid declaratur in una quod non de<lb ed="#V"/>claratur 
   					in alia. Si autem idem esset esse de consideratione scien<lb ed="#V"/>tiae: 
   					et esse subiectum in scientia: cum unum et idem possit esse de consi<lb ed="#V"/>deratione 
-  					plurium scientiarum: ut patet per <ref><name ref="#Aristotle">philosophum</name> primo <title ref="#PosteriorAnalytics">Posteriorum</title></ref> et 
-  					<lb ed="#V"/>per <ref><name ref="#Averroes">Commentatorem</name> 12 <title>metaphysicae</title></ref>. unum et idem esset suiectum plurium scien<lb ed="#V"/>tiarum. 
+  					plurium scientiarum: ut patet per <ref xml:id="gr-l1prolp1p1q1-Rd1e3718"><name ref="#Aristotle">philosophum</name> primo <title ref="#PosteriorAnalytics">Posteriorum</title></ref> et 
+  					<lb ed="#V"/>per <ref xml:id="gr-l1prolp1p1q1-Rd1e3727"><name ref="#Averroes">Commentatorem</name> 12 <title>metaphysicae</title></ref>. unum et idem esset suiectum plurium scien<lb ed="#V"/>tiarum. 
   					Rursum cum multa et diversa in uno scientia consideren<lb ed="#V"/>tur: 
   					si quodlibet illorum esset subiectum in scientia: et non solum illud quod 
   					<lb ed="#V"/>principaliter in scientia intenditur: tunc unius scientiae essent diversa 
@@ -165,9 +157,9 @@
   					ideo quicquid determinat: determinat sub ratione entis. Verum 
   					<lb ed="#V"/>quia ratio entis magis <unclear>reservatur</unclear> in <unclear>subiecto</unclear> in acci<lb ed="#V"/>dente: 
   					quia accidentia non sunt entia: nisi quia sunt entis: ut scri<lb ed="#V"/>bitur 
-  					<ref>7o <title>metaphysicae</title></ref> quantum ad istum modum: et si non per omnem 
+  					<ref xml:id="gr-l1prolp1p1q1-Rd1e3796">7o <title>metaphysicae</title></ref> quantum ad istum modum: et si non per omnem 
   					<lb ed="#V"/>modum: tamen principalem considerat de substantia quem de aliis 
-  					<lb ed="#V"/>entibus: et ideo dicit ipse in <ref>12o <title>metaphysica</title></ref>. consideratio quidem 
+  					<lb ed="#V"/>entibus: et ideo dicit ipse in <ref xml:id="gr-l1prolp1p1q1-Rd1e3805">12o <title>metaphysica</title></ref>. consideratio quidem 
   					<lb ed="#V"/>est de substantia principaliter. Rursum de accidente considerat me<lb ed="#V"/>taphysicus 
   					per se solum. non primo et per omnem modum: quia sub 
   					<lb ed="#V"/>ratione accidentis non considerat de omnibus de quibus considerat. nec 
@@ -177,11 +169,11 @@
   					adducit exempla ad declarandum propositionem de quibus exem<lb ed="#V"/>plis 
   					considerat nec per se nec primo: sed solum per accidens: et 
   					<lb ed="#V"/>per aliud quia exempla ponimus: non ita ut sit: sed ut sentiat 
-  					<lb ed="#V"/>qui discit: ut scribitur circa finem <ref>primo <title ref="#PriorAnalytics">Priorum</title></ref>. Quod autem pri<lb ed="#V"/>mo 
+  					<lb ed="#V"/>qui discit: ut scribitur circa finem <ref xml:id="gr-l1prolp1p1q1-Rd1e3832">primo <title ref="#PriorAnalytics">Priorum</title></ref>. Quod autem pri<lb ed="#V"/>mo 
   					modo consideratur in scientia: simpliciter est subiectum in scientia. nam 
   					<lb ed="#V"/>ens in eo quod ens simpliciter est subiectum in metaphysica. Quod autem 2a con<lb ed="#V"/>sideratur: 
   					licet non sit simpliciter subiectum in ea: tamen aliquo modo potest 
-  					<lb ed="#V"/>dici subiectum. unde et <ref><name ref="#Aristotle">philosophus</name> in 4o <title ref="#Metaphysics">metaphysica</title> <unclear>1</unclear> <unclear>capituli primi</unclear></ref> cum prius dixisset: quod 
+  					<lb ed="#V"/>dici subiectum. unde et <ref xml:id="gr-l1prolp1p1q1-Rd1e3846"><name ref="#Aristotle">philosophus</name> in 4o <title ref="#Metaphysics">metaphysica</title> <unclear>1</unclear> <unclear>capituli primi</unclear></ref> cum prius dixisset: quod 
   					<lb ed="#V"/>una scientia est quae considerat de ente in eo quod ens: <unclear>innuens</unclear> per <unclear>primum</unclear> 
   					<lb ed="#V"/>quod ens in eo quod ens est subiectum in metaphysica: postea <unclear>1 con 2</unclear> dixit: 
   					<lb ed="#V"/>quod sicut est una scientia quae considerat de sano cui attribuuntur 
@@ -204,19 +196,19 @@
   					<lb ed="#V"/>etiam partium subiecti. aliquod tunc nec est subiectum nec pars subiecti: nec di<lb ed="#V"/>recte 
   					pertinens ad subiectum: sed solum per accidens introductum.</p>
   			</div>
-  			<div type="ad-rationes">
-  				<p xml:id="grl1prolp1p1q1-d1e3935"><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp1p1q1-d1e3510">Ad primum</ref> dicendum quod illud de quo est scientia est 
+  			<div xml:id="gr-l1prolp1p1q1-Dd1e3933" type="ad-rationes">
+  				<p xml:id="grl1prolp1p1q1-d1e3935"><lb ed="#V"/><ref xml:id="gr-l1prolp1p1q1-Rd1e3937" target="http://scta.info/resource/grl1prolp1p1q1-d1e3510">Ad primum</ref> dicendum quod illud de quo est scientia est 
   					<lb ed="#V"/>subiectum: sed non omne: sed solum de quo 
   					<lb ed="#V"/>est principali: et ideo non est idem consideratum in scientia et subiectum: 
   					<lb ed="#V"/>nisi sicut universale et particulare.</p>
   				
-  				<p xml:id="grl1prolp1p1q1-d1e3945"><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp1p1q1-d1e3526">Ad 2m</ref> dicendum quod non est idem materia 
+  				<p xml:id="grl1prolp1p1q1-d1e3945"><lb ed="#V"/><ref xml:id="gr-l1prolp1p1q1-Rd1e3949" target="http://scta.info/resource/grl1prolp1p1q1-d1e3526">Ad 2m</ref> dicendum quod non est idem materia 
   					<lb ed="#V"/>scientiae et subiectum in scientia nisi stricte accipiatur materia: et si stricte ac<lb ed="#V"/>cipiatur 
   					materia: tunc non est verum quod omne consideratum in scientia sit 
   					<lb ed="#V"/>materia scientiae. vel si large accipiatur subiectum: et tunc non est sermo de 
   					<lb ed="#V"/>subiecto: ut hic loquimur.</p>
   				
-  				<p xml:id="grl1prolp1p1q1-d1e3957"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p1q1-d1e3538">Ad 3m</ref> dicendum quod per considerata in 
+  				<p xml:id="grl1prolp1p1q1-d1e3957"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp1p1q1-Rd1e3963" target="http://scta.info/resource/grl1prolp1p1q1-d1e3538">Ad 3m</ref> dicendum quod per considerata in 
   					<lb ed="#V"/>scientiis: scientiae distinguuntur non simpliciter: sed secundum diversas rationes 
   					<lb ed="#V"/>secundum quas considerantur: quia ut habitum est: de uno et eodem consi<lb ed="#V"/>derant 
   					diversae scientiae sub diversa tamen ratione: et quia illa ratio ex 

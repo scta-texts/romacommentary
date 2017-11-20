@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- this needs to be changed to the diplomatic schema when it gets created -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- this needs to be changed to the diplomatic schema when it gets created --><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,11 +40,7 @@
   </teiHeader>
   <text type="diplomatic" xml:lang="la">
     <front>
-      <div xml:id="includeList">
-      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
-    	<div xml:id="starts-on">
+      <div xml:id="starts-on">
     		<pb ed="#V" n="2-v"/><cb ed="#V" n="a"/>
     	</div>
     </front>
@@ -57,7 +49,7 @@
   			<head xml:id="grl1prolp1p1q3-Hd1e3495">Librum I, Prologus, Pars 1, Principalis 1, Quaestio 3</head>
   			<head xml:id="grl1prolp1p1q3-Hd1e3498" type="questionTitle">Quid sit subiectum in sacra pagina</head>
   			<p xml:id="grl1prolp1p1q3-d1e3501"><lb ed="#V"/>Tertio quaeritur quid sit subiectum in sacra pagina.</p>
-  			<div type="rationes-principales">
+  			<div xml:id="gr-l1prolp1p1q3-Dd1e3505" type="rationes-principales">
   				<p xml:id="grl1prolp1p1q3-d1e3507"><lb ed="#V"/>Et videtur quod deus. Quia illud a quo scientia 
   					<lb ed="#V"/>denominatur maxime videtur esse subiectum in ea: et principaliter intendi 
   					<lb ed="#V"/>in ipsa: sed sacra pagina a deo denominationem re<lb ed="#V"/>cipit. 
@@ -68,7 +60,7 @@
   					in sacra pagina: quia quicquid in ea determinatur divinum dicitur. 
   					<lb ed="#V"/>ergo etc.</p>
   				
-  				<p xml:id="grl1prolp1p1q3-d1e3527"><pc ana="#pilcrow"/>Praeterea. Arguit <ref><name ref="#Aristotle">philosophus</name> 6us <title ref="#Metaphysics">metaphysicus</title></ref> tribus viis quod metaphysica 
+  				<p xml:id="grl1prolp1p1q3-d1e3527"><pc ana="#pilcrow"/>Praeterea. Arguit <ref xml:id="gr-l1prolp1p1q3-Rd1e3530"><name ref="#Aristotle">philosophus</name> 6us <title ref="#Metaphysics">metaphysicus</title></ref> tribus viis quod metaphysica 
   					<lb ed="#V"/>maxime est de deo. Primo: quia metaphysica est maxime abstracta. 
   					<lb ed="#V"/>igitur erit maxime de deo qui est maxime abstractus. Iterum 
   					<lb ed="#V"/>metaphysica est nobilissima. igitur erit maxime deo deo qui nobilissi<lb ed="#V"/>mus 
@@ -88,17 +80,17 @@
   					<lb ed="#V"/>partes et passiones considerans: sed deus necque 
   					<lb ed="#V"/>habet partes neque passiones. igitur etc.</p>
   				
-  				<p xml:id="grl1prolp1p1q3-d1e3581"><pc ana="#pilcrow"/>Praeterea. scribitur in <ref>6us <title ref="#Metaphysics">metaphysica</title></ref> quod 
+  				<p xml:id="grl1prolp1p1q3-d1e3581"><pc ana="#pilcrow"/>Praeterea. scribitur in <ref xml:id="gr-l1prolp1p1q3-Rd1e3584">6us <title ref="#Metaphysics">metaphysica</title></ref> quod 
   					<lb ed="#V"/>nulla scientia probat suum subiectum esse. Sed in sacra pagina probatur 
-  					<lb ed="#V"/>deum esse: sic probat <ref><name ref="#Lombard">Magister</name> primo libro 3 distinctione</ref>, ergo etc.</p>
+  					<lb ed="#V"/>deum esse: sic probat <ref xml:id="gr-l1prolp1p1q3-Rd1e3593"><name ref="#Lombard">Magister</name> primo libro 3 distinctione</ref>, ergo etc.</p>
   				
-  				<p xml:id="grl1prolp1p1q3-d1e3600"><pc ana="#pilcrow"/>praeterea. secundum <ref><name ref="#Aristotle">philosophum</name> primo 
+  				<p xml:id="grl1prolp1p1q3-d1e3600"><pc ana="#pilcrow"/>praeterea. secundum <ref xml:id="gr-l1prolp1p1q3-Rd1e3603"><name ref="#Aristotle">philosophum</name> primo 
   					<lb ed="#V"/><title ref="#PosteriorAnalytics">posteriorum</title></ref>. De subiecto supponitur quid est: ita quod quid est subiecti debet esse 
   					<lb ed="#V"/>notum in quaelibet scientia: sed quid est deus: est omnino ignotum: iuxta illud 
-  					<lb ed="#V"/><ref><name ref="#JohnDamascenus">Damascenus</name> primo libro capitulo 4o</ref> Quoniam igitur est deus quidem manifestum est: quid vero 
+  					<lb ed="#V"/><ref xml:id="gr-l1prolp1p1q3-Rd1e3614"><name ref="#JohnDamascenus">Damascenus</name> primo libro capitulo 4o</ref> Quoniam igitur est deus quidem manifestum est: quid vero 
   					<lb ed="#V"/>est secundum substantiam et naturam incomprehensibile est et omnino ignotum.</p>
   			</div>
-  			<div type="responsio">
+  			<div xml:id="gr-l1prolp1p1q3-Dd1e3623" type="responsio">
   				<p xml:id="grl1prolp1p1q3-d1e3625"><lb ed="#V"/>Respondeo dicendum quod ut pateat veritas huius quaestio duo declaran<lb ed="#V"/>da 
   					sunt. Primo quid interest inter subietum et materiam. 
   					<lb ed="#V"/>2o in quo differt scientia ista a metaphysica. et his visis apparebit veritas quaestio</p>
@@ -106,11 +98,11 @@
   				<p xml:id="grl1prolp1p1q3-d1e3633"><lb ed="#V"/>Propter primum nomen quod ars est imago naturae: et quia quilibet 
   					<lb ed="#V"/>forma habet rationem actus et perfectionis: <unclear>consideratio</unclear> est in entibus duplicem 
   					<lb ed="#V"/>actum: substantialem et accidentalem: et quia quilibet actus praesupponit propriam potentiam: 
-  					<lb ed="#V"/>ut dicitur in <ref>2o <title ref="#deAnima">de anima</title></ref>. secundum istum duplicem actum: est assignare duplicem 
+  					<lb ed="#V"/>ut dicitur in <ref xml:id="gr-l1prolp1p1q3-Rd1e3645">2o <title ref="#deAnima">de anima</title></ref>. secundum istum duplicem actum: est assignare duplicem 
   					<lb ed="#V"/>potentiam: ad actum substantialem et accidentalem. Potentia ad actum substantialem: est potentia 
   					<lb ed="#V"/>simpliciter et pura: quia esset substantiale <!-- compare substantiale to "subiectum" and "subiectalem" instances --> per se non praecedit aliquod esset. Potentia 
   					<lb ed="#V"/>autem ad actum accidentalem non est potentia pura: quia esse accidentale per se 
-  					<lb ed="#V"/>loquendo praecedit esse substantiale: et quia secundum <ref><name ref="#Averroes">Commentatorem</name> in 8o <title ref="#Metaphysics">metaphysica</title></ref> haec est <!-- quote from Averroes here --> 
+  					<lb ed="#V"/>loquendo praecedit esse substantiale: et quia secundum <ref xml:id="gr-l1prolp1p1q3-Rd1e3661"><name ref="#Averroes">Commentatorem</name> in 8o <title ref="#Metaphysics">metaphysica</title></ref> haec est <!-- quote from Averroes here --> 
   					<lb ed="#V"/>differentia inter materiam et subiectum; <!-- compare to above uses of substantiale --> quia materia dicit quid in potentia: subiectum dicit quid 
   					<lb ed="#V"/>in actu: cum potentia ad formam substantialem sit potentia simpliciter: potentia ad formam 
   					<lb ed="#V"/>accidentalem non sit potentia simpliciter: sed potentia cum actu. potentia illa sive su<lb ed="#V"/>sceptibile 
@@ -215,7 +207,7 @@
   				
   				<p xml:id="grl1prolp1p1q3-d1e3911"><lb ed="#V"/>Prima est quod bonum salutare est subiectum in ista <unclear>scilicet</unclear> <unclear>iam</unclear> con<lb ed="#V"/>stat 
   					enim quod bonum est quid commune: quia dicitur aequaliter 
-  					<lb ed="#V"/><unclear>enti</unclear>: ut scribitur in <ref>primo <title ref="#Ethics">ethicorum</title></ref>. unde licet salutare posset esse condi<lb ed="#V"/>tio 
+  					<lb ed="#V"/><unclear>enti</unclear>: ut scribitur in <ref xml:id="gr-l1prolp1p1q3-Rd1e3927">primo <title ref="#Ethics">ethicorum</title></ref>. unde licet salutare posset esse condi<lb ed="#V"/>tio 
   					specialis: tamen quia bonum est quid commune et in scientia speciali: oporet esse 
   					<lb ed="#V"/>subiectum non commune sub ratione speciali: sed speciale sub ratione spe<lb ed="#V"/>ciali. 
   					patet quod ista assignatio non est propria.</p>
@@ -226,7 +218,7 @@
   					<lb ed="#V"/>proprie: quia aliquod ens distinctum ab aliis omnibus ut deus sub 
   					<lb ed="#V"/>speciali ratione est subiectum in ista scientia: ut patuit.</p>
   				
-  				<p xml:id="grl1prolp1p1q3-d1e3961">Tertia positio est <ref><name ref="#HughOfStVictor">Hugo</name> super angelica hierarchica</ref> quod opera re<lb ed="#V"/>staurationis 
+  				<p xml:id="grl1prolp1p1q3-d1e3961">Tertia positio est <ref xml:id="gr-l1prolp1p1q3-Rd1e3963"><name ref="#HughOfStVictor">Hugo</name> super angelica hierarchica</ref> quod opera re<lb ed="#V"/>staurationis 
   					sunt subiectum in theologia. Appa<lb ed="#V"/>ret 
   					autem quod nec hic proprie accipit subiectum. nam restau<lb ed="#V"/>ratio 
   					est conditio super addita: non subiectum.</p>
@@ -242,7 +234,7 @@
   					<lb ed="#V"/>glorificationis. patet igitur per istas duas differentias datas: quod omnes dictae 
   					<lb ed="#V"/>positiones large de subiecto loquuntur. Tertia differentia est: quia metaphysica 
   					<lb ed="#V"/>non considerat de deo principaliter per omnem modum: sed solum secundum aliquem mo<lb ed="#V"/>dum: 
-  					ut patuit in <ref>quaestione 1</ref> Sed theologia considerat de deo principaliter secundum omnem 
+  					ut patuit in <ref xml:id="gr-l1prolp1p1q3-Rd1e4006">quaestione 1</ref> Sed theologia considerat de deo principaliter secundum omnem 
   					<lb ed="#V"/>modum.</p>
   				
   				<p xml:id="grl1prolp1p1q3-d1e4012"><pc ana="#pilcrow"/>Ex ista 3a differentia apparet quare deus in metaphysica non est subiectum 
@@ -252,25 +244,25 @@
   					<lb ed="#V"/>cognoscere deum intendimus: ut nostrum restauratorem et glorificatorem. 
   					<lb ed="#V"/>ergo etc.</p>
   			</div>
-  			<div type="ad-rationes">
+  			<div xml:id="gr-l1prolp1p1q3-Dd1e4028" type="ad-rationes">
   				<!-- this paragraph might refer to three ad contra; so we need to be able reference three above paragraphs from this one paragraph-->
-  				<p xml:id="grl1prolp1p1q3-d1e4026"><pc ana="#pilcrow"/><ref> <!-- target=grl1prolp1p1q3-d1e3507 grl1prolp1p1q3-d1e3517 grl1prolp1p1q3-d1e3527 --> Ad argumenta</ref> quae probant deum esse subiectum in illa scientia 
+  				<p xml:id="grl1prolp1p1q3-d1e4026"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp1p1q3-Rd1e4034"> <!-- target=grl1prolp1p1q3-d1e3507 grl1prolp1p1q3-d1e3517 grl1prolp1p1q3-d1e3527 --> Ad argumenta</ref> quae probant deum esse subiectum in illa scientia 
   					<lb ed="#V"/>dicendum quod verum dicunt: sed totam veritatem non exprimunt. nam deus 
   					<lb ed="#V"/>est subiectum in ista scientia: sed sub speciali ratione: ut patuit.</p>
   			
   			
-  				<p xml:id="grl1prolp1p1q3-d1e4038"><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp1p1q3-d1e3573">Ad primum</ref> in contrarium dicendum quod deus non habet partes et passio<lb ed="#V"/>nes: 
+  				<p xml:id="grl1prolp1p1q3-d1e4038"><lb ed="#V"/><ref xml:id="gr-l1prolp1p1q3-Rd1e4046" target="http://scta.info/resource/grl1prolp1p1q3-d1e3573">Ad primum</ref> in contrarium dicendum quod deus non habet partes et passio<lb ed="#V"/>nes: 
   					tamen ut patebit aliqua se habent ibi ut 
   					<lb ed="#V"/>partes: et aliqua ut passiones. Vel possumus dicere quod non oportet loquimur 
   					<lb ed="#V"/>de ista scientia quae habetur per inspirationem: sicut de aliis quae habentur per 
   					<lb ed="#V"/>acquisitionem.</p>
   				
-  				<p xml:id="grl1prolp1p1q3-d1e4050"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p1q3-d1e3581">Ad 2m</ref> dicendum quod similis ratio est de subiecto in ista 
+  				<p xml:id="grl1prolp1p1q3-d1e4050"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp1p1q3-Rd1e4060" target="http://scta.info/resource/grl1prolp1p1q3-d1e3581">Ad 2m</ref> dicendum quod similis ratio est de subiecto in ista 
   					<lb ed="#V"/>scientia et principiis in ea: quia nulla scientia potest probare directe nec 
   					<lb ed="#V"/>principia sua nec subiectum suum: tamen per quaedam signa et per effectus potest: ut patet 
-  					<lb ed="#V"/>per <ref><name>Commentatorem</name> 12 <title>metaphysica</title></ref> et sic probamus deus esse per effectus: non per causam.</p>
+  					<lb ed="#V"/>per <ref xml:id="gr-l1prolp1p1q3-Rd1e4069"><name>Commentatorem</name> 12 <title>metaphysica</title></ref> et sic probamus deus esse per effectus: non per causam.</p>
   				
-  				<p xml:id="grl1prolp1p1q3-d1e4067"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p1q3-d1e3600">Ad 3m</ref> dicendum quod quid est deus secundum naturam ut idem <name ref="#JohnDamascenus">Damascenus</name> dicit quamdiu 
+  				<p xml:id="grl1prolp1p1q3-d1e4067"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp1p1q3-Rd1e4079" target="http://scta.info/resource/grl1prolp1p1q3-d1e3600">Ad 3m</ref> dicendum quod quid est deus secundum naturam ut idem <name ref="#JohnDamascenus">Damascenus</name> dicit quamdiu 
   					<lb ed="#V"/>sumus in via omnino est nobis ignotum: tamen quid est quod dicitur per nomen: cum 
   					<lb ed="#V"/>dicitur deus: scire possumus: et cum dicitur: quod de subiecto praesupponimus quid 
   					<lb ed="#V"/>est: exponitur quid est quod dicitur per nomen. Vel possumus dicere ut quid<lb ed="#V"/>dam 

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- this needs to be changed to the diplomatic schema when it gets created -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- this needs to be changed to the diplomatic schema when it gets created --><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,49 +41,45 @@
   </teiHeader>
   <text type="diplomatic" xml:lang="la">
     <front>
-      <div xml:id="includeList">
-      	<xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-      	<xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
-    	<div xml:id="starts-on">
+      <div xml:id="starts-on">
     		<pb ed="#V" n="7-v"/><cb ed="#V" n="b"/>
     	</div>
     </front>
   	<body>
   		<div xml:id="gr-l1prolp4q1">
-  			<head>Librum I, Prologus, Pars 4, Quaestio 1</head>
-  			<head type="questionTitle">Utrum ista scientia sit practica vel speculativa</head>
-  			<p><lb ed="#V"/>Ultimo quaeritur de fine huius scientiae. 
+  			<head xml:id="gr-l1prolp4q1-Hd1e3845">Librum I, Prologus, Pars 4, Quaestio 1</head>
+  			<head xml:id="gr-l1prolp4q1-Hd1e3848" type="questionTitle">Utrum ista scientia sit practica vel speculativa</head>
+  			<p xml:id="gr-l1prolp4q1-d1e3851"><lb ed="#V"/>Ultimo quaeritur de fine huius scientiae. 
   				<lb ed="#V"/>Et quia finis ali<lb ed="#V"/>quarum 
   				est praxis: aliquarum est speculatio: sicut 
-  				<lb ed="#V"/>potest patere ex <ref>primo <title ref="#Ethics">ethicorum</title></ref> et <ref>primo <title ref="#Metaphysics">metaphysica</title></ref>. Quaeramus: 
+  				<lb ed="#V"/>potest patere ex <ref xml:id="gr-l1prolp4q1-Rd1e3860">primo <title ref="#Ethics">ethicorum</title></ref> et <ref xml:id="gr-l1prolp4q1-Rd1e3865">primo <title ref="#Metaphysics">metaphysica</title></ref>. Quaeramus: 
   				<lb ed="#V"/>utrum ista scientia sit practica vel speclativa. ET 
-  				<lb ed="#V"/>videtur quod sit practica: quia dicitur <ref>primo <title ref="#Ethics">ethicorum</title></ref> finis scientiae moralis non est sci<lb ed="#V"/>re 
+  				<lb ed="#V"/>videtur quod sit practica: quia dicitur <ref xml:id="gr-l1prolp4q1-Rd1e3875">primo <title ref="#Ethics">ethicorum</title></ref> finis scientiae moralis non est sci<lb ed="#V"/>re 
   				sed actio: sed in ista scientia maxime docemur de moribus. ergo 
   				<lb ed="#V"/>huius scientiae maxime finis est actio. sed cuius finis est actio: 
   				<lb ed="#V"/>ipsa est practica ergo etc.</p>
   			
-  			<p><pc ana="#pilcrow"/>praeterea. Vita videtur esse formale in uno<lb ed="#V"/>quoque. 
-  				Sed fidei nostrae tribuitur vita ex bonis operibus: <quote ana="iac2_26">quia 
+  			<p xml:id="gr-l1prolp4q1-d1e3887"><pc ana="#pilcrow"/>praeterea. Vita videtur esse formale in uno<lb ed="#V"/>quoque. 
+  				Sed fidei nostrae tribuitur vita ex bonis operibus: <quote xml:id="gr-l1prolp4q1-Qd1e3892" ana="iac2_26">quia 
   				<lb ed="#V"/>fides sine operibus mortua est</quote>: ut dicitur in <title ref="#iac">canone Iacobi</title> Cum igitur 
   				<lb ed="#V"/>de eisdem sit fides de quibus est theologia: perfectionem recipiet 
   				<lb ed="#V"/>sacra pagina ex bonis operibus ut recipit fides. Sed unum<lb ed="#V"/>quodque 
   				ordinatur ad suam perfectionem ut ad finem. ergo finis sacrae 
   				<lb ed="#V"/>paginae est operatio.</p>
   			
-  			<p><pc ana="#pilcrow"/>praeterea. Scientiae quae sunt ut boni fiamus 
+  			<p xml:id="gr-l1prolp4q1-d1e3910"><pc ana="#pilcrow"/>praeterea. Scientiae quae sunt ut boni fiamus 
   				<lb ed="#V"/>sunt practicae: sed ista maxime est talis. ergo etc.</p>
   			
-  			<p><lb ed="#V"/>In contrarium est: quia de maxime speculabilibus 
+  			<p xml:id="gr-l1prolp4q1-d1e3917"><lb ed="#V"/>In contrarium est: quia de maxime speculabilibus 
   				<lb ed="#V"/>maxime est scientia speculativa: sed 
   				<lb ed="#V"/>deus est maxime intelligibilis et speculabilibus. ergo maxime de 
   				<lb ed="#V"/>eo est scientia speculativa: sed de deo est ista scientia, ergo etc.</p>
   			
-  			<p><pc ana="#pilcrow"/>praeterea. 
-  				<lb ed="#V"/>scribitur <ref>primo <title ref="#deTrinitate">de trinitate</title> capitulo 16</ref> quod in visione merces tota promit<lb ed="#V"/>titur: 
+  			<p xml:id="gr-l1prolp4q1-d1e3927"><pc ana="#pilcrow"/>praeterea. 
+  				<lb ed="#V"/>scribitur <ref xml:id="gr-l1prolp4q1-Rd1e3932">primo <title ref="#deTrinitate">de trinitate</title> capitulo 16</ref> quod in visione merces tota promit<lb ed="#V"/>titur: 
   				sed visio pertinet ad speculativam, ergo etc.</p>
   			
-  			<p>Respondeo dicendum quod non est inconveniens eiusdem rei 
+  			<p xml:id="gr-l1prolp4q1-d1e3941">Respondeo dicendum quod non est inconveniens eiusdem rei 
   				<lb ed="#V"/>diversos esse fines: si unus ad alium or<lb ed="#V"/>dinatur: 
   				sicut si bellum ordinatur ad victoriam: potest homo intendere 
   				<lb ed="#V"/>ad bellum et victoriam. Quando autem ita est quod in una re diversos 
@@ -110,11 +103,11 @@
   				oportet unum istorum ad alium ordinari: et unum illorum principalem 
   				<lb ed="#V"/>esse: finis principalis ut dicebatur ab aliis distinguitur: quia ipse 
   				<lb ed="#V"/>ubique <unclear>intenditur:</unclear> alii autem non : et quia dilectio et charitas in tota 
-  				<lb ed="#V"/>sacra pagina intenditur: quia <quote ana="#mt22_40">in ea pendet lex et prophetae</quote>: princi<lb ed="#V"/>palis 
+  				<lb ed="#V"/>sacra pagina intenditur: quia <quote xml:id="gr-l1prolp4q1-Qd1e3998" ana="#mt22_40">in ea pendet lex et prophetae</quote>: princi<lb ed="#V"/>palis 
   				enim finis in sacra pagina <unclear>intentus</unclear> est inducere ho<lb ed="#V"/>mines 
   				ad dei et proximi dilectionem. Quod <unclear>nunc u?uter</unclear> in 
   				<lb ed="#V"/>sacra pagina charitas intendatur <unclear>manifeste</unclear> <name ref="#Augustine">Augustinus</name> in quo<lb ed="#V"/>dam 
-  				tractatu de laude charitatis: dicens. <quote>Si ergo non va<pb ed="#V" n="8-r"/><cb ed="#V" n="a"/><lb ed="#V"/>cat 
+  				tractatu de laude charitatis: dicens. <quote xml:id="gr-l1prolp4q1-Qd1e4022">Si ergo non va<pb ed="#V" n="8-r"/><cb ed="#V" n="a"/><lb ed="#V"/>cat 
   				omnes sacras paginas <unclear>perscrutaruola</unclear> volumina sermonum 
   				<lb ed="#V"/><unclear>evoluere</unclear>: omnia scripturarum secreta aperire et penetrare: tene 
   				<lb ed="#V"/>charitatem ubi pendent omnia: ita tenebis: quod ibi didicisti: te<lb ed="#V"/>nebis 
@@ -122,7 +115,7 @@
   				charitas patet. in eo quod non intelligis charitas latet: 
   				<lb ed="#V"/>ille itaque tenet quod patet: et quod latet in divinis sermonibus qui 
   				<lb ed="#V"/>charitatem tenet in moribus.</quote> Et quia a fine dignum est omnia deno<lb ed="#V"/>minari: 
-  				ut dicitur in <ref>2o <title ref="#deAnima">de anima</title></ref> ergo ab eo: quod potissime est finis: 
+  				ut dicitur in <ref xml:id="gr-l1prolp4q1-Rd1e4050">2o <title ref="#deAnima">de anima</title></ref> ergo ab eo: quod potissime est finis: 
   				<lb ed="#V"/>ab eo potissime res appellari debet. Et quia charitas est 
   				<lb ed="#V"/>simpliciter finis sacrae paginae ut probatum est quia ubique in ea in<lb ed="#V"/>tenditur: 
   				ut principalis finis: ab ea denominari debet: et quia cha<lb ed="#V"/>ritas 
@@ -132,43 +125,43 @@
   				inducit: et ideo bene dictum est: quod magis est sapientia ex eo 
   				<lb ed="#V"/>quod ad saporem divinorum inducit: quam ex eo quod divina sapere fa<lb ed="#V"/>cit.</p>
   			
-  			<p><pc ana="#pilcrow"/>Si tamen quaereretur utrum sit magis practica quam specu<lb ed="#V"/>lativa: 
+  			<p xml:id="gr-l1prolp4q1-d1e4075"><pc ana="#pilcrow"/>Si tamen quaereretur utrum sit magis practica quam specu<lb ed="#V"/>lativa: 
   				vel econverso.</p>
   			
-  			<p><pc ana="#pilcrow"/>Responderi debet quod magis est specu<lb ed="#V"/>lativa 
+  			<p xml:id="gr-l1prolp4q1-d1e4081"><pc ana="#pilcrow"/>Responderi debet quod magis est specu<lb ed="#V"/>lativa 
   				quam practica: quia visio divina magis principaliter respi<lb ed="#V"/>cit 
   				beatitudinem ad quam ordinatur omnis nostra cognitio: et postissi<lb ed="#V"/>me 
   				sacra pagina: quam faciat operatio.</p>
   			
-  			<p><lb ed="#V"/>Ad primum dicendum quod finis huius scientiae aliquo modo est 
+  			<p xml:id="gr-l1prolp4q1-d1e4091"><lb ed="#V"/>Ad primum dicendum quod finis huius scientiae aliquo modo est 
   				<lb ed="#V"/>actio: ut patuit: non tamen simpliciter: quia nec 
   				<lb ed="#V"/>simpliciter moralis extitit.</p>
   			
-  			<p><pc ana="#pilcrow"/>Ad secundum dicendum quod et si fidei tri<lb ed="#V"/>buitur 
+  			<p xml:id="gr-l1prolp4q1-d1e4100"><pc ana="#pilcrow"/>Ad secundum dicendum quod et si fidei tri<lb ed="#V"/>buitur 
   					perfectio ex bonitate operis: hic non est simpliciter: quia et ipsum 
-  				<lb ed="#V"/>opus bonitatem quam habet a charitate habet: iuxta illud <ref>prima 
-  				<lb ed="#V"/><title ref="#Icor">ad corinthios</title> 13</ref> <quote ana="#Icor13_3">Si tradidero corpus meum ita ut ardeam: charitatem 
+  				<lb ed="#V"/>opus bonitatem quam habet a charitate habet: iuxta illud <ref xml:id="gr-l1prolp4q1-Rd1e4107">prima 
+  				<lb ed="#V"/><title ref="#Icor">ad corinthios</title> 13</ref> <quote xml:id="gr-l1prolp4q1-Qd1e4114" ana="#Icor13_3">Si tradidero corpus meum ita ut ardeam: charitatem 
   					<lb ed="#V"/>autem non habuero nihil mihi prodest.</quote> et ideo charitas dicitur forma 
   					<lb ed="#V"/>virtutum: non opus.</p>
   			
-  			<p><pc ana="#pilcrow"/>Ad 3m dicendum quod scientia ista est: ut boni 
+  			<p xml:id="gr-l1prolp4q1-d1e4122"><pc ana="#pilcrow"/>Ad 3m dicendum quod scientia ista est: ut boni 
   				<lb ed="#V"/>fiamus: sed bonitas nostra de qua hic loquimur non inest nobis 
   				<lb ed="#V"/>ex operibus: sed ex infusione et ideo licet ille modus arguendi 
-  				<lb ed="#V"/>valeret secundum modum traditum a <ref><name ref="#Aristotle">philosopho</name> in 2o <title ref="#Ethics">ethicorum</title></ref> quia ex frequenti 
+  				<lb ed="#V"/>valeret secundum modum traditum a <ref xml:id="gr-l1prolp4q1-Rd1e4131"><name ref="#Aristotle">philosopho</name> in 2o <title ref="#Ethics">ethicorum</title></ref> quia ex frequenti 
   				<lb ed="#V"/>benefacere fimus boni: non tamen valet secundum modum theologicum 
   				<lb ed="#V"/>secundujm quem ex eo quod boni sumus bona facimus.</p>
   			
-  			<p><lb ed="#V"/>Ad primum in contrarium dicendum quod scientia ista dicitur speculativa 
+  			<p xml:id="gr-l1prolp4q1-d1e4144"><lb ed="#V"/>Ad primum in contrarium dicendum quod scientia ista dicitur speculativa 
   				<lb ed="#V"/>per comparationem ad praxim: magis tamen 
   				<lb ed="#V"/>affectiva: ut dictum est: et quod dicitur quod est de maxime speculabi<lb ed="#V"/>libus 
   				ita est de maxime amabilibus: immo secundum quod ad praesentem 
   				<lb ed="#V"/>vitam pertinet cui statui concessa est: ista scientia magis attingit 
-  				<lb ed="#V"/>ad amorem: quam ad cognitionem: iuxta illud <ref><name ref="#HughOfStVictor">Hugo</name> 6 capitulo super au? 
+  				<lb ed="#V"/>ad amorem: quam ad cognitionem: iuxta illud <ref xml:id="gr-l1prolp4q1-Rd1e4158"><name ref="#HughOfStVictor">Hugo</name> 6 capitulo super au? 
   				<lb ed="#V"/>Ier</ref> dilectio supereminet scientiae: et mairo est intelligentia: plus 
   				<lb ed="#V"/>enim diligitur quam intelligitur: et intrat dilectio et appropinquat: 
   				<lb ed="#V"/>ubi scientia foris est.</p>
   			
-  			<p><lb ed="#V"/><pc ana="#pilcrow"/>Ad aliud dicendum quod visio est tota 
+  			<p xml:id="gr-l1prolp4q1-d1e4170"><lb ed="#V"/><pc ana="#pilcrow"/>Ad aliud dicendum quod visio est tota 
   				<lb ed="#V"/>merces: non simpliciter: sed prout se extendit ad affectio<lb ed="#V"/>nem: 
   				ut suo loco patebit.</p>
   		</div>  

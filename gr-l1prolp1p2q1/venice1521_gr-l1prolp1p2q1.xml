@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- this needs to be changed to the diplomatic schema when it gets created -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- this needs to be changed to the diplomatic schema when it gets created --><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,11 +40,7 @@
   </teiHeader>
   <text type="diplomatic" xml:lang="la">
     <front>
-      <div xml:id="includeList">
-      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
-    	<div xml:id="starts-on">
+      <div xml:id="starts-on">
     		<pb ed="#V" n="3-v"/><cb ed="#V" n="b"/>
     	</div>
     </front>
@@ -78,11 +70,11 @@
   				<lb ed="#V"/>tria quaerantur. Primo: utrum ista scientia subalternetur alicui scientiae 
   				<lb ed="#V"/>humanae. Secundo: utrum subalternetur alicui alii scientiae. Tertio: 
   				<lb ed="#V"/>utrum subalternet sibi alias scientias humanas.</p>
-  			<div type="articulus">
+  			<div xml:id="gr-l1prolp1p2q1-Dd1e3546" type="articulus">
   				<head xml:id="grl1prolp1p2q1-Hd1e3548">Primus articulus</head>
   				<head xml:id="grl1prolp1p2q1-Hd1e3551" type="questionTitle">Utrum theologia subalternetur alicui scientiae humanae</head>
   				<p xml:id="grl1prolp1p2q1-d1e3554"><lb ed="#V"/>Ad primum sic proceditur.</p>
-  				<div type="rationes-principales">
+  				<div xml:id="gr-l1prolp1p2q1-Dd1e3558" type="rationes-principales">
   					<p xml:id="grl1prolp1p2q1-d1e3560">Videtur quod ista scientia 
   					<lb ed="#V"/>subalternetur metaphysica quia si 
   					<lb ed="#V"/>subiectum est sub subiecto: videtur scientiae esse sub scientia. Sed 
@@ -115,12 +107,12 @@
   				<p xml:id="grl1prolp1p2q1-d1e3639"><lb ed="#V"/>In contrarium est: quia quod excellit omnes scientias: et cui omnes 
   					<lb ed="#V"/>scientiae ancillantur nulli subalternatur. sed ista 
   					<lb ed="#V"/>scientia excellit omnes scientias: et ei omnes ancillantur. ergo nulli subalter<lb ed="#V"/>natur. 
-  					Quod autem ista omnes excellat patet. nam arguit <ref><name ref="#Aristotle">Philosophus</name> in principio 
+  					Quod autem ista omnes excellat patet. nam arguit <ref xml:id="gr-l1prolp1p2q1-Rd1e3648"><name ref="#Aristotle">Philosophus</name> in principio 
   					<lb ed="#V"/><title ref="#Metaphysics">metaphysica</title></ref> quod scientia quae maxime est de deo debet dici dea scientiarum. cum 
   					<lb ed="#V"/>igitur theologia sit magis principaliter de deo quantum metaphysica magis proprie ipsa dea 
   					<lb ed="#V"/>scientiarum dici debet. ergo omnes ei ancillantur: et ipsa nulli subalternatur.</p>
   				</div>
-  				<div type="responsio">
+  				<div xml:id="gr-l1prolp1p2q1-Dd1e3663" type="responsio">
   					<p xml:id="grl1prolp1p2q1-d1e3665"><lb ed="#V"/>Respondeo dicendum quod modus subalternationis scientiarum tripliciter est 
   					<lb ed="#V"/>ad praesens. Unus modus subalternationis est: quando 
   					<lb ed="#V"/>una scientia ancillat alii. Et ista subalternatio nihil est aliud quam 
@@ -128,13 +120,13 @@
   					<lb ed="#V"/>ut habitum est ex hoc convenit subalternari unam scientiam alteri: quia habet or<lb ed="#V"/>dinem 
   					ad aliam: ut quia una ordinat: alia ordinatur: et quia quae ancil<lb ed="#V"/>lantur 
   					ordinantur ab his quibus ancillantur; inde est quod talis famu<lb ed="#V"/>latio 
-  					subalternationis dici debet. De ista autem subalternatione determinatur <ref>in principio 
+  					subalternationis dici debet. De ista autem subalternatione determinatur <ref xml:id="gr-l1prolp1p2q1-Rd1e3683">in principio 
   						<lb ed="#V"/><title ref="#Metaphysics">metaphysica</title></ref> ubi dicitur: quod omnes aliae scientiae metaphysica famulantur. Ista autem fa<lb ed="#V"/>mulatio: 
   					et ista regulatio ex hoc convenit: quia illa scientia quae conside<lb ed="#V"/>rat 
   					optimum in aliquo genere habet regulare omnes alias scientias in illo genere: 
   					<lb ed="#V"/>et ideo quia metaphysica considerat optimum in genere entium: habet regulare omnes 
   					<lb ed="#V"/>alias scientias inventas ab homine: et verficare principia omnium: ut ibidem 
-  					<lb ed="#V"/>patet. Secundus modus et tertius subalternationis sunt traditi in <ref>primo 
+  					<lb ed="#V"/>patet. Secundus modus et tertius subalternationis sunt traditi in <ref xml:id="gr-l1prolp1p2q1-Rd1e3700">primo 
   					<lb ed="#V"/><title ref="#PosteriorAnalytics">posteriorum</title></ref> quid sic differunt: quia unus illorum non dicitur univocus. Alius 
   					<lb ed="#V"/>autem quasi univocus dicitur. Modus autem non univocus habet esse: quando una 
   					<lb ed="#V"/>scientia determinat de aliquo: ita quod de eodem alia scientia non determinat 
@@ -210,8 +202,8 @@
   					autem specialibus theologia non subalternatur sed nullum dictorum modo<lb ed="#V"/>rum: 
   					quia nulla scientia specialis considerat de optimo in genere entium: quia 
   					<lb ed="#V"/>inter ceteras scientias speciales naturalis est magis universalis et magis prima: ut 
-  					<lb ed="#V"/>patet per <ref><name ref="#Aristotle">philosophum</name> 6o <title ref="#Metaphysics">metaphysica</title></ref> si igitur aliqua deberet considerare: ista conside<lb ed="#V"/>raret: 
-  					sed ista non considerat: ut patet ex <ref>2o <title ref="#Physics">physicorum</title> <unclear>id est</unclear> capitulo 71</ref> ubi dicitur quod 
+  					<lb ed="#V"/>patet per <ref xml:id="gr-l1prolp1p2q1-Rd1e3883"><name ref="#Aristotle">philosophum</name> 6o <title ref="#Metaphysics">metaphysica</title></ref> si igitur aliqua deberet considerare: ista conside<lb ed="#V"/>raret: 
+  					sed ista non considerat: ut patet ex <ref xml:id="gr-l1prolp1p2q1-Rd1e3893">2o <title ref="#Physics">physicorum</title> <unclear>id est</unclear> capitulo 71</ref> ubi dicitur quod 
   					<lb ed="#V"/><unclear>quae</unclear> non amplius mota movetur: non amplius physicae <unclear>considera[??]</unclear> sunt. 
   					<lb ed="#V"/>Si igitur nulla scientia specialis considerat de deo quod est optimum in genere 
   					<lb ed="#V"/>entium de quo considerat theologus nulla scientia specialis subalter<lb ed="#V"/>nat 
@@ -222,25 +214,25 @@
   					<lb ed="#V"/>homine. igitur theologia non subalternatur alicui scientiae speciali nec com<lb ed="#V"/>muni. 
   					ergo nulli scientiae humanae subalternatur.</p>
   				</div>
-  				<div type="ad-rationes">
-  					<p xml:id="grl1prolp1p2q1-d1e3941"><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp1p2q1-d1e3560">Ad primum</ref> dicendum quod non sufficit subiectum esse sub subiecto eo 
+  				<div xml:id="gr-l1prolp1p2q1-Dd1e3939" type="ad-rationes">
+  					<p xml:id="grl1prolp1p2q1-d1e3941"><lb ed="#V"/><ref xml:id="gr-l1prolp1p2q1-Rd1e3943" target="http://scta.info/resource/grl1prolp1p2q1-d1e3560">Ad primum</ref> dicendum quod non sufficit subiectum esse sub subiecto eo 
   					<lb ed="#V"/>modo quo subiectum theologiae est sub subiecto metaphysicae sed 
   					<lb ed="#V"/>requiruntur ibi conditiones praetactae divisae secundum divisos modos subal<lb ed="#V"/>ternationis: 
   					quis conditiones non possumus reprire inter metaphysica et 
   					<lb ed="#V"/>theologiam: ideo ei non subalternatur.</p>
   				
-  					<p xml:id="grl1prolp1p2q1-d1e3953"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p2q1-d1e3578">Ad 2m</ref> dicendum quod theologia 
+  					<p xml:id="grl1prolp1p2q1-d1e3953"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp1p2q1-Rd1e3957" target="http://scta.info/resource/grl1prolp1p2q1-d1e3578">Ad 2m</ref> dicendum quod theologia 
   					<lb ed="#V"/>determinat modo admirativo de deo: quia ea quae dicit sunt altiora 
   					<lb ed="#V"/>quam ea quae dicit metaphysica et ideo non subalternatur ei: quia illa admira<lb ed="#V"/>tio 
   					non contigit: ex eo quod metaphysicus tradat causam eorum quae theolo<lb ed="#V"/>gus 
   					narrat: cum narrata a theologo sint supra rationem scilicet propter 
   					<lb ed="#V"/><unclear>alti?tum</unclear> dictorum: ut dictum est.</p>
   				
-  					<p xml:id="grl1prolp1p2q1-d1e3970"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p2q1-d1e3607">Ad 3m</ref> dicendum quod theologia non praesup<lb ed="#V"/>ponit 
+  					<p xml:id="grl1prolp1p2q1-d1e3970"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp1p2q1-Rd1e3976" target="http://scta.info/resource/grl1prolp1p2q1-d1e3607">Ad 3m</ref> dicendum quod theologia non praesup<lb ed="#V"/>ponit 
   					a naturali philosophia deum esse infinitae potentiae: sed magis hoc praesupponit a 
   					<lb ed="#V"/>sapientia increata.</p>
   				
-  					<p xml:id="grl1prolp1p2q1-d1e3978"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p2q1-d1e3631">Ad 4m</ref> dicendum quod si theologia accipit ab omnibus 
+  					<p xml:id="grl1prolp1p2q1-d1e3978"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp1p2q1-Rd1e3986" target="http://scta.info/resource/grl1prolp1p2q1-d1e3631">Ad 4m</ref> dicendum quod si theologia accipit ab omnibus 
   					<lb ed="#V"/>scientiis: non tamen accipit eo modo sicut accipit perspectivus a geo<lb ed="#V"/>metria: 
   					quia perspectivus accipit propositiones geometricas: quasi re<lb ed="#V"/>gulas 
   					suae considerationis: sed theologus accipit ab omnibus scientiis pro<lb ed="#V"/>positiones 
@@ -252,12 +244,12 @@
   					<lb ed="#V"/>ipsam: sed solum in obsequium eius.</p>
   				</div>
   			</div>
-  			<div type="articulus">
+  			<div xml:id="gr-l1prolp1p2q1-Dd1e4014" type="articulus">
   				<head xml:id="grl1prolp1p2q1-Hd1e4008">Secundus articulus</head>
   				<head xml:id="grl1prolp1p2q1-Hd1e4011" type="questionTitle">Utrum haec scientia subalternetur alicui alii scientiae</head>
   				<p xml:id="grl1prolp1p2q1-d1e4014"><lb ed="#V"/>Secundo quaeritur. Utrum haec scientia subalternetur 
   					<lb ed="#V"/>alicui alii scientiae.</p>
-  				<div type="rationes-principales">
+  				<div xml:id="gr-l1prolp1p2q1-Dd1e4028" type="rationes-principales">
   					<p xml:id="grl1prolp1p2q1-d1e4022">Et videtur quod non: quia 
   					<lb ed="#V"/>ista scientia: ut dictum est non subalternatur alicui scientiae 
   					<lb ed="#V"/>humanitus acquisitae: sed praeter scientias humanas non est 
@@ -271,11 +263,11 @@
   					sed theologia praesupponit articulos fidei quos habet quasi principia. 
   					<lb ed="#V"/>ergo subalternatur scientiae a qua ista principia praesupponit.</p>
   				</div>
-  				<div type="responsio">
+  				<div xml:id="gr-l1prolp1p2q1-Dd1e4061" type="responsio">
   				<!-- current facsimile copy is pretty hard to read around this point; needs proof reading against a better copy -->
   				<p xml:id="grl1prolp1p2q1-d1e4057">Respondeo dicendum quod omnis scientia procedit ex aliquibus principiis. 
   					<lb ed="#V"/>Nam cum nec sit differentia inter scientiam et intellectum: quia scientia 
-  					<lb ed="#V"/>est habitus unum: intellectus vero principior: ut potest haberi ex <ref><name ref="#Aristotle">philosopho</name> in libro 
+  					<lb ed="#V"/>est habitus unum: intellectus vero principior: ut potest haberi ex <ref xml:id="gr-l1prolp1p2q1-Rd1e4071"><name ref="#Aristotle">philosopho</name> in libro 
   					<lb ed="#V"/><title ref="#PosteriorAnalytics">posteriorum</title></ref> cum conclusiones ex principiis sequantur: oportet <unclear>esse ?? scientiam vii</unclear> 
   					<lb ed="#V"/>principii <unclear>aa</unclear> concludendum consequens intentas in illa scientia. principia autem non 
   					<lb ed="#V"/>sunt semper uniformia: quia secundum <name ref="#Boethius">Boetius</name> quaedam sunt principia nota cuilibet: 
@@ -319,27 +311,27 @@
   					<lb ed="#V"/>theologus de unitate essentiae et trinitate personarum: ea intuetur 
   					<lb ed="#V"/>modo grosso quae deus et beati subtiliter intuentur.</p>
   				</div>
-  				<div type="ad-rationes">
-  					<p xml:id="grl1prolp1p2q1-d1e4208"><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp1p2q1-d1e4022">Ad primum</ref> dicendum quod scientia ista non subalternatur scientiae hu<lb ed="#V"/>manae: 
+  				<div xml:id="gr-l1prolp1p2q1-Dd1e4214" type="ad-rationes">
+  					<p xml:id="grl1prolp1p2q1-d1e4208"><lb ed="#V"/><ref xml:id="gr-l1prolp1p2q1-Rd1e4218" target="http://scta.info/resource/grl1prolp1p2q1-d1e4022">Ad primum</ref> dicendum quod scientia ista non subalternatur scientiae hu<lb ed="#V"/>manae: 
   					subalternatur tamen scientiae divinae: non tamen 
   					<lb ed="#V"/>propter hoc sequitur quod subalternatur <sic>sibiipsi</sic>: quia scientia divina duplex est: 
   					<lb ed="#V"/>creata et increata: et creata duplex viatorum et beatorum: unde non 
   					<lb ed="#V"/>subalternatur <sic>sibiipsi</sic> ista scientia: subalternatur tamen scientiae divinae 
   					<lb ed="#V"/>rei beatorum.</p>
   				
-  					<p xml:id="grl1prolp1p2q1-d1e4229"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p2q1-d1e4031">Ad 2m</ref> dicendum quod nobilissimum est duplex scilicet no<lb ed="#V"/>bilissimum 
+  					<p xml:id="grl1prolp1p2q1-d1e4229"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp1p2q1-Rd1e4241" target="http://scta.info/resource/grl1prolp1p2q1-d1e4031">Ad 2m</ref> dicendum quod nobilissimum est duplex scilicet no<lb ed="#V"/>bilissimum 
   					in genere et nobilissimum simpliciter. Unde licet ista scientia 
   					<lb ed="#V"/>sit nobilissima in genere: quia in genere scientia viatorum tenet 
   					<lb ed="#V"/>principatum: tamen scientia beatorum et divina nobiliores sunt 
   					<lb ed="#V"/>ipsa quibus subalternari poterit.</p>
   				</div>
   			</div>
-  			<div type="articulus">
+  			<div xml:id="gr-l1prolp1p2q1-Dd1e4255" type="articulus">
   				<head xml:id="grl1prolp1p2q1-Hd1e4245"><supplied>Articulus tertius</supplied></head>
   				<head xml:id="grl1prolp1p2q1-Hd1e4249" type="questionTitle">Utrum ista scientia subalternet sibi alias scientias humanas</head>
   				<p xml:id="grl1prolp1p2q1-d1e4252"><lb ed="#V"/>Tertio quaeritur. Utrum ista scientia subalternet 
   					<lb ed="#V"/>sibi alias scientias humanas.</p> 
-  				<div type="rationes-principales"> 
+  				<div xml:id="gr-l1prolp1p2q1-Dd1e4270" type="rationes-principales"> 
   				<p xml:id="grl1prolp1p2q1-d1e4260">Et videtur quod 
   					<lb ed="#V"/>sic: quia quando aliqua scientia tradit causam eorum quae dicuntur in 
   					<lb ed="#V"/>alia: tunc illa scientia subalternat sibi aliam: sed ista 
@@ -354,7 +346,7 @@
   					principia a subalternante: 
   					<lb ed="#V"/>sed nulla scientia accipit principia ab illa. ergo etc.</p>
   				</div>
-  				<div type="responsio">
+  				<div xml:id="gr-l1prolp1p2q1-Dd1e4302" type="responsio">
   				<p xml:id="grl1prolp1p2q1-d1e4292">Respondeo dicendum quod secundum quod tactum est triplex est subalter<lb ed="#V"/>nationois 
   					modus. Unus est ex eo quod attingit 
   					<lb ed="#V"/>optimum in genere: et non aliae. Secundus modus est: quando una dicit 
@@ -384,7 +376,7 @@
   					<lb ed="#V"/>Primo: quia ex eo quod metaphysica attinit cognitionem dei secundum modum 
   					<lb ed="#V"/>possibilem homini: etiam ex suis naturalibus ad quam cognitionem co<lb ed="#V"/>gnitio 
   					reperta in ceteris scientiis ordinatur: singulae scientiae ei an<lb ed="#V"/>cillantur: 
-  					et ipsa sola libera dicitur: ut scribitur <ref>primo <title ref="#Metaphysics">metaphysica</title></ref>. Secundo quia 
+  					et ipsa sola libera dicitur: ut scribitur <ref xml:id="gr-l1prolp1p2q1-Rd1e4373">primo <title ref="#Metaphysics">metaphysica</title></ref>. Secundo quia 
   					<lb ed="#V"/>cognitionem istius optimi tradit secundum rationis modum: et quia mo<lb ed="#V"/>dus 
   					rationis est ut ex principiis: et ex his quae nota sunt nobis: 
   					<lb ed="#V"/>deveniamus in <unclear>co?num</unclear> cognitionem et nobis occultorum. Ideo 
@@ -409,8 +401,8 @@
   					non erit libera: sed cum minus attingat optimum 
   					<lb ed="#V"/>quam ipsa debet ei merito ancillari.</p>
   				</div>
-  				<div type="ad-rationes">
-  					<p xml:id="grl1prolp1p2q1-d1e4424"><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp1p2q1-d1e4260">Ad primum</ref> dicendum quod non sufficit tradere causam eorum 
+  				<div xml:id="gr-l1prolp1p2q1-Dd1e4434" type="ad-rationes">
+  					<p xml:id="grl1prolp1p2q1-d1e4424"><lb ed="#V"/><ref xml:id="gr-l1prolp1p2q1-Rd1e4438" target="http://scta.info/resource/grl1prolp1p2q1-d1e4260">Ad primum</ref> dicendum quod non sufficit tradere causam eorum 
   					<lb ed="#V"/>quae dicuntur in alia scientia: ut illa scientia ei 
   					<lb ed="#V"/>subalternetur: nisi illam causam tradat secundum rationis modum: et illam 
   					<lb ed="#V"/>causam inferior scientia: quae in superiori scientia traditur praesupponat: quod 
@@ -418,11 +410,11 @@
   					<lb ed="#V"/>ei non subalternantur secundum illum modum: sed solum ratione finis: et 
   					<lb ed="#V"/>ex eo quod theologia attingit optimum: ut dictum est.</p>
   				
-  					<p xml:id="grl1prolp1p2q1-d1e4441"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p2q1-d1e4271">Ad 2m</ref> di<lb ed="#V"/>cendum 
+  					<p xml:id="grl1prolp1p2q1-d1e4441"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp1p2q1-Rd1e4457" target="http://scta.info/resource/grl1prolp1p2q1-d1e4271">Ad 2m</ref> di<lb ed="#V"/>cendum 
   					quod omnes scientiae humanae sunt sub ista: quasi sub dignio<lb ed="#V"/>re 
   					inquantum ista attingit optimum: ut dictum est.</p>
   				
-  					<p xml:id="grl1prolp1p2q1-d1e4449"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p2q1-d1e4281">Ad illud 
+  					<p xml:id="grl1prolp1p2q1-d1e4449"><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp1p2q1-Rd1e4467" target="http://scta.info/resource/grl1prolp1p2q1-d1e4281">Ad illud 
   					<pb ed="#V" n="5-r"/><cb ed="#V" n="a"/><lb ed="#V"/>in contrarium</ref> dicendum quod non oportet quod aliae scientiae assumant principia a theologo 
   					<lb ed="#V"/>ad hoc ut subalternentur ei secundum primum modum subalterationis: sed 
   					<lb ed="#V"/>modo praedicto: ut est superius patefactum.</p>

@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- this needs to be changed to the diplomatic schema when it gets created -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- this needs to be changed to the diplomatic schema when it gets created --><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,11 +40,7 @@
   </teiHeader>
   <text type="diplomatic" xml:lang="la">
     <front>
-      <div xml:id="includeList">
-      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
-    	<div xml:id="starts-on">
+      <div xml:id="starts-on">
     		<pb ed="#V" n="6-v"/><cb ed="#V" n="a"/>
     	</div>
     </front>
@@ -71,7 +63,7 @@
   			
   			<!-- begin question 1 proper -->
   			<p xml:id="grl1prolp2q1-d1e3532"><lb ed="#V"/>Ad primum sic proceditur.</p>
-  			<div type="rationes-principales">
+  			<div xml:id="gr-l1prolp2q1-Dd1e3536" type="rationes-principales">
   				<p xml:id="grl1prolp2q1-d1e3538">Videtur quod sacramenta pa<lb ed="#V"/>gina 
   					non sit sapientia: quia ut scri<lb ed="#V"/>bitur 
   					primo <title ref="#Metaphysics">metaphysica</title> sapientis est ordinare: sed tunc scientia 
@@ -80,7 +72,7 @@
   				
   				<p xml:id="grl1prolp2q1-d1e3552"><pc ana="#pilcrow"/>praeterea. Ordo 
   					<lb ed="#V"/>habet esse ex eo quod multa reducuntur ad unum: et propter hoc in omni genere 
-  					<lb ed="#V"/>est dare unum aliquid ad quod omnia reducuntur. unde et <ref><title ref="#Dionysius">Dionysius</title> dicit 13 
+  					<lb ed="#V"/>est dare unum aliquid ad quod omnia reducuntur. unde et <ref xml:id="gr-l1prolp2q1-Rd1e3559"><title ref="#Dionysius">Dionysius</title> dicit 13 
   						<lb ed="#V"/>de <title>divinis nominibus</title></ref> quod semper multitudo est participans uno. illud autem 
   					<lb ed="#V"/>unum ad quod reducuntur scientiae meretur nomen sapientis: non igitur erit 
   					<lb ed="#V"/>nisi unum quod meretur tale nomen: sed metaphysicus dicitur sapiens: ut 
@@ -101,7 +93,7 @@
   					<lb ed="#V"/>est per demonstrationem: cum igitur ista scientia non demonstret 
   					<lb ed="#V"/>non merebitur nomen scientiae.</p>
   				
-  				<p xml:id="grl1prolp2q1-d1e3626"><lb ed="#V"/>In contrarium est quod secundum <ref><name ref="#Augustine">Augustinum</name> 14 <title ref="#deTrinitate">de trinitate</title> capitulo 1</ref> <quote xml:id="grl1prolp2q1-Qd1e3637" ana="#Augustine_deTrinitate_14_1_3_b"> <!-- this is a rough paraphrase; not-literal instance of this quotation --> non 
+  				<p xml:id="grl1prolp2q1-d1e3626"><lb ed="#V"/>In contrarium est quod secundum <ref xml:id="gr-l1prolp2q1-Rd1e3632"><name ref="#Augustine">Augustinum</name> 14 <title ref="#deTrinitate">de trinitate</title> capitulo 1</ref> <quote xml:id="grl1prolp2q1-Qd1e3637" ana="#Augustine_deTrinitate_14_1_3_b"> <!-- this is a rough paraphrase; not-literal instance of this quotation --> non 
   					<lb ed="#V"/>quicquid potest sciri ab homine huic scientiae 
   					<lb ed="#V"/>tribuitur: sed solum id de quo est fides</quote>: igitur theologiam appellat scientiam.</p>
   				
@@ -110,11 +102,11 @@
   					cum igitur illud habeat fieri per theologiam: non solum 
   					<lb ed="#V"/>theologia est scientia: sed proprie dicitur scientia.</p>
   			</div>
-  			<div type="responsio">
+  			<div xml:id="gr-l1prolp2q1-Dd1e3664" type="responsio">
   				<p xml:id="grl1prolp2q1-d1e3663"><lb ed="#V"/>Respondeo dicendum quod antequam solvamus quaestionem videa<lb ed="#V"/>mus: 
   					utrum spectet ad nos disputare de 
   					<lb ed="#V"/>sapientia: quia si ad nos hoc non pertinet: tunc supervacue quaeritur. 
-  					<lb ed="#V"/>Propter hoc notandum quod <name ref="#Augustine">Augustinus</name> dubitationem movet <ref>14 <title>de trinitate</title> 
+  					<lb ed="#V"/>Propter hoc notandum quod <name ref="#Augustine">Augustinus</name> dubitationem movet <ref xml:id="gr-l1prolp2q1-Rd1e3678">14 <title>de trinitate</title> 
   						<lb ed="#V"/>capitulo 1</ref> et est ratio dubitationis ibidem: quia de sapientia disputare ut videtur: non 
   					<lb ed="#V"/>est nisi <unclear>sapientiis</unclear>: et nisi nos profiteamur sapientes impudens videtur 
   					<lb ed="#V"/>noster a disputatio de sapientia. si autem profiteamur nos sapientes 
@@ -129,7 +121,7 @@
   				<p xml:id="grl1prolp2q1-d1e3721"><lb ed="#V"/>Et ideo non quasi sapientes sed ut sapientiam desiderantes: sol<lb ed="#V"/>vamus 
   					ad quaestionem duplici distinctione praemissa. 
   					<lb ed="#V"/>Prima distinctio est quod sapientia proprie accepta distinguitur contra scientiam: 
-  					<lb ed="#V"/>large tamen sumpta: et sapientia potest dici scientia: et scientia sapientia. unde <ref><name ref="#Augustine">Augustinus</name> 
+  					<lb ed="#V"/>large tamen sumpta: et sapientia potest dici scientia: et scientia sapientia. unde <ref xml:id="gr-l1prolp2q1-Rd1e3733"><name ref="#Augustine">Augustinus</name> 
   						<lb ed="#V"/>13 <title ref="#deTrinitate">de trinitate</title> capitulo penultimo</ref> nec ista duo sic accipiamus scilicet sapientiam et 
   					<lb ed="#V"/>scientiam <unclear>quae</unclear> non liceat dicere: vel istam sapientiam quae est in rebus huma<lb ed="#V"/>nis. 
   					vel illam scientiam quae in divinis: loquendo enim latiore consuetudine 
@@ -139,7 +131,7 @@
   					<lb ed="#V"/>Alii datur sermo sapientiae alii sermo scientiae nisi et proprie singulis rationi<lb ed="#V"/>bus 
   					hic singula notarentur. si ergo communiter accipiantur haec nomina: quaestio 
   					<lb ed="#V"/>non habet locum: sed si accipiantur proprie etc. scientia est cognitio rerum 
-  					<lb ed="#V"/>humanarum: sapientia est divinarum: ut dicitur <ref>14 <title>de trinitate</title> capitulo 1</ref> et <ref>13 capitulo 19</ref> 
+  					<lb ed="#V"/>humanarum: sapientia est divinarum: ut dicitur <ref xml:id="gr-l1prolp2q1-Rd1e3769">14 <title>de trinitate</title> capitulo 1</ref> et <ref xml:id="gr-l1prolp2q1-Rd1e3775">13 capitulo 19</ref> 
   					<lb ed="#V"/>et secundum istum modum sola theologia proprie est sapientia. Nam etsi aliae scientiae 
   					<lb ed="#V"/>sunt de divinis: sunt tamen de his modo humano: et ideo non proprie de 
   					<lb ed="#V"/>divinis sunt. Ista autem est de divinis modo divino: quia deus revelavit 
@@ -152,7 +144,7 @@
   					<lb ed="#V"/>dici sapientia: sed ad istam veritatem testimonium eorum: quid secundum modum 
   					<lb ed="#V"/>rationis ex sensibilibus acceptae locuti sunt: habeamus.</p>
   				
-  				<p xml:id="grl1prolp2q1-d1e3799"><lb ed="#V"/>Sciendum quod in <ref>primo <title ref="#Metaphysics">metaphysica</title></ref> tanguntur sex conditiones sa<lb ed="#V"/>pientes 
+  				<p xml:id="grl1prolp2q1-d1e3799"><lb ed="#V"/>Sciendum quod in <ref xml:id="gr-l1prolp2q1-Rd1e3805">primo <title ref="#Metaphysics">metaphysica</title></ref> tanguntur sex conditiones sa<lb ed="#V"/>pientes 
   					qua maxime theologo competunt. 
   					<lb ed="#V"/>Prima est quod sapientis est scire omnia. 2o difficilia. 3o quod sciat ea 
   					<lb ed="#V"/>certe. 4o considerat causas causarum. 5o quod sit sui gratia. 6a quod ordinet 
@@ -166,12 +158,12 @@
   					<lb ed="#V"/>competit. Secundo illa scientia est de difficilibus: quia ad ea quae sunt ma<lb ed="#V"/>nifestissima 
   					in natura se habet oculus noster sicut oculus noctuae ad lu<lb ed="#V"/>cem 
   					diei. huiusmodi autem manifestissimum in natura est ipse detur: quia si omne 
-  					<lb ed="#V"/>unum <sic>sibiipsi</sic> manifestum est: ut scribitur <ref>prima <title ref="#PosteriorAnalytics">posteriorum</title></ref> summe verum ma<lb ed="#V"/>nifestissimum 
+  					<lb ed="#V"/>unum <sic>sibiipsi</sic> manifestum est: ut scribitur <ref xml:id="gr-l1prolp2q1-Rd1e3843">prima <title ref="#PosteriorAnalytics">posteriorum</title></ref> summe verum ma<lb ed="#V"/>nifestissimum 
   					erit: de deo igitur tractare de quo tractat theolo<lb ed="#V"/>gus 
   					difficillimum est. Tertio theologia est certissima: sed quomodo hoc 
-  					<lb ed="#V"/>sit: <ref>infra patebit</ref>. Quarto considerat causas causarum. Nam sicut calidus 
+  					<lb ed="#V"/>sit: <ref xml:id="gr-l1prolp2q1-Rd1e3854">infra patebit</ref>. Quarto considerat causas causarum. Nam sicut calidus 
   					<lb ed="#V"/>ignis est causa omnium calidorum: ita primum verum est causa omnium verorum: 
-  					<lb ed="#V"/>ut dicitur <ref>2o <title>metaphysica</title></ref>. Et quia ista considerat primum verum: quod est causa omnis ve<lb ed="#V"/>ri: 
+  					<lb ed="#V"/>ut dicitur <ref xml:id="gr-l1prolp2q1-Rd1e3862">2o <title>metaphysica</title></ref>. Et quia ista considerat primum verum: quod est causa omnis ve<lb ed="#V"/>ri: 
   					causam causarum considerat. Quinto est sui gratia. Nam illa scientia est sui 
   					<lb ed="#V"/>gratia quae non ordinatur ad aliquid extra: et cuius cognitio non ordinatur ad 
   					<lb ed="#V"/>aliam cognitionem. et quia inter scientias humanas: cognitio omnium eorum 
@@ -180,7 +172,7 @@
   					<lb ed="#V"/>Sexto omnes scientiae ordinantur ad istam. Nam comparatio huius ad 
   					<lb ed="#V"/>alias est sicut militaris ad frenifactivam: vel medicinalis <unclear>ad</unclear> 
   					<lb ed="#V"/>pigmentariam quae ordinat et non ordinatur: et sic patet quod ex omnibus di<lb ed="#V"/>ctis 
-  					in hanc scientiam cadit quaesitum nomen: bene igitur dicitur <ref><title ref="#sir">Ecclesiasticus</title> 6</ref> <quote xml:id="grl1prolp2q1-Qd1e3892" ana="#sir6_23">Sapientia 
+  					in hanc scientiam cadit quaesitum nomen: bene igitur dicitur <ref xml:id="gr-l1prolp2q1-Rd1e3890"><title ref="#sir">Ecclesiasticus</title> 6</ref> <quote xml:id="grl1prolp2q1-Qd1e3892" ana="#sir6_23">Sapientia 
   						enim secundum nomen est illius et non multis est manifesta.</quote>
   				</p>
   				
@@ -194,13 +186,13 @@
   					<lb ed="#V"/>Secundum autem secundum modum dividendi quantum ad ea quae hic prin<lb ed="#V"/>cipaliter 
   					considerantur: sapientia dei oportet quantum ad alia scientia dici potest.</p>
   			</div>
-  			<div type="ad-rationes">
-  				<p xml:id="grl1prolp2q1-d1e3921"><pb ed="#V" n="7-r"/><cb ed="#V" n="a"/><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp2q1-d1e3538">Ad primum</ref> dicendum quod non semper sapiens debet tradere prin<lb ed="#V"/>cipium 
+  			<div xml:id="gr-l1prolp2q1-Dd1e3922" type="ad-rationes">
+  				<p xml:id="grl1prolp2q1-d1e3921"><pb ed="#V" n="7-r"/><cb ed="#V" n="a"/><lb ed="#V"/><ref xml:id="gr-l1prolp2q1-Rd1e3928" target="http://scta.info/resource/grl1prolp2q1-d1e3538">Ad primum</ref> dicendum quod non semper sapiens debet tradere prin<lb ed="#V"/>cipium 
   					aliis: sed solum uti eis in suum obse<lb ed="#V"/>quium: 
   					secundum quod ostensum sunt cum disputatum fuit de ordine huius 
   					<lb ed="#V"/>scientiae ad alias: et hoc maxime facit theologus.</p>
   				
-  				<p xml:id="grl1prolp2q1-d1e3933"><pc ana="#pilcrow"/><lb ed="#V"/><ref target="http://scta.inof/resource/grl1prolp2q1-d1e3552">Ad 2m</ref> dicendum quod 
+  				<p xml:id="grl1prolp2q1-d1e3933"><pc ana="#pilcrow"/><lb ed="#V"/><ref xml:id="gr-l1prolp2q1-Rd1e3941" target="http://scta.inof/resource/grl1prolp2q1-d1e3552">Ad 2m</ref> dicendum quod 
   					<lb ed="#V"/>licet metaphysicus sit ille unus sapiens in genere scientiarum humanarum: 
   					<lb ed="#V"/>non est tamen sapiens simpliciter: quia theologus tanto eo sapientior 
   					<lb ed="#V"/>est quanto de deo profundius perscrutatur: et non est inconveniens 
@@ -208,13 +200,13 @@
   					<lb ed="#V"/>aliud ordinatur: scientiae autem humanae ordinantur ad metaphysicam 
   					<lb ed="#V"/>et theologiam: quia metaphysica etiam ad theologiam ordinatur.</p>
   				
-  				<p xml:id="grl1prolp2q1-d1e3951"><lb ed="#V"/><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp2q1-d1e3594">Ad primum</ref> autem quod obiicitur quod non sit scientia. Dicendum quod non est scientia 
+  				<p xml:id="grl1prolp2q1-d1e3951"><lb ed="#V"/><pc ana="#pilcrow"/><ref xml:id="gr-l1prolp2q1-Rd1e3961" target="http://scta.info/resource/grl1prolp2q1-d1e3594">Ad primum</ref> autem quod obiicitur quod non sit scientia. Dicendum quod non est scientia 
   					<lb ed="#V"/>proprie accepta: sed communiter: vel non est scientia quantum ad id quod prin<lb ed="#V"/>cipaliter 
   					consideratur in ea: sed solum quantum ad id quod consideratur 
   					<lb ed="#V"/>ex consequenti. Et per hoc patet solutio ad dictum <name ref="#Augustine">Augustini</name> qui videtur velle 
   					<lb ed="#V"/>theologiam proprie scientiam esse.</p>
   				
-  				<p xml:id="grl1prolp2q1-d1e3968"><lb ed="#V"/><ref target="http://scta.infor/resource/grl1prolp2q1-d1e3605">Ad aliud</ref> dicendum quod scientia ista demonstrat non ut geometria 
+  				<p xml:id="grl1prolp2q1-d1e3968"><lb ed="#V"/><ref xml:id="gr-l1prolp2q1-Rd1e3979" target="http://scta.infor/resource/grl1prolp2q1-d1e3605">Ad aliud</ref> dicendum quod scientia ista demonstrat non ut geometria 
   					<lb ed="#V"/>sed ut perspectiva suppositis scilicet articulis fidei: 
   					<lb ed="#V"/>et quia artes etiam quae sic procedunt scientiae dici possunt: haec scientia dici debet.</p>
   			</div>
