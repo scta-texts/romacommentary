@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 4, P. 1, Quaestio 2</title>
+        <author>Aegidius Romanus</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-11-20">November 20, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="venice1521">Venice 1521</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-11-20" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="31-r"/><cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gr-l1d4p1q2">
+        <head xml:id="gr-l1d4p1q2-Hd1e93">Liber I, Distinctio 4, P. 1, Quaestio 2</head>
+        <p xml:id="gr-l1d4p1q2-d1e96">
+          <lb ed="#V"/>Secundo quaeritur utrum generatio sit in 
+          <lb ed="#V"/>omnibus personis divinis
+        </p>
+        <div xml:id="gr-l1d4p1q2-Dd1e103" type="rationes-principales">
+          <p xml:id="gr-l1d4p1q2-d1e105">
+            Et videtur quod 
+            <lb ed="#V"/>sic: quia generatio quae ponitur in divinis denotat per<lb ed="#V"/>fectionem. 
+            Sed perfectio ponenda est in qualibet di<lb ed="#V"/>vina 
+            persona, ergo etc.
+          </p>
+          <p xml:id="gr-l1d4p1q2-d1e114">
+            <pc ana="#pilcrow"/>Praeterea per omnem processio<lb ed="#V"/>nem 
+            in divinis communicatur natura. Sed processio per quam communicatur 
+            <lb ed="#V"/>natura videtur esse generatio, ergo non est ibi persona quae non sit gignens 
+            <lb ed="#V"/>vel genita: sed generatio actio est in persona gignente: ge<lb ed="#V"/>neratio 
+            passio in persona genita: non igitur erti aliqua 
+            <lb ed="#V"/>persona in qua non sit generatio aliquo modo sumpta.
+          </p>
+          <p xml:id="gr-l1d4p1q2-d1e130">
+            <pc ana="#pilcrow"/>Praeterea <unclear>haec natura</unclear> 
+            <pb ed="#V" n="31-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V"/>non in divinis est ex eo quod a persona procedit verbum a persona autem 
+            <lb ed="#V"/>non procedit verbum: nisi quia se intelligit cum igitur quaelibet persona se 
+            <lb ed="#V"/>intelligit a qualibet persona procedit verbum et quaelibet generat: sed 
+            <lb ed="#V"/>in omni persona generante est aliquo modo generatio, ergo etc.
+          </p>
+          <p xml:id="gr-l1d4p1q2-d1e151">
+            <lb ed="#V"/>In contrarium est: quiq quae in divinis distinguunt non 
+            <lb ed="#V"/>sunt in omnibus: sed generatio distinguit in 
+            <lb ed="#V"/>divinis iuxta illud <name ref="#JohnDamascenus">Damascenus</name> <quote xml:id="gr-l1d4p1q2-Qd1e162" source="http://scta.info/resource/jddfo-l1c8">In divinis omnia sunt unum praeter 
+            <lb ed="#V"/>ingenerationem; generationem et processionem</quote>, ergo etc.
+          </p>
+          <p xml:id="gr-l1d4p1q2-d1e168">
+            <pc ana="#pilcrow"/>Praeterea. Quod pro<lb ed="#V"/>cedit 
+            ut datum; nec gignit nec gignitur: sed <unclear>huius</unclear> est aliqua perso<lb ed="#V"/>na 
+            in divinis; non igitur in omnibus erit generatio.
+          </p>
+        </div>
+        <div xml:id="gr-l1d4p1q2-Dd1e181">
+          <p xml:id="gr-l1d4p1q2-d1e183"/>
+        </div>
+        <div xml:id="gr-l1d4p1q2-Dd1e186">
+          <p xml:id="gr-l1d4p1q2-d1e188">
+            Ad primum dicendum quod aliquod est perfectionis in uno: quod 
+            <lb ed="#V"/>non est perfectionis in alio: et ideo licet sit perfe<lb ed="#V"/>ctionis 
+            in filio quod generetur: non oportet quod sit perfectionis in aliis perso<lb ed="#V"/>nis.
+          </p>
+        </div>
+        
+      </div>  
+    </body>
+  </text>
+</TEI>
