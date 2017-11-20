@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Prologus, Pars 1, Principalis 1, Quaestio 3</title>
+        <author>Aegidius Romanus</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-09-22">September 22, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Sentences Commentary Text Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="V" n="venice1521">Venice 1521</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-08-01" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<pb ed="#V" n="2-v"/><cb ed="#V" n="a"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="gr-l1prolp1p1q3">
+  			<head xml:id="grl1prolp1p1q3-Hd1e3495">Librum I, Prologus, Pars 1, Principalis 1, Quaestio 3</head>
+  			<head xml:id="grl1prolp1p1q3-Hd1e3498" type="questionTitle">Quid sit subiectum in sacra pagina</head>
+  			<p xml:id="grl1prolp1p1q3-d1e3501"><lb ed="#V"/>Tertio quaeritur quid sit subiectum in sacra pagina.</p>
+  			<div type="rationes-principales">
+  				<p xml:id="grl1prolp1p1q3-d1e3507"><lb ed="#V"/>Et videtur quod deus. Quia illud a quo scientia 
+  					<lb ed="#V"/>denominatur maxime videtur esse subiectum in ea: et principaliter intendi 
+  					<lb ed="#V"/>in ipsa: sed sacra pagina a deo denominationem re<lb ed="#V"/>cipit. 
+  					ergo etc.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3517"><pc ana="#pilcrow"/>Praeterea. Illud est subiectum in scientia: sub 
+  					<lb ed="#V"/>cuius ratione alia introducuntur in causa. Sed sub ratione dei omnia intro<lb ed="#V"/>ducuntur 
+  					in sacra pagina: quia quicquid in ea determinatur divinum dicitur. 
+  					<lb ed="#V"/>ergo etc.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3527"><pc ana="#pilcrow"/>Praeterea. Arguit <ref><name ref="#Aristotle">philosophus</name> 6us <title ref="#Metaphysics">metaphysicus</title></ref> tribus viis quod metaphysica 
+  					<lb ed="#V"/>maxime est de deo. Primo: quia metaphysica est maxime abstracta. 
+  					<lb ed="#V"/>igitur erit maxime de deo qui est maxime abstractus. Iterum 
+  					<lb ed="#V"/>metaphysica est nobilissima. igitur erit maxime deo deo qui nobilissi<lb ed="#V"/>mus 
+  					existit. Rursum metaphysica. est prima scientiarum. igitur erit de deo 
+  					<lb ed="#V"/>maxime: qui est primus inter entia. His tribus viis etiam potest proba<lb ed="#V"/>ri 
+  					quod theologia maxime sit de deo. Pilo: quia maxime abstracta: quia 
+  					<lb ed="#V"/>ut habitum est: nec est principaliter principaliter de sensibilibus: nec de his quae sunt 
+  					<lb ed="#V"/>in sensibilibus: nec habet sensibilia subiecti sui partem. Rursum est 
+  					<lb ed="#V"/>maxime nobilis: quia <unclear>inititur</unclear> nobilissimo lumini: quia lumini: quia lumini in<lb ed="#V"/>creato. 
+  					<lb ed="#V"/>Ex hoc etiam apparet quod est prior aliis scientiis: quia lumen cui. 
+  					<cb ed="#V" n="b"/>
+  					<lb ed="#V"/>innititur ista scientia ut lumen divinum est prius lumine rationis: cui aliae 
+  					<lb ed="#V"/>scientiae innituntur. igitur his tribus viis probatum est: quod theologia maxime est 
+  					<lb ed="#V"/>de deo. Sed illud de quo maxime est scientia: est subiectum in scientia. ergo etc.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3573"><lb ed="#V"/>In contrarium est: quia scientia est una quae est unius generis subiecti 
+  					<lb ed="#V"/>partes et passiones considerans: sed deus necque 
+  					<lb ed="#V"/>habet partes neque passiones. igitur etc.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3581"><pc ana="#pilcrow"/>Praeterea. scribitur in <ref>6us <title ref="#Metaphysics">metaphysica</title></ref> quod 
+  					<lb ed="#V"/>nulla scientia probat suum subiectum esse. Sed in sacra pagina probatur 
+  					<lb ed="#V"/>deum esse: sic probat <ref><name ref="#Lombard">Magister</name> primo libro 3 distinctione</ref>, ergo etc.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3600"><pc ana="#pilcrow"/>praeterea. secundum <ref><name ref="#Aristotle">philosophum</name> primo 
+  					<lb ed="#V"/><title ref="#PosteriorAnalytics">posteriorum</title></ref>. De subiecto supponitur quid est: ita quod quid est subiecti debet esse 
+  					<lb ed="#V"/>notum in quaelibet scientia: sed quid est deus: est omnino ignotum: iuxta illud 
+  					<lb ed="#V"/><ref><name ref="#JohnDamascenus">Damascenus</name> primo libro capitulo 4o</ref> Quoniam igitur est deus quidem manifestum est: quid vero 
+  					<lb ed="#V"/>est secundum substantiam et naturam incomprehensibile est et omnino ignotum.</p>
+  			</div>
+  			<div type="responsio">
+  				<p xml:id="grl1prolp1p1q3-d1e3625"><lb ed="#V"/>Respondeo dicendum quod ut pateat veritas huius quaestio duo declaran<lb ed="#V"/>da 
+  					sunt. Primo quid interest inter subietum et materiam. 
+  					<lb ed="#V"/>2o in quo differt scientia ista a metaphysica. et his visis apparebit veritas quaestio</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3633"><lb ed="#V"/>Propter primum nomen quod ars est imago naturae: et quia quilibet 
+  					<lb ed="#V"/>forma habet rationem actus et perfectionis: <unclear>consideratio</unclear> est in entibus duplicem 
+  					<lb ed="#V"/>actum: substantialem et accidentalem: et quia quilibet actus praesupponit propriam potentiam: 
+  					<lb ed="#V"/>ut dicitur in <ref>2o <title ref="#deAnima">de anima</title></ref>. secundum istum duplicem actum: est assignare duplicem 
+  					<lb ed="#V"/>potentiam: ad actum substantialem et accidentalem. Potentia ad actum substantialem: est potentia 
+  					<lb ed="#V"/>simpliciter et pura: quia esset substantiale <!-- compare substantiale to "subiectum" and "subiectalem" instances --> per se non praecedit aliquod esset. Potentia 
+  					<lb ed="#V"/>autem ad actum accidentalem non est potentia pura: quia esse accidentale per se 
+  					<lb ed="#V"/>loquendo praecedit esse substantiale: et quia secundum <ref><name ref="#Averroes">Commentatorem</name> in 8o <title ref="#Metaphysics">metaphysica</title></ref> haec est <!-- quote from Averroes here --> 
+  					<lb ed="#V"/>differentia inter materiam et subiectum; <!-- compare to above uses of substantiale --> quia materia dicit quid in potentia: subiectum dicit quid 
+  					<lb ed="#V"/>in actu: cum potentia ad formam substantialem sit potentia simpliciter: potentia ad formam 
+  					<lb ed="#V"/>accidentalem non sit potentia simpliciter: sed potentia cum actu. potentia illa sive su<lb ed="#V"/>sceptibile 
+  					in quo habet esset forma substantialis debet dici materia. illud autem in quo 
+  					<lb ed="#V"/>habet esse forma accidentalis per se loquendo debet dici subiectum. Ex his autem 
+  					<lb ed="#V"/>habere possumus triplicem differentiam inter materiam et subiectum. Una differentia est: 
+  					<lb ed="#V"/>quia materia respicit formalem substantialem: subiectum vero accidentalem. Alia differentia 
+  					<lb ed="#V"/>est: quia materia dicit potentiam per omnem modum: subiectum vero aliquo modo. Tertia 
+  					<lb ed="#V"/>differentia est: quae in ista quodammodo includitur scilicet quod potentialitas quo est in 
+  					<lb ed="#V"/>subiecto reservatur quodammodo in materia: quia materia est in potentia ad omnes formae: 
+  					<lb ed="#V"/>sed potentialitas quae est in materia non reservatur in subiecto: quia subiectum non est 
+  					<lb ed="#V"/>in potentia ad omnes formas. Hoc viso sciendum quod isti duplici susce<lb ed="#V"/>ptibili 
+  					in natura respondet dupliciter obiectum in scientia: principale et secondarium: obiectum 
+  					<lb ed="#V"/>principale non est potentia pura: sed est aliquo modo in actu: cum ab ipso 
+  					<lb ed="#V"/>scientia recipiat speciem et actualitatem et est aliquo modo in potentia. Nam cum 
+  					<lb ed="#V"/>quicquid cognoscimus: cognoscamus in lumine intellectus agens: vel in aliquo 
+  					<lb ed="#V"/>lumine: oportet talem obiectum a lumine actualitatem recipere: et ita actualitatem habet 
+  					<lb ed="#V"/>et potentialitatem.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3713"><pc ana="#pilcrow"/>Ex quo apparet quod scientiae dupliciter actualitas attribuitur. 
+  					<lb ed="#V"/>una ab obiecto a quo recipit speciem. et alia a lumine. nam si lumen dat 
+  					<lb ed="#V"/>actualitatem obiecto et obiectum dat actualitatem scientiae: oportet lumen scientiae 
+  					<lb ed="#V"/>actualitatem attribuere: actualitas tamen quae datur scientiae ab obiecto: est ma<lb ed="#V"/>gis 
+  					per se ipsis scientiae: cum ab ea habeat unitatem et divisionem quam actua<lb ed="#V"/>litas 
+  					luminis. Obiectum <unclear>enim</unclear> secundarium non est in actu de se: secundum quod nunc 
+  					<lb ed="#V"/>loquimur de actu. natura non dat actualitatem scientiae: nec sub ratione sui 
+  					<lb ed="#V"/>introducitur in scientia: se <unclear>quasi</unclear> ratione principali obiecti: et ideo oportet obiectum seconda<lb ed="#V"/>rium 
+  					duplicem actualitatem recipere. unam ab obiecto principali quo est propria 
+  					<lb ed="#V"/>et essentia scientiae: sub cuius ratione in scientia introducitur. et aliam a lumine: et ita 
+  					<lb ed="#V"/>patet quod obiectum secondarium est dupliciter in potentia: quia recipit actualitatem ab 
+  					<lb ed="#V"/>obiecto principali et a lumine. Sed obiectum principale est in potentia uno modo: quia reci<lb ed="#V"/>pit 
+  					<lb ed="#V"/>actualitatem a lumine. Sed non ab aliquo alio obiecto cum non sub 
+  					<lb ed="#V"/>ratione alicuius alterius obiecti introducatur in scientia: sed sub ratione sui.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3753"><lb ed="#V"/><pc ana="#pilcrow"/>Ex quo apparet tripliciter differentia inter obiectum principali et secundarium. Prima 
+  					<lb ed="#V"/>quia obiectum principale est in actu et non simpliciter in ponitur: obiectum secundarium 
+  					<lb ed="#V"/>potest dici simpliciter in potentia. Secunda: quia potentialitas respectu luminis quae com<lb ed="#V"/>petit 
+  					obiecto principali: competiti et obiecto secundario. Sed aliqua potentialitas 
+  					<lb ed="#V"/>competit obiecto secundario: quia non sub ratione sui inducitur in scientia: quae 
+  					<lb ed="#V"/>potentialitas non competit obiecto principali. Tertia differentia est: quia actuali<lb ed="#V"/>tas 
+  					quam recipit obiectum principale non est ita essentialis scientiae: sicut illa 
+  					<lb ed="#V"/>quam habet et quam scientiae dat. Sed obiecto secundario etiam deficit actuali<lb ed="#V"/>tas 
+  					essentialis scientiae. Et ideo obiectum secundarium est magis in potentia 
+  					<lb ed="#V"/>essentiali: principale est magis in potentia accidentali: et quia istas tres differentias 
+  					<pb ed="#V" n="3-v"/>
+  					<cb ed="#V" n="a"/>
+  					<lb ed="#V"/>habebat subiectum in natura respectu materiae: quas habet obiectum principale respectu secundarii: di<lb ed="#V"/>cetur 
+  					in scientia obiectum principale subiectum et secundarium materia. Ex quo etiam patet: quod 
+  					<lb ed="#V"/>subiectum et materia in arte sumuntur ad similitudinem subiecti et materiae 
+  					<lb ed="#V"/>in natura non in sensu: licet obiectum principale et secundarium possint sumi in 
+  					<lb ed="#V"/>scientia per similitudinem eorum quae sunt in sensu.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3792">Viso quomodo differet materia in scientia a subiecto, videndum est quomodo 
+  					<lb ed="#V"/>differt theologia a metaphysica. Sciendum est igitur quod theologia ad 
+  					<lb ed="#V"/>metaphysica. habet triplicem differentiam. Prima est: quia metaphysica. est scientia communits. est enim 
+  					<lb ed="#V"/>entis secundum quod ens: ut scribitur 4o metaphysica. theologia autem ut patet ex praece<lb ed="#V"/>denti 
+  					quaestio non est communis per se: nisi forte ex consequenti inquantum de pluribus 
+  					<lb ed="#V"/>potest considerare quam aliqua alia scientia inventa ab homine. vel similitu<lb ed="#V"/>dinarie 
+  					inquantum est de deo qui est causa omnium: et essendo cau<lb ed="#V"/>sa 
+  					omnium: et continendo omnia: habet similitudinem cum communi et cum 
+  					<lb ed="#V"/>universali proprie tamen et principaliter non est communis.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3813"><lb ed="#V"/>Ex ista autem differentia apparent tres positiones: quae assignant 
+  					<lb ed="#V"/>subiectum in theologia non accipere subiectum proprie: nec assi<lb ed="#V"/>gnare 
+  					subiectum in theologia: sed solum materiam. Nam si theologia non est scientia 
+  					<lb ed="#V"/>communis: non habet pro subiecto aliquid commune: et ideo res et signa non sunt 
+  					<lb ed="#V"/><unclear>sub</unclear> <unclear>n</unclear> in sacra pagina: cum omnia contineantur sub signis vel sub rebus.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3831"><lb ed="#V"/>Item ens divinum non est subiectum in sacra pagina: cum omnia 
+  					<lb ed="#V"/>contineantur sub ente divino: accipiendo ens divi<lb ed="#V"/>num 
+  					ut isti accipiunt scilicet per essentiam: per participationem: 
+  					<lb ed="#V"/>per unionem: et per significationem.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3841">Tertia positio est quod subiectum in sacra pagina est scibi<lb ed="#V"/>le 
+  					per inspirationem: nec ista ut apparet subiectum acci<lb ed="#V"/>pit 
+  					proprie: quia quodlibet per inspirationem sciri posset.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3848"><pc ana="#pilcrow"/>Praeterea. Multa 
+  					<lb ed="#V"/>per inspirationem habemus in sacra pagina: quae non sunt subiectum in 
+  					<lb ed="#V"/>ea: nec etiam pars subiecti. et ita apparet quod per primam differentiam quam habet theologia 
+  					<lb ed="#V"/>ad metaphysica quod in istis tribus positionibus non directe accipitur subiectum 
+  					<lb ed="#V"/>in ea: non tamen istae positiones falsae sunt: sed largo modo loquuntur 
+  					<lb ed="#V"/>accipiendo subiectum pro materia. Secunda differentia est quae aliquo modo ex 
+  					<lb ed="#V"/>prima sequitur scilicet quod de eodem considerabit metaphysica et theologia. nam si metaphysica 
+  					<lb ed="#V"/>est scientia communis: oportet quod determinet de omni ente aliquo modo: et ideo 
+  					<lb ed="#V"/>nulla scientia est quae non <unclear>determinat</unclear> de illis de quibus metaphysica <unclear>determinat</unclear>. 
+  					<lb ed="#V"/>Si igitur theologia est de deo: oportet quod etiam metaphysica si de doe. Sed 
+  					<lb ed="#V"/>non potest esse quod sub eadem rationem determinent de deo metaphysica et 
+  					<lb ed="#V"/>theologia: quia si eodem modo determinarent: essent una scientia: immo quaelibet 
+  					<lb ed="#V"/>determinabit de deo secundum modum suum. Cum igitur metaphysica sic scientia 
+  					<lb ed="#V"/>communis determinabit de deo sub modo communi: inquantum scilicet est ens: et 
+  					<lb ed="#V"/>causa universalis entium. theologia autem cum sit scientia speciali: de his de quibus de<lb ed="#V"/>terminat: 
+  					determinabit sub speciali modo: et ideo sicut subiectum in scientia 
+  					<lb ed="#V"/>communi est commune in eo quod commune: ita subiectum in scientia speciali debet esse speciale 
+  					<lb ed="#V"/>in eo quod speciale: et ideo deus de quo principaliter intendit ista scientia sub 
+  					<lb ed="#V"/>aliqua speciali ratione debet esse subiectum in ea. Ista autem specialis ratio potest 
+  					<lb ed="#V"/>esse inquantum est principia nostrae restaurationis: et consummatio nostrae glorifi<lb ed="#V"/>cationis. 
+  					Quomodo autem haec sit per 3am differentiam apparebit. Ex ista autem 2a 
+  					<lb ed="#V"/>differentia apparet quod omnes illae positiones quae non <unclear>afliguerunt</unclear> subiectum deum 
+  					<lb ed="#V"/>sub aliqua ratione specialissimo proprie acceperunt subiectum. Et ideo 4or 
+  					<lb ed="#V"/>positiones ex ista via apparet non proprie incessisse.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3911"><lb ed="#V"/>Prima est quod bonum salutare est subiectum in ista <unclear>scilicet</unclear> <unclear>iam</unclear> con<lb ed="#V"/>stat 
+  					enim quod bonum est quid commune: quia dicitur aequaliter 
+  					<lb ed="#V"/><unclear>enti</unclear>: ut scribitur in <ref>primo <title ref="#Ethics">ethicorum</title></ref>. unde licet salutare posset esse condi<lb ed="#V"/>tio 
+  					specialis: tamen quia bonum est quid commune et in scientia speciali: oporet esse 
+  					<lb ed="#V"/>subiectum non commune sub ratione speciali: sed speciale sub ratione spe<lb ed="#V"/>ciali. 
+  					patet quod ista assignatio non est propria.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3939">Alia positio est quae dicitur <name ref="#Cassiodorus">Cassiodori</name>: quod <unclear>Chis</unclear> integer ca<lb ed="#V"/>put 
+  					et membra est subiectum in ista scientia: cum <unclear>Chro</unclear> inte<lb ed="#V"/>gro 
+  					includamur et nos. Sci accipiendo subiectum non accipitur 
+  					<lb ed="#V"/>proprie: quia aliquod ens distinctum ab aliis omnibus ut deus sub 
+  					<lb ed="#V"/>speciali ratione est subiectum in ista scientia: ut patuit.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3961">Tertia positio est <ref><name ref="#HughOfStVictor">Hugo</name> super angelica hierarchica</ref> quod opera re<lb ed="#V"/>staurationis 
+  					sunt subiectum in theologia. Appa<lb ed="#V"/>ret 
+  					autem quod nec hic proprie accipit subiectum. nam restau<lb ed="#V"/>ratio 
+  					est conditio super addita: non subiectum.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e3975"><lb ed="#V"/>Quarta positio est: quod deus est subiectum in theologia. ista autem 
+  					<lb ed="#V"/>magis accedit ad propriam rationem subiecti: non tamen 
+  					<cb ed="#V" n="b"/><lb ed="#V"/>sufficienter assignat subiectum: quia ut patuit numquam assignatur aliquid 
+  					<lb ed="#V"/>subiectum in scientia: nisi sub aliqua ratione. aliter enim esset confusio in scientiis: 
+  					<lb ed="#V"/>cum plures scientiae determinent de eodem: et ideo licet deus sit principaliter intentus in 
+  					<lb ed="#V"/>sacra pagina: et sub ratione ipsius alia introducantur in ea: non tamen 
+  					<lb ed="#V"/>sufficit dicere deus est subiectum in sacra pagina: nisi addatur ei 
+  					<lb ed="#V"/>aliqua specialis conditio: ut <unclear>principium</unclear> nostrae restaurationis: et consummatio nostrae 
+  					<lb ed="#V"/>glorificationis. patet igitur per istas duas differentias datas: quod omnes dictae 
+  					<lb ed="#V"/>positiones large de subiecto loquuntur. Tertia differentia est: quia metaphysica 
+  					<lb ed="#V"/>non considerat de deo principaliter per omnem modum: sed solum secundum aliquem mo<lb ed="#V"/>dum: 
+  					ut patuit in <ref>quaestione 1</ref> Sed theologia considerat de deo principaliter secundum omnem 
+  					<lb ed="#V"/>modum.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e4012"><pc ana="#pilcrow"/>Ex ista 3a differentia apparet quare deus in metaphysica non est subiectum 
+  					<lb ed="#V"/>simpliciter: est tamen subiectum in theologia sub aliquam tamen speciali ratione: ut pa<lb ed="#V"/>tuit. 
+  					Ista autem specialis ratio sic habetur: quia sub illa ratione principaliter subiectum cons<lb ed="#V"/>deratur 
+  					in scientia: sub qua eius cognitio principaliter intenditur: sed in theologo principaliter 
+  					<lb ed="#V"/>cognoscere deum intendimus: ut nostrum restauratorem et glorificatorem. 
+  					<lb ed="#V"/>ergo etc.</p>
+  			</div>
+  			<div type="ad-rationes">
+  				<!-- this paragraph might refer to three ad contra; so we need to be able reference three above paragraphs from this one paragraph-->
+  				<p xml:id="grl1prolp1p1q3-d1e4026"><pc ana="#pilcrow"/><ref> <!-- target=grl1prolp1p1q3-d1e3507 grl1prolp1p1q3-d1e3517 grl1prolp1p1q3-d1e3527 --> Ad argumenta</ref> quae probant deum esse subiectum in illa scientia 
+  					<lb ed="#V"/>dicendum quod verum dicunt: sed totam veritatem non exprimunt. nam deus 
+  					<lb ed="#V"/>est subiectum in ista scientia: sed sub speciali ratione: ut patuit.</p>
+  			
+  			
+  				<p xml:id="grl1prolp1p1q3-d1e4038"><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp1p1q3-d1e3573">Ad primum</ref> in contrarium dicendum quod deus non habet partes et passio<lb ed="#V"/>nes: 
+  					tamen ut patebit aliqua se habent ibi ut 
+  					<lb ed="#V"/>partes: et aliqua ut passiones. Vel possumus dicere quod non oportet loquimur 
+  					<lb ed="#V"/>de ista scientia quae habetur per inspirationem: sicut de aliis quae habentur per 
+  					<lb ed="#V"/>acquisitionem.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e4050"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p1q3-d1e3581">Ad 2m</ref> dicendum quod similis ratio est de subiecto in ista 
+  					<lb ed="#V"/>scientia et principiis in ea: quia nulla scientia potest probare directe nec 
+  					<lb ed="#V"/>principia sua nec subiectum suum: tamen per quaedam signa et per effectus potest: ut patet 
+  					<lb ed="#V"/>per <ref><name>Commentatorem</name> 12 <title>metaphysica</title></ref> et sic probamus deus esse per effectus: non per causam.</p>
+  				
+  				<p xml:id="grl1prolp1p1q3-d1e4067"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p1q3-d1e3600">Ad 3m</ref> dicendum quod quid est deus secundum naturam ut idem <name ref="#JohnDamascenus">Damascenus</name> dicit quamdiu 
+  					<lb ed="#V"/>sumus in via omnino est nobis ignotum: tamen quid est quod dicitur per nomen: cum 
+  					<lb ed="#V"/>dicitur deus: scire possumus: et cum dicitur: quod de subiecto praesupponimus quid 
+  					<lb ed="#V"/>est: exponitur quid est quod dicitur per nomen. Vel possumus dicere ut quid<lb ed="#V"/>dam 
+  					dicunt: quod ipsi effectus divini possunt dici quod quid est in tali cognitione. 
+  					<lb ed="#V"/>nam cum omne <unclear>medium</unclear> ad demonstrandum habeat aliquo modo rationem quod quid 
+  					<lb ed="#V"/>est: ipsi effectus per quos deum cognoscimus possunt dici quod quid est. 
+  					<lb ed="#V"/>Est tamen ista solutio aliquo modo impropria: quia non distinguit inter 
+  					<lb ed="#V"/>demonstrationem propter quid et quia.</p>
+  			</div>
+  			
+  		</div>  
+  	</body>
+  </text>
+</TEI>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Prologus, Pars 1, Principalis 2, Quaestio 2</title>
+        <author>Aegidius Romanus</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-09-27">September 27, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Sentences Commentary Text Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="V" n="venice1521">Venice 1521</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-09-27" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<pb ed="#V" n="5-r"/><cb ed="#V" n="a"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="gr-l1prolp1p2q2">
+  			<head xml:id="grl1prolp1p2q2-Hd1e3495">Librum I, Prologus, Pars 1, Principalis 2, Quaestio 2</head>
+  			<head xml:id="grl1prolp1p2q2-Hd1e3498" type="questionTitle">De dignitate quam etiam ex suo subiecto consequitur</head>
+  			<p xml:id="grl1prolp1p2q2-d1e3501"><lb ed="#V"/>Postquam quaesivimus de ordine istius scientiae 
+  				<lb ed="#V"/>ad alias quem consequitur ista scientia ex 
+  				<lb ed="#V"/>suo subiecto: Restat quaerere de dignitate quam 
+  				<lb ed="#V"/>etiam ex suo subiecto consequitur.</p>
+  			
+  			<div type="rationes-principales">
+  				<p xml:id="grl1prolp1p2q2-d1e3513">Et videtur quod ista 
+  					<lb ed="#V"/>scientia non sit dignior aliis scientiis humanis: quia 
+  					<lb ed="#V"/>quanto aliqua scientia magis facit scire tanto est nobilior: sed 
+  					<lb ed="#V"/>scientiae humanae magis faciunt scire quam theologia: cum scire 
+  					<lb ed="#V"/>sit per causam: ut dicitur <ref>primo <title ref="#PosteriorAnalytics">posteriorum</title></ref> et <ref>primo <title ref="#Physics">physicorum</title></ref> et ille tra<lb ed="#V"/>dant 
+  					causam dicti sui: theologia autem narrare videatur. ergo etc.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3537"><lb ed="#V"/><pc ana="#pilcrow"/>Praeterea. Metaphysica saltem videtur nobilior theologia: quia nobilitas scientiae 
+  					<lb ed="#V"/>provenit ex nobilitate subiecti: ut scribitur <ref>primo <title ref="#deAnima">de anima</title> <unclear>in</unclear> capitulo 1</ref> sed 
+  					<lb ed="#V"/>metaphysica habet pro subiecto totum ens: sed totum ens maiorem digni<lb ed="#V"/>tatem 
+  					importare videtur quam quodlibet ens distinctum: cum boni<lb ed="#V"/>tas 
+  					entis distincti includatur in bonitate entis totius: igitur 
+  					<lb ed="#V"/>metaphysica erit nobilior quam sit theologia.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3562"><pc ana="#pilcrow"/>Praeterea. Quanto aliquid est ma<lb ed="#V"/>gis 
+  					proportionatum materiae: tanto eam magis perficit: quia actus activorum 
+  					<lb ed="#V"/>sunt in patiente et disposito: ut scribitur <ref>2o <title ref="#deAnima">de anima</title></ref>: sed scientiae alia ab 
+  					<lb ed="#V"/>ista sunt nobis magis proportionatae: cum eas ex naturali ratione investigare 
+  					<lb ed="#V"/>possimus: igitur ille nos magis perficient: sed cum ex hoc sint scientiae di<lb ed="#V"/>gnae 
+  					et nobiles: quia intellectum nobilem partem animae perficiunt: scientiae 
+  					<lb ed="#V"/>aliae digniores eriunt illa: quia magis perficiunt.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3584"><pc ana="#pilcrow"/>In contrarium est: quia ut habitum est aliae huic omnes ancil<lb ed="#V"/>lantur. 
+  					ergo ista illis dignior erit.</p>
+  			</div>
+  			<div type="responsio">
+  				<p xml:id="grl1prolp1p2q2-d1e3593"><lb ed="#V"/>Respondeo dicendum quod dignitas in scientia dupliciter sumitur. aut ex dicitur in 
+  					<lb ed="#V"/><ref>primo <title ref="#deAnima">de anima</title></ref>: sicut apparet quod geometria excellit astrono<lb ed="#V"/>miam 
+  					certitudine demonstrationis: astronomia excellit eam nobi<lb ed="#V"/>litate 
+  					subiecti: ut <ref><name ref="#Averroes">Commentator</name> ibidem</ref> subdit. unus autem istorum 
+  					<lb ed="#V"/>modorum scilicet nobilitas ex dignitate subiecti spectat directe ad praesens 
+  					<lb ed="#V"/>negotium cum quaestione ista propter subiectum introducatur. dignitas autem ex 
+  					<lb ed="#V"/>certitudine demonstrationis inferius locum proprium habere poterit.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3619">Notandum ergo quod scientia humana duplex ex: communis 
+  					<lb ed="#V"/>et specialis. Si autem quaeratur utrum theologia 
+  					<lb ed="#V"/>sit dignior aliqua scientia speciali nobilitate subiecti quaestio non habet du<lb ed="#V"/>bium. 
+  					nam ut habitum est nulla scientia specialis habet pro subiecto 
+  					<lb ed="#V"/>deum: nec de deo directe considerat. theologia autem pro subiecto habet 
+  					<lb ed="#V"/>deum ipsum modo quo patuit: igitur cum deus ipse nobilitate ex<lb ed="#V"/>cellat 
+  					cetera: theologia dignitate excedit ceteras scientias speciales.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3635"><pc ana="#pilcrow"/>Sed utrum sit nobilior metaphysica secundum istum modum vel econ<lb ed="#V"/>verso 
+  					se habeat: dubium est. Nam cum subiectum in metaphyscia sit ens in eo 
+  					<lb ed="#V"/>quod ens: et ens in eo quod ens non solum includit deum sed etiam bonum 
+  					<lb ed="#V"/>creatum. cum bonum creatum sit aliquod bonum: videtur quod dignior sit metaphysica 
+  					<lb ed="#V"/>quae est de omni ente quam theologia quae solum est de ente primo principaliter.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3647"><lb ed="#V"/><pc ana="#pilcrow"/>Et ideo ut veritas pateat duo declaranda existunt. 
+  					<lb ed="#V"/>Primum est quod non est maius bonum deus et totum universum 
+  					<lb ed="#V"/>quam deus solus. Secundum est quod cognitio quam habet theologus de deo 
+  					<lb ed="#V"/>est maius bonum quam sit cognitio quam habent omnes scientiae humanae de 
+  					<lb ed="#V"/>creaturis cum cognitione quam habent de deo per creaturas reperta.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3660"><lb ed="#V"/><pc ana="#pilcrow"/>Primum triplici via ostenditur. Prima est: quia perfectiones 
+  					<lb ed="#V"/>omnium generum congregantur in primo principio. Et ratio est: quia ex causa su<lb ed="#V"/>mitur 
+  					omnis perfectionis ratio: cum igitur deus sit ipsum esse separatum 
+  					<lb ed="#V"/>non principatum cum sit ens primum: oportet quod ei conveniat omnis ratio 
+  					<lb ed="#V"/>essendi: et per consequens omnis ratio perfectionis: et propter hoc <ref>5 <title ref="#Metaphysics">metaphysica</title></ref> 
+  					<lb ed="#V"/>traditur: quod est quoddam perfectum universali perfectione in quo reservantur 
+  					<lb ed="#V"/>perfectiones quae sunt in unoquoque genere: et illa est dispositio 
+  					<lb ed="#V"/>primi principii dei scilicet secundum <name ref="#Averroes">Commentatorem</name> si igitur omnes perfectiones omnium 
+  					<lb ed="#V"/>generum reservantur in primo principio: non est plus de perfectione in 
+  					<lb ed="#V"/>deo et in omnibus creaturis quam in deo solum: et quia bonitas ex 
+  					<lb ed="#V"/>perfectione sumitur: non est maius bonum deus et universum quam 
+  					<lb ed="#V"/>deum solum: propter hoc concludit <ref><name ref="#Augustine">Augustinum</name> 8o <title ref="#deTrinitate">de trinitate</title> capitulo 3o</ref> quod deus 
+  					<lb ed="#V"/>est bonus non alio bono: sed est bonum omnis boni. Secunda via 
+  					<lb ed="#V"/>ad idem probandum haberi potest ex causarum ordine. Nam sicut 
+  					<cb ed="#V" n="b"/><lb ed="#V"/>potentia appropriatur efficenti: ita bonitas appropriatur fini: 
+  					<lb ed="#V"/>quia sicut quicquid agit efficiens: agit per suam potentiam et virtu<lb ed="#V"/>te: 
+  					ita ad <sic>quodcunque</sic> inclinat finis inclinat ex perfectione et 
+  					<lb ed="#V"/>bonitate: propter hoc scribitur <ref>2o <title ref="#Metaphysics">metaphysica</title></ref> quod qui tollit finem tol<lb ed="#V"/>lit 
+  					omne bonum. et <ref><title ref="#Averroes">Commentator</title> ibidem</ref> ait: quod finis et bonum 
+  					<lb ed="#V"/>idem: sed sic videmus in causis agentibus quod quando quicquid 
+  					<lb ed="#V"/>virtutis habet agens inferius habet ab agente superiori: non est ma<lb ed="#V"/>ior 
+  					potentia in agente superiori inferiori quam in superiori solum: 
+  					<lb ed="#V"/>unde si quicquid habet martellus haberet a fabro: non esset ma<lb ed="#V"/>ior 
+  					potentia in fabro et martello quam in fabro solum: et quicquid 
+  					<lb ed="#V"/>posset faber cum martello posset sine martello. Et secundum istum 
+  					<lb ed="#V"/>modum quia deus est efficiens primum et omnia quae virtutem ha<lb ed="#V"/>bent 
+  					ab ipso habent: non est plus de potentia in deo et in aliis 
+  					<lb ed="#V"/>agentibus quam in deo solum: verum quia sicut deus est agens primum: 
+  					<lb ed="#V"/>ita est finis ultimus: et sicut omnia agentia habent virtutem ab 
+  					<lb ed="#V"/>ipso: ita omnia entia habent bonitatem ab eo: et ideo sicut con<lb ed="#V"/>cludebatur 
+  					quod non erat maior virtus in deo et in omnibus aliis 
+  					<lb ed="#V"/>entibus quam in deo solum: ita inferre debemus quod non est ma<lb ed="#V"/>ior 
+  					bonitas dei et totius universi quam dei solum: quod decla<lb ed="#V"/>rare 
+  					volebamus. Tertia via colligitur ex infinitate boni<lb ed="#V"/>tatis 
+  					ipsius: quia deus excedit bonitatem creaturarum in infi<lb ed="#V"/>nitum: 
+  					ideo bonitas divina non comparatur ad bonitatem crea<lb ed="#V"/>tam: 
+  					sicut linea ad lineam: quia quaelibet linea aliam lineam 
+  					<lb ed="#V"/>finitam (quia infinitam non est dare) per sui multiplicatio. 
+  					<lb ed="#V"/><unclear>ner?</unclear> excedit: sed comparatur ad causam sicut linea ad punctum: 
+  					<lb ed="#V"/>et sicut non est maior linea et punctus quam linea solum: aliter 
+  					<lb ed="#V"/>enim linea <sic>diussa</sic> in partes esset maior seipsa continua: tamen 
+  					<lb ed="#V"/>subiecti plura puncta actualiter coexistunt: ita bonitas primi cum 
+  					<lb ed="#V"/>bonitate creata non est maior quam bonitas primi solum: et 
+  					<lb ed="#V"/>ideo non male dicebat <name ref="#Plato">Plato</name>: ut habetur ex <ref>10 <title ref="#Ethics">ethicorum</title></ref> quod dele<lb ed="#V"/>ctatio 
+  					non erat per se bonum: quia delectatio cum prudentia est 
+  					<lb ed="#V"/>maius bonum quam delectatio solum: quod concedit <name ref="#Aristotle">Philosophus</name> de se<lb ed="#V"/>parato 
+  					bono.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3813"><pc ana="#pilcrow"/>Si igitur bonitas creaturarum nihil addit 
+  					<lb ed="#V"/>ad bonitatem primi: non possumus concludere metaphysicam 
+  					<lb ed="#V"/>esse digniorem quae est de bono increato et creato simul quam 
+  					<lb ed="#V"/>theologia quae est de bono increato principaliter solum: 
+  					<lb ed="#V"/>quia non est de maiori bono.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3825"><lb ed="#V"/><pc ana="#pilcrow"/>Quia autem metaphysica sit inde vilior: quia considerat 
+  					<lb ed="#V"/>utrumque bonum: quam si consideraret principaliter increatum bonum 
+  					<lb ed="#V"/>solum: ut theologia: dupliciter declarari potest. Prima via est 
+  					<lb ed="#V"/>ex eo quod deus in theologia principaliter intenditur. Secunda est ex 
+  					<lb ed="#V"/>modo considerationis quam theologia de deo habet.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3838"><pc ana="#pilcrow"/><lb ed="#V"/>Primum sic declaratur: quia secundum <name ref="#Aristotle">Philosophum</name> Illud quod est per se et 
+  					<lb ed="#V"/>primo est magis quam id quod est per aliud: et ideo in <ref>2o <title ref="#Metaphysics">metaphysica</title></ref> 
+  					<lb ed="#V"/>dicitur quod ignis est maxime calidus: quia est primo calidus in genere 
+  					<lb ed="#V"/>calidorum. cum ergo theologia magis primo et principaliter consideret de 
+  					<lb ed="#V"/>deo quam metaphysica ut patet per iam dicta: theologus plus de deo 
+  					<lb ed="#V"/>cognoscet quam metaphysicus: unde talis et si plus cognoscet: 
+  					<lb ed="#V"/>cognoscet tantum et amplius: ratione autem qua tantum cognoscet cum 
+  					<lb ed="#V"/>bonitas creaturarum nihil addat supra bonitate in primi 
+  					<lb ed="#V"/>cognitio de creaturis secundum bonitatem nihil addet supra co<lb ed="#V"/>gnitionem 
+  					primi: cum bonitas cognitionis ex bonitate et di<lb ed="#V"/>gnitate 
+  					obiecti sumat originem secundum quod hoc de bonitate et di<lb ed="#V"/>gnitate 
+  					locuti sumus: igitur ratione qua theologus cognoscit 
+  					<lb ed="#V"/>tantum de deo quantum metaphysicus est aeque dignus: non obstan<lb ed="#V"/>te 
+  					additione cognitionis creaturarum. Ratione autem qua co<lb ed="#V"/>gnosict 
+  					amplius est magis dignus: immo quantumcumque illud 
+  					<lb ed="#V"/>amplius fuerit omnem cognitionem habitam creaturarum tran<lb ed="#V"/>scendit: 
+  					igitur de theologia quae ab ipsa divina scientia sumit 
+  					<lb ed="#V"/>formam et modum dicere possumus: quod <ref><name ref="#Aristotle">Philosophus</name> dicit in 12</ref> de 
+  					<lb ed="#V"/>ipsa scientia divina quod si ipse deus sciret aliquid extra se primo scilicet 
+  					<lb ed="#V"/>et principaliter vilesceret: ita et theologia: quia primo et prin<lb ed="#V"/>cipaliter 
+  					solum deum pro obiecto habet: dignior inde existit: et si alia 
+  					<lb ed="#V"/>pro obiecto principali haberet: vel in obiecto principali includerentur: de necessitate 
+  					<lb ed="#V"/>vilesceret: nihil est ergo metaphysica ad theologiam comparata.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3904"><pc ana="#pilcrow"/>Secunda 
+  					<lb ed="#V"/>via hoc idem declarari potest ex ipso considerationis modo quem habet 
+  					<lb ed="#V"/>theologus nam non considerat de deo sed rationis modum: sed secundum 
+  					<lb ed="#V"/>revelationis formam: et ideo aliquam cognoscit de deo ad quae non attin<lb ed="#V"/>git 
+  					ratio. metaphysicus autem quia viam limitatam habet ex investiga<lb ed="#V"/>tionis 
+  					modo: quod sequitur ordinem rationis ad illa intelligenda se non 
+  					<lb ed="#V"/>valebit extendere: et ideo de deo pauciora cognoscet: nec tamen propter 
+  					<lb ed="#V"/>hoc illa quae in theologia per revelationem habentur minus vera sunt quam 
+  					<lb ed="#V"/>quae per rationis investigationem apprehenduntur immo magis: quia 
+  					<lb ed="#V"/>videntur in maiori lumine: ut in lumine increato: patet igitur 
+  					<lb ed="#V"/>quod theologia non est indignior metaphysica, quia est de deo principaliter: cum 
+  					illa sit de ente: immo est magis digna.</p>
+  			</div>
+  			<div type="ad-rationes">
+  				<p xml:id="grl1prolp1p2q2-d1e3933"><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp1p2q2-d1e3513">Ad primum</ref> dicendum quod scire per causam est magis scire: in<lb ed="#V"/>quantum 
+  					ea quae per causam cognoscuntur veriori 
+  					<lb ed="#V"/>modo sciuntur: non <unclear>nisi</unclear> propter hoc est magis scire per causam quam scire per re<lb ed="#V"/>velationem: 
+  					quia in apprehendendo causam possemus errare: reve<lb ed="#V"/>latio 
+  					autem: si divina sit falli non potest. Vel possumus dicere quod 
+  					<lb ed="#V"/>ille modus non est universaliter verum: quia si sic esset cognitio principiorum non 
+  					<lb ed="#V"/>esset adeo nobilis ut cognitio <unclear>cognitionum</unclear>: cuius contrarium dicit <name ref="#Aristotle">philosophus</name> 
+  					<lb ed="#V"/><ref>primo <title ref="#PosteriorAnalytics">posteriorum</title></ref> unde sicut cognitio principiorum quae sunt solum nota in lumine 
+  					<lb ed="#V"/>in intellectus agens excellit cognitionem <unclear>cognitionum</unclear>: sic cognitio eorum quae di<lb ed="#V"/>cuntur 
+  					in sacra pagina excellit omnem aliam cognitionem a nobis ha<lb ed="#V"/>bitam: 
+  					cum lumen divinum in quo talia nota sunt lumen rationis ex<lb ed="#V"/>cedat.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3977"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p2q2-d1e3537">Ad 2m</ref> dicendum quod totum universum et deus non est maius 
+  					<lb ed="#V"/>bonum quam deus solum: immo considerare de utroque principaliter: non 
+  					<lb ed="#V"/>est tantae dignitatis sicut considerare principaliter de deo solum.</p>
+  				
+  				<p xml:id="grl1prolp1p2q2-d1e3985"><pc ana="#pilcrow"/><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp1p2q2-d1e3562">Ad 3m</ref> dicendum quod si cognitio quam habet metaphysicus est nobis 
+  					<lb ed="#V"/>magis proportionata naturaliter: non est nobis magis proportiona<lb ed="#V"/>ta 
+  					superaddita gratia. Vel possumus dicere quod argumentum non 
+  					<lb ed="#V"/>arguit imperfectionem scientiae: nec indignitatem: sed arguit in<lb ed="#V"/>firmitatem 
+  					nostram.</p>
+  			</div>
+  		</div>  
+  	</body>
+  </text>
+</TEI>

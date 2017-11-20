@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Prologus, Pars 1, Principalis 2, Quaestio 3</title>
+        <author>Aegidius Romanus</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-10-09">October 09, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Sentences Commentary Text Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="V" n="venice1521">Venice 1521</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-08-01" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<pb ed="#V" n="3-v"/><cb ed="#V" n="b"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="gr-l1prolp1p2q3">
+  			<head xml:id="grl1prolp1p2q3-Hd1e3495">Librum I, Prologus, Pars 1, Principalis 2, Quaestio 3</head>
+  			<head xml:id="grl1prolp1p2q3-Hd1e3498" type="questionTitle">De unitate istius scientiae</head>
+  			<p xml:id="grl1prolp1p2q3-d1e3501"><lb ed="#V"/>Tertio quaeritur de unitate istius</p>
+  			<div type="rationes-principales">
+  				<p xml:id="grl1prolp1p2q3-d1e3507">et
+  					<lb ed="#V"/>videtur quod non sit una.
+  					<lb ed="#V"/>nam ista scientia determinat de creatore et creatu<lb ed="#V"/>ra: 
+  					tunc arguo: aut considerat de eis secundum rationem 
+  					<lb ed="#V"/>unam: aut secundum considerationes diversas. si secundum diver<lb ed="#V"/>sa 
+  					<unclear>???????</unclear> intentum: quia non erit una: cum ex diversitate rationis 
+  					<lb ed="#V"/>habeat esse diversitas in scientia. si autem sub una ratione. Contra: quae 
+  					<lb ed="#V"/>sub una ratione consideratur non alia cognitionem efficit unum quam aliud: 
+  					<lb ed="#V"/>vel indistincte accipiuntur. non igitur per theologiam poterimus cogno<lb ed="#V"/>scere 
+  					deum esse distinctum a rebus creatis: quod falsum est.</p>
+  				
+  				<p xml:id="grl1prolp1p2q3-d1e3532"><pc ana="#pilcrow"/>Praeterea. secundum 
+  					<ref><name ref="#Averroes">Commentatorem</name> in 4o <title>metaphysica</title></ref> de aequivocis non potest esse scientia una: sed secundum 
+  					<lb ed="#V"/><unclear>eandem</unclear> in de substantia orbis: quae dicunt esse in supercaelestibus et inferiori<lb ed="#V"/>bus 
+  					sunt modo aequivoco: cum magis distent creator et creatura quam 
+  					<lb ed="#V"/>quodlibet corpus a quolibet corpore: immo quam spiritus a corpore: ut dicit <ref><name ref="#HughOfStVictor">Hugo</name> 
+  						<lb ed="#V"/>in <unclear>commento</unclear> super angelica hierarchia</ref>. quicquid ergo de deo et <unclear>creaturae</unclear> dicitur totum 
+  					<lb ed="#V"/>aequivoce dicetur. ergo non erti una de eis scientia.</p>
+  				
+  				<p xml:id="grl1prolp1p2q3-d1e3567"><pc ana="#pilcrow"/>Praeterea. secundum <ref><name ref="#Aristotle">Philosophum</name> in 
+  					<lb ed="#V"/>primo <title ref="#PosteriorAnalytics">posteriorum</title></ref> scientia una est unius generis subiecti: sed corruptibile et incorruptibile 
+  					<lb ed="#V"/>dicunt plus quam <unclear>genus</unclear>: ut dicitur in <ref>10 <title ref="#Metaphysics">metaphysica</title></ref> omne autem creatum ad deum 
+  					<lb ed="#V"/>comparatum corruptibile dicitur secundum <name ref="#Augustine">Augustinum</name> non igitur de creato et in<lb ed="#V"/>creato 
+  					erit una scientia: cum differant plus quam genus.</p>
+  				
+  				<p xml:id="grl1prolp1p2q3-d1e3598">In contrarium est: quia quod non est scientia una non est scientia: 
+  					<lb ed="#V"/>quia per idem habet aliquid esse et unum esse: ut scri<lb ed="#V"/>bitur 
+  					in <ref>4o <title ref="#Metaphysics">metaphysica</title></ref> sed theologia est scientia ut patebit. ergo est una.</p>
+  			</div>
+  			<div type="responsio">
+  				<p xml:id="grl1prolp1p2q3-d1e3613"><lb ed="#V"/>Respondeo dicendum quod oportet nos concedere theologiam esse unam scientiam: quia 
+  					<lb ed="#V"/>aliter non esset scientia: quia secundum <name ref="#Aristotle">Philosophum</name> in libro <title ref="#SophisticalRefutations">elenchorum</title> 
+  					<lb ed="#V"/>eadem est ratio hominis et unius hominis: pari ratione eadem est ratio scientiae et 
+  					<lb ed="#V"/>unius scientiae: quod ergo non est una scientia non est scientia: modus tamen 
+  					<lb ed="#V"/>unitatis assignare non est facilie. Et sunt diversae opiniones 
+  					<lb ed="#V"/>de assignatione unitatis huius.</p>
+  				
+  				<p xml:id="grl1prolp1p2q3-d1e3634"><lb ed="#V"/>Nun quidam distinguunt triplicem unitatem unitatem 
+  					<lb ed="#V"/>vocis tantum: et non rei nec rationis. unita<lb ed="#V"/>tem 
+  					vocis et rei et non rationis. unitatem vocis et rei et rationis: 
+  					<lb ed="#V"/>ostendunt autem quod unitas vocis tantum habet esse in aequivoco: unitas 
+  					<lb ed="#V"/>vocis et rei est unitas analogiae. nam sicut aequivocum habet unitatem 
+  					<lb ed="#V"/>vocis solum: ita analogum habet unitatem vocis et rei sicut apparet 
+  					<lb ed="#V"/>in ente. Nam ens praeducatur de omnibus contentis sub illo secundum unam vo<cb ed="#V" n="b"/><lb ed="#V"/>cum.  
+  					Item dicit unam rem existentem in omnibus entibus. nam entitas re<lb ed="#V"/>servatur 
+  					in singulis entibus: istam tamen rem non dicit secundum rationem unam. 
+  					<lb ed="#V"/>Nam licet entitas reperiatur in substantia et accidente: non tamen secundum unam rationem 
+  					<lb ed="#V"/>reperitur in eis. Unitas autem univoci unitas est vocis rei et ratio<lb ed="#V"/>nis. 
+  					Nam homo quod praedicatur univoce de suis inferioribus: praedicatur 
+  					<lb ed="#V"/>de eis secundum unum nomen et secundum unam rem: quia una natura humana 
+  					<lb ed="#V"/>reperitur in omnibus hominibus et secundum unam rationem: quia nam humana secundum ratio<lb ed="#V"/>nem 
+  					unam ab omnibus individuis est participata. Ista triplici divi<lb ed="#V"/>sione 
+  					<unclear>unitati</unclear> praemissa: respondetur ad quaestionem quod unitas aequivoci impedit 
+  					<lb ed="#V"/>genus subiicibile et genus praedicabile. Unitas analogi 
+  					<lb ed="#V"/>licet <unclear>im?diant</unclear> genus praedicabile: quia ens non est genus: ut 
+  					<lb ed="#V"/>probatur in <ref>3o <title ref="#Metaphysics">metaphysica</title></ref> non tamen impedit unitatem generis subiicibilis: 
+  					<lb ed="#V"/>quia ens potest esse subiectum in aliqua scientia: ut in <title ref="#Metaphysics">metaphysica</title> unitas autem uni<lb ed="#V"/>voci: 
+  					nec impedit genus subiicibile: nec genus praedicabile.</p>
+  				
+  				<p xml:id="grl1prolp1p2q3-d1e3697"><lb ed="#V"/>Hoc viso secundum positionem istam patet solutio <unclear>quaestionis</unclear> quia licet creatura et 
+  					<lb ed="#V"/>creator non possint esse unum unitate univo<lb ed="#V"/>ci: 
+  					sunt tamen unum unitate analogiae: et quia talis unitas: licet impe<lb ed="#V"/>diat 
+  					genus praedicabile non impedit genus subiicibile: ideo poterit 
+  					<lb ed="#V"/>esse una scientia de utrisque. Sed illud dupliciter deficit. Primo quia distin<lb ed="#V"/>ctio 
+  					non est bona. nam non est verum quod unitas analogiae sit 
+  					<lb ed="#V"/>unitas unius rei vel naturae repertae in omnibus analogatis sicut vide<lb ed="#V"/>mus 
+  					sanum praedicari analogicae de cibo et animali. Natura aut sanita<lb ed="#V"/>tis 
+  					solum est in animali et non in cibo: sed est unitas unius rei: cui 
+  					<lb ed="#V"/>alia attribuuntur: unde et in <ref>4o <title ref="#Metaphysics">metaphysica</title></ref> unitas analogiae dicitur uni<lb ed="#V"/>tas 
+  					attributionis. Secundo deficit: quia distinctio non est ad propo<lb ed="#V"/>situm: 
+  					quia illa scientia est una unitate analogiae: cuius subiectum est ana<lb ed="#V"/>logum. 
+  					deus autem ipse quid eo modo ut diximus in ista scientia est sub<lb ed="#V"/>iectum: 
+  					est unum aliquid non analogum.</p>
+  				<p xml:id="grl1prolp1p2q3-d1e3737"><lb ed="#V"/>Propter hoc est alius modus dicendi quod unitas theologiae 
+  					<lb ed="#V"/>est unitas luminis. natura ex unitate luminis <unclear>d?<lb ed="#V"/>uint</unclear>: 
+  					scientia ista unitatem trahit. nam ut habitum est: theologia est scientia 
+  					<lb ed="#V"/>inspirata et per revelationem habit: et quia unum lumen est a quo origi<lb ed="#V"/>naliter 
+  					fit omnis talis revelatio: theologia scientia una dicitur.</p>
+  				
+  				<p xml:id="grl1prolp1p2q3-d1e3752"><pc ana="#pilcrow"/>Iste autem 
+  					<lb ed="#V"/>modus: licet videatur primo subtilior: non est bonus tamen: nam nos vide<lb ed="#V"/>mus 
+  					in scientia duplicem actualitatem. unam ex lumine. aliam ex principali 
+  					<lb ed="#V"/>obiecto sicut apparet in scientiis humanis. nam lumen intellectus agen<lb ed="#V"/>tis 
+  					praebet quandam actualitatem singulis scibilibus: et per consequens 
+  					<lb ed="#V"/>singulis scientiis: est enim illud lumen quod est omnia facere. Alium 
+  					<lb ed="#V"/>actualitatem recipit scientiam ex obiecto principali. Nam cum per idem aliquod 
+  					<lb ed="#V"/>sortiatur speciem et actualitatem: cum scientia trahat speciem ex principali obiecto: 
+  					<lb ed="#V"/>trahit et actualitatem ab eo. Ista duplex actualitas sic dif<lb ed="#V"/>fert 
+  					ut superius innuebatur: quia actualitas luminis est quid generale: 
+  					<lb ed="#V"/>unde unum lumen intellectus agentis sufficit ad dandam actualitatem 
+  					<lb ed="#V"/>omnibus scientiis humanis: sed ex actualitate subiecti consequitur scientia spe<lb ed="#V"/>cialem 
+  					unitatem: unde secantur scientiae quemadmodum et res de quibus 
+  					<lb ed="#V"/>sunt scientiae: non quemadmodum et luminia quibus innituntur: et sicut lumen 
+  					<lb ed="#V"/>intellectus agentis comparatur ad scientiam humanam: ita lumen divinum 
+  					<lb ed="#V"/>suo modo comparatur ad theologiam: et sicut unitas luminis intellectus agen<lb ed="#V"/>tis 
+  					<unclear>comparatur</unclear> secum diversitatem specificam humanae scientiae: ita 
+  					<lb ed="#V"/>unitas luminis divini posset comparati secum diversitatem specifi<lb ed="#V"/>cam 
+  					theologiae: immo multo magis: quia plus excellit lumen divinum 
+  					<lb ed="#V"/>theologiam nostram quam faciat lumen intellectus agentis scientiam acqui<lb ed="#V"/>sitam. 
+  					Et ideo oportet causam aliam assignare.</p>
+  				<p xml:id="grl1prolp1p2q3-d1e3803"><lb ed="#V"/>Propter hoc illi idem qui prius unitatem theologiae attri<lb ed="#V"/>buere 
+  					videbantur unitati luminis postmo<lb ed="#V"/>dum 
+  					attribuerunt eam unitati rationis: dicentes quod ideo theologia una est: 
+  					quia omnia quae introducuntur in ea sub una ratione formali 
+  					<lb ed="#V"/>obiecti comprehenduntur. Sed sic dicendo petunt quod est in principio nam 
+  					<lb ed="#V"/>de hoc est quaestio: quomodo possunt in una scientia omnia sub una ratione uniri: 
+  					<lb ed="#V"/>ita quod si ita esset: alia scientia in eodem genere superfluent: ideo supponere 
+  					<lb ed="#V"/>unitatem rationis est idem quod supponere unitatem scientiae: et cum probatur unitas 
+  					<lb ed="#V"/>scientiae per unitatem rationis: unitas per unitatem probatur: et qudo in principio petitur.</p>
+  				
+  				<p xml:id="grl1prolp1p2q3-d1e3822"><lb ed="#V"/>Ideo dicendum est aliter quod species per quas cognoscit homo differunt 
+  					<lb ed="#V"/>a speciebus per quas cognoscunt substantiae separatae: quia species hu<lb ed="#V"/>manae 
+  					sunt abstractae a sensibilibus et ducunt in cognitionem rei 
+  					<lb ed="#V"/>universalis solum directe et per se: et ideo per speciem hominis non ducimur in 
+  					<pb ed="#V" n="6-r"/><cb ed="#V" n="a"/><lb ed="#V"/>cognitionem eorum quo competunt sorti: quia sortes nec per speciem animalis co<lb ed="#V"/>gnoscimus 
+  					quo conveniunt homini: quia homo: et in eodem genere habemus di<lb ed="#V"/>versas 
+  					species. substantiae autem separatae per species universales possunt duci in co<lb ed="#V"/>gnitione 
+  					<lb ed="#V"/>omnium eorum <unclear>quae</unclear> sub illo universali continentur: et ideo esse posset quod 
+  					<lb ed="#V"/>aliqua substantia separata cognoscens per speciem animalis non indigeret habere 
+  					<lb ed="#V"/>speciem <unclear>capre</unclear> vel asini: quia per illam speciem posset considerare quae in<lb ed="#V"/>essent 
+  					speciebus animalis inquantum tales: absque speciebus specierum: et 
+  					<lb ed="#V"/>quia scientia humana sequitur modum humanum. Si habemus scientiam 
+  					<lb ed="#V"/>communem non superfluunt scientiae speciales: sicut si habemus speciem generis non 
+  					<lb ed="#V"/>superfluit species speciei: et ideo quia per metaphysicam quae considerat de 
+  					<lb ed="#V"/>ente in eo quod ens non possemus cognoscere quae insunt corpori 
+  					<lb ed="#V"/>mobili in eo quod mobile non superfluit naturalis philosophia: sed si per 
+  					<lb ed="#V"/>scientiam metaphysicae vel per quamcumque aliam scientiam humanam posse<lb ed="#V"/>mus 
+  					scire quae insunt subiectis singulis scientiarum secundum rationem pro 
+  					<lb ed="#V"/>prima et communem non esset nisi una scientia humana secundum unum <unclear>genus</unclear> et 
+  					quia ut habitum et per theologiam quae sequitur modum divinae sapientiae 
+  					<lb ed="#V"/>habens pro obiecto principali deum possumus de singulis rebus considerare 
+  					<lb ed="#V"/>su propria ratione: et ideo in genere scientiarum innitentium lumini divino non 
+  					<lb ed="#V"/>debet esse nisi una scientia: quia aliae superflueret: sicut nec in genere scientiarum 
+  					<lb ed="#V"/>innitentium lumini rationis esset nisi una scientia si per eam de sin<lb ed="#V"/>gulis 
+  					secundum rationem propriam considerare possemus: et ita patet quod 
+  					<lb ed="#V"/>scientia ista est una ex unitate obiecti: et quare unitas obie<lb ed="#V"/>cti 
+  					sufficit ad diversitatem causatam.</p>
+  			</div>
+  			<div type="ad-rationes">
+  				<p xml:id="grl1prolp1p2q3-d1e3898"><lb ed="#V"/><ref target="http://scta.info/resource/grl1prolp1p2q3-d1e3507">Ad primum</ref> dicendum quod considerare secundum rationem unam potest 
+  					<lb ed="#V"/>intelligi dupliciter vel secundum rationem unam formalem: 
+  					<lb ed="#V"/>vel materialem. sufficit autem diversa ratio materialis ad hoc quod obiecta di<lb ed="#V"/>stincte 
+  					cognoscantur. Si quaeretur utrum album vel nigrum videantur 
+  					<lb ed="#V"/>sub una ratione vel sub diversis: responderetur quod sub una ratione 
+  					<lb ed="#V"/>formali potentiae. Nam quicquid videt visus: videt sub ratione colo<lb ed="#V"/>ris 
+  					et lucidi: quia a tali ratione potentia <unclear>visiva</unclear> est una potentia: non tamen vi<lb ed="#V"/>dentur 
+  					sub una specie nec sub una ratione materiali quae diversa ratio 
+  					<lb ed="#V"/>materialis: quia distinctam facit cognitionem eorum quae considerantur in scientia 
+  					<lb ed="#V"/>inquantum huius formalis dici potest.</p>
+  				
+  				<p xml:id="grl1prolp1p2q3-d1e3924"><pc ana="#pilcrow"/>Unde notandum quod sicut 
+  					<lb ed="#V"/>est in potentia per comparationem ad potentiam: quia idem quod facit differentiam materia<lb ed="#V"/>lem 
+  					<unclear>respectu</unclear> unius: facit differentiam formalem respectu alterius: sicut sapor et 
+  					<lb ed="#V"/>color quae sunt differentiae materiales respectu sensus communis: sunt formales respectu 
+  					<lb ed="#V"/>particularium sensuum: sic est in obiectis respectu potentiae. Nam quae sunt 
+  					<lb ed="#V"/>differentiae formales ex parte obiecti: ut obiecta distincte cognoscantur: sunt 
+  					<lb ed="#V"/>materiales ex parte potentiae: quia una potentia ea distincte cognoscit: ut patet in 
+  					<lb ed="#V"/>albo et nigro <unclear>respectu <!-- I'm a little unsure about all "respectu"s in this passage --></unclear> visus. Et sicut est in sensu: ita suo modo est in 
+  					<lb ed="#V"/>scientia: secundum quod ad praesens spectat. Nam una et eadem scientia sub una 
+  					<lb ed="#V"/>ratione formali scientiae: per diversas tamen rationes materiales: formales 
+  					<lb ed="#V"/>tamen <unclear>quantum</unclear> ad distinctam cognitionem obiectorum poterit diversa obiecta co<lb ed="#V"/>gnoscere: 
+  					et ita patet quo theologia sub una ratione: etiam quomodo sub di<lb ed="#V"/>versa.</p>
+  				
+  				<p xml:id="grl1prolp1p2q3-d1e3964"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p2q3-d1e3532">Ad 2m</ref> dicendum quod non est vera aequivocatio inter deum 
+  					<lb ed="#V"/>et creaturas: licet ibi sit magna analogia: vel possumus dicere 
+  					<lb ed="#V"/>quod scientia habet unitatem ex obiecto principali: non est autem obiectum principale in theologia 
+  					<lb ed="#V"/>deus et creatura: sed deus solum.</p> 
+  				
+  				<p xml:id="grl1prolp1p2q3-ephmdm">Et per hoc patet solo <ref target="http://scta.info/resource/grl1prolp1p2q3-d1e3567">ad 3m</ref>, quia non 
+  					<lb ed="#V"/>oportet deum et creaturam uniri in uno genere ad hoc quod theologia sit una: 
+  					<lb ed="#V"/>tamen auctoritas <name ref="#Aristotle">Philosophi</name> non multum cogit: quia ibi cum dicit corruptibile 
+  					<lb ed="#V"/>et incorruptibile different genere: loquitur de genere praedicabili non de 
+  					<lb ed="#V"/>subiicibili. Si autem diceretur quod oporteteret deum habere partes et pas<lb ed="#V"/>siones: 
+  					ad hoc quod scientia ex eo haberet unitatem. Dicendum quod non oportet ut 
+  					<lb ed="#V"/>patuit: tamen deus est ibi loco subiecti: trinitas est ibi loco partium: 
+  					<lb ed="#V"/>attributa essentialia se habent ut passiones subiecti: et notio<lb ed="#V"/>nalia 
+  					ut proprietates partium ut liceat secundum metaphoram loqui: 
+  					<lb ed="#V"/>quia in ista <sic>adaptatione</sic> est similitudo modica: <unclear>dissimilitudines</unclear> multa.</p>
+  				
+  				<p xml:id="grl1prolp1p2q3-d1e4003"><lb ed="#V"/><pc ana="#pilcrow"/>Utrum sit aliqua scientia ad quam intellectus noster in puris natura<lb ed="#V"/>libus 
+  					non possit pertingere.</p> <!-- unclear if this paragraph belongs in this question or the next -->
+  				
+  			</div>
+  		</div>  
+  	</body>
+  </text>
+</TEI>

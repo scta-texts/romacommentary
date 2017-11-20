@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Prologus, Pars 1, Principalis 1, Quaestio 2</title>
+        <author>Aegidius Romanus</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-09-17">September 17, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Sentences Commentary Text Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="V" n="venice1521">Venice 1521</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-08-01" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<pb ed="#V" n="2-v"/><cb ed="#V" n="a"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="gr-l1prolp1p1q2">
+  			<head xml:id="grl1prolp1p1q2-Hd1e3495">Librum I, Prologus, Pars 1, Principalis 1, Quaestio 2</head>
+  			<head xml:id="grl1prolp1p1q2-Hd1e3498" type="questionTitle">Utrum theologia sit scientia communis vel specialis</head>
+  			<p xml:id="grl1prolp1p1q2-d1e3501"><lb ed="#V"/>Secundum quaeritur utrum theologia sit 
+  				<lb ed="#V"/>scientia communis vel specialis.</p>
+  			<div type="rationes-principales">
+  				<head xml:id="grl1prolp1p1q2-Hd1e3509">Rationes principales</head>
+  				<p xml:id="grl1prolp1p1q2-d1e3512">Et videtur 
+  					<lb ed="#V"/>quod communis: quia illa est scientia communis quae determi<lb ed="#V"/>nat 
+  					de omnibus: sed theologia determinat de omni<lb ed="#V"/>bus. 
+  					ergo etc. maior de se patet. minor declaratur: quia 
+  					<lb ed="#V"/>dicit <name ref="#Lombard">Magister</name> in principio primi sententiarum <quote xml:id="grl1prolp1p1q2-Qd1e3526" source="http://scta.info/resource/pll1d1c1-vanspv">sacrae paginae tractatum 
+  						<lb ed="#V"/>circa res vel signa a praecipue versari</quote>: <!-- lombard I, d. 1, c. 1, n. 1--> sed omnis doctrina est de 
+  					<lb ed="#V"/>rebus vel de signis: ut dicit <name ref="#Augustine">Augustinus</name> primo <title>de doctrina christiana</title> circa principia. 
+  					<lb ed="#V"/>ergo ista scientia versatur circa omnia: quia versatur circa ea circa quae ver<lb ed="#V"/>satur 
+  					omnis doctrina.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e3547"><pc ana="#pilcrow"/>praeterea Videmus in humanis scientiis quod scientia 
+  					<lb ed="#V"/>maxime abstracta est scientia maxime communis. cum igitur theologia 
+  					<lb ed="#V"/>maxime sit abstracta erit maxime communis.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e3555"><pc ana="#pilcrow"/>Praeterea. Sapiens 
+  					<lb ed="#V"/>est artifex: quia ut scribitur <ref>primo <title ref="#Metaphysics">metaphysica</title> libro 2</ref> <quote xml:id="grl1prolp1p1q2-Qd1e3566">sapientis est scire omnia</quote>. 
+  					<lb ed="#V"/>ergo sapientia erit ars sive scientia communis: sed ista scientia maxime st sa<lb ed="#V"/>piens: 
+  					iuxta illud <ref><title ref="#sir">Ecclesiasticus</title> 6</ref> <quote xml:id="grl1prolp1p1q2-Qd1e3579" ana="#sir6_22">sapientia enim doctrinae secundum nomen 
+  						<lb ed="#V"/>est illius</quote>. igitur maxime est communis.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e3585"><pc ana="#pilcrow"/>Praeterea. Ista scientia omnibus se 
+  					<lb ed="#V"/><unclear>coopeat</unclear>: unde <ref><name ref="#Augustine">Augustinus</name> primo <title ref="#deTrinitate">de trinitate</title> capitulo 1</ref> ait: quod <quote xml:id="grl1prolp1p1q2-Qd1e3600">sacra scriptura etiam 
+  						<lb ed="#V"/>parvulis congruens: nullius generis rerum verba vitavit</quote>: sed quod 
+  					<lb ed="#V"/>omnibus congruit et etiam parvuli: maxime de omnibus debet tracta<lb ed="#V"/>re: 
+  					quia talia sunt quae nullus ignorat: sed sunt quasi locus <unclear>ra<lb ed="#V"/>nue</unclear> 
+  					in domo: ut dicit <ref><name ref="#Averroes">Commentarius</name> in 2o <title>metaphysica</title></ref> sed talia tractare 
+  					<lb ed="#V"/>spectat ad communem scientiam. ergo etc.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e3626">In contrarium est: quia non possunt causae duae scientia communes: quod si 
+  					<lb ed="#V"/>possunt <unclear>de</unclear> opposita. Si sunt duae scientiae 
+  					<lb ed="#V"/>communes. aut ergo quilibet earum considerat de ente in eo quod ens: et tunc 
+  					<lb ed="#V"/>una ab alia non distinguitur. aut una considerat et non alia: et 
+  					<lb ed="#V"/>tunc una est communis et non alia. aut neutra considerat de ente in 
+  					<lb ed="#V"/>eo quod <unclear>ens</unclear> et tunc neutra a communis existit.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e3646"><pc ana="#pilcrow"/>praeterea Ad scientiam communem 
+  					<lb ed="#V"/>pertinet probare principia aliarum scientiarum: unde et <name ref="#Aristotle">philosophus</name> quando negabantur si<lb ed="#V"/>bi 
+  					principia philosophiae naturalis induens habitum metaphysici disputavit contra 
+  					<lb ed="#V"/>negantes principia: ut patet ex primo <title ref="#Physics">physicus</title> in disputatione contra <name ref="#Parmenides">Parmenidem</name> et 
+  					<lb ed="#V"/><name ref="#Melissus">Melissum</name>: sed ista scientia non probat principia aliarum scientiarum, ergo.</p>
+  			</div>
+  			<div>
+  				<head xml:id="grl1prolp1p1q2-Hd1e3673">Divisio quaestionis</head>
+  				<p xml:id="grl1prolp1p1q2-d1e3676"><lb ed="#V"/>Respondeo dicendum quod ut pateat veritas huius quaestione 4 oportet nos 
+  					<lb ed="#V"/>videre. Primo: quod omnis scientia communitate et abstra<lb ed="#V"/>ctionem 
+  					quam habet: consequitur ex subo subiect. Secundo: an sit idem scientiam causae 
+  					<lb ed="#V"/>magis abstractam: et magis communem: et minus abstractam: et ma<lb ed="#V"/>gis: 
+  					specialem. Tertio: quod est dicere scientiam esse communem. Quarto et 
+  					<lb ed="#V"/>virtus videndae sunt duae: quas habet sacra scriptura ad cae<lb ed="#V"/>teras 
+  					scientias: et bis visis apparebit veritas quaestione</p>
+  			</div>
+  			<div type="responsio">
+  				<p xml:id="grl1prolp1p1q2-d1e3697"><lb ed="#V"/>Primum declaratur sic: quia ab illo eodem a quo aliquid 
+  					<lb ed="#V"/>habet esse et speciem: habet et illud per quod diversificatur 
+  					<lb ed="#V"/>species et esse. et ratio est: quia per illa eadem entia in esse specifico diffe<lb ed="#V"/>runt: 
+  					per quae in esse specifico reponuntur: et ideo <unclear>divina</unclear> per quam 
+  					<lb ed="#V"/>differunt singula dicit totam speciem et totam substantia diffiniti: ut videtur 
+  					<lb ed="#V"/>velle <name ref="#Aristotle">philosophus</name> in 7o <title ref="#Metaphysics">metaphysica</title> capitulo de unitate diffinitionis: et quia per illud 
+  					<lb ed="#V"/>idem per quod aliquid in esse constituitur ab aliis distinguitur: patet quod ab 
+  					<lb ed="#V"/>eo a quo aliquid trahit esse: trahit et illud quod esse diversificat. Sed 
+  					<lb ed="#V"/>cum habitum sit quod scientia trahit esset et speciem a subiecto: consequens est quod ab 
+  					<lb ed="#V"/>eodem trahat communitatem et abstractionem: cum esse commune et esse abstra<lb ed="#V"/>ctum: 
+  					essentialem divinam constituit in doctrinis: ut patet per <name ref="#Aristotle">philosophum</name> 6o 
+  					<lb ed="#V"/><title>metaphysica</title>. qui cum distinxisset triplex genus abstractionis: quia quidam 
+  					<lb ed="#V"/>scientia abstrahit a materia sensibili hac: sed non simpliciter: quia est de 
+  					<lb ed="#V"/>rebus inseperabilibus et mobilibus: sicut scientia naturalis Quaedam autem ab<lb ed="#V"/>strahit 
+  					a materia sensibili simpliciter: sed non intelligibili: quia est de 
+  					<lb ed="#V"/>rebus inseparabilibus et immobilibus: sicut mathematica. Quaedam autem 
+  					<lb ed="#V"/>abstrahit ab omni materia sensibili et intelligibili: quia est rerum inse<lb ed="#V"/>parabilium 
+  					et immobilium: ut metaphysica. Conclusit ex hoc triplici ge<lb ed="#V"/>nere 
+  					abstractionis tres essentiales differentias philosophiae <unclear>.o.</unclear> modi igitur 
+  					<lb ed="#V"/>essentiales philosophiae sunt tres <unclear>mathematica</unclear>: naturalis et divinus. Rur<lb ed="#V"/>sum 
+  					esse commune et speciale faciunt essentialem differentiam in scientiis. unde et 
+  					<lb ed="#V"/>isto modo <ref><name ref="#Aristotle">philosophus</name> principio 4 <title ref="#Metaphysics">metaphysica</title></ref>. distinguit metaphysica ab omnibus aliis 
+  					<lb ed="#V"/>particularibus scientiis <unclear>.o.</unclear> unius quidem scientiae scientiarum est consi<lb ed="#V"/>deratio 
+  					<lb ed="#V"/>de ente per se et de rebus quae sunt entis per se: et 
+  					<lb ed="#V"/>ista scientia non est una earum quae dicuntur particulares.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e3786">Declarato primo quod per subiectum scientia consequitur esse commune et abstra<lb ed="#V"/>ctum: 
+  					quia ista essentiale differentia in scientiis fa<lb ed="#V"/>ciunt: 
+  					declaratur 2m quod non est idem esse magis abstractum et magis 
+  					<lb ed="#V"/>commune: ut quidam ratio proponebat. Nam licet maior abstractio: et ma<lb ed="#V"/>ior 
+  					communitas: in hoc conveniant quod utraque sumit originem ex subiecto: 
+  					<lb ed="#V"/>potest tamen esse maior abstractio ubi minor communitas reperitur. unde et 
+  					<lb ed="#V"/>in <ref>6o <title ref="#Metaphysics">metaphysica</title></ref> dicitur. quod si non esset aliqua subiecta alia a substantiis existentibus 
+  					<lb ed="#V"/>natura: tunc prima scientia esset naturalis. et appellat ibi primam scientiam: scientiam 
+  					<lb ed="#V"/>magis communem et magis universale: quia tunc metaphysica. non esset: nihilo<lb ed="#V"/>minus 
+  					tamen adhuc mathematica. quae remaneret esset magis ab<lb ed="#V"/>stracta 
+  					quam naturalis: non tamen magis communis.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e3815">Tertium autem sic ostenditur: quia si scientia communitatem quam habet et specia<lb ed="#V"/>litatem 
+  					ex subiecto trahit: tunc talis erit scientia quale 
+  					<lb ed="#V"/>erit subiectum suum. igitur scientia communis habebit pro subiecto commune: scientia specialis 
+  					<lb ed="#V"/>speciale. verum quia hoc est per se et proprie: quia scientia communis ex subiecto communi communi<lb ed="#V"/>tatem 
+  					trahit: et specialis ex speciali specialitatem: ut potest patere ex ha<lb ed="#V"/>bitis: 
+  					et ea quae sunt proprie et per se: sunt talia in eo quod talia: ut 
+  					patet per <ref><name ref="#Aristotle">philosophum</name> in primo <title>physicorum</title> 1 capitulo <sic>74</sic></ref> qui vult quod ea proprie facit me<lb ed="#V"/>dicus: 
+  					quae facit in eo quod medicus: scientia communis non solum habebit 
+  					<lb ed="#V"/>pro subiecto: commune quocumque modo  sumptum: sed habebit commune in eo quod 
+  					<lb ed="#V"/>commune: et specialis speciale in eo quod speciale. Patet igitur quod dicere scientiam 
+  					<lb ed="#V"/>communem: nihil aliud est quam dicere scientiam quae habet pro subiecto ali<lb ed="#V"/>quid 
+  					commune in eo quod commune: et non est dicere scientiam communem id est abstra<lb ed="#V"/>ctam: 
+  					ita quod magis communis sit scientia magis abstracta.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e3852"><lb ed="#V"/>Quarto autem declarandae sunt differentiae: quas habet sacra scri<lb ed="#V"/>ptura 
+  					ad caeteras scientias. istae autem ad praesens sunt 
+  					<lb ed="#V"/>4or. prima: quia aliae habentur per humanam inventionem. istam autem per di<lb ed="#V"/>vinam 
+  					inspirationem. unde et <name ref="#Augustine">Augustinus</name> loquens de sacra scriptura: per 
+  					<lb ed="#V"/>quam cognoscitur deus <ref>in principio <num>ii<!-- unclear in if 11 or 2 --></num> <title ref="#deTrinitate">de trinitate</title></ref> ait. Quod ipsam deus inspira<lb ed="#V"/>vit: 
+  					quod si ista differentia non facit differentiam essentialem quantum ad ipsos habentes 
+  					<lb ed="#V"/>scientiam: quia quaelibet scientia per rationem investigabilis: per inspirationem haberi 
+  					<lb ed="#V"/>posset: facit tamen essentialem differentiam. si consideremus ipsas scire in se: quia 
+  					<lb ed="#V"/>aliquae scientiae sunt quae per rationem investigabiles existunt: ut scientiae tra<lb ed="#V"/>ditae 
+  					a philosophis quae rationem non excedunt: doctrina tamen sacra de 
+  					<lb ed="#V"/>se est apta nata per inspirationem haberi: quia ad ipsam directe ratio 
+  					<lb ed="#V"/>non attigit: unde et <ref>primo <title ref="#deDivinisNominibus">divinis nominibus</title></ref> scribitur. Universaliter itaque non est <unclear>auden<lb ed="#V"/>dum</unclear> 
+  					dicere neque intelligentia quod de super essentiali et occulta divinitate: 
+  					<lb ed="#V"/>praeter divinitus nobis ex sacris eloquiis expressa: ipsius enim super rationem 
+  					<lb ed="#V"/>et intellectum est cognitio.</p> 
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e3906">Ex ista differentia sequitur 2a: quod ista scientia di<lb ed="#V"/>recte 
+  					et principaliter: nec est de sensibilibus: nec de his quae sunt in sen<lb ed="#V"/>sibilibus: 
+  					nec habet sensibilia quasi partem subiecti sui: quod nulli scientiae per 
+  					<lb ed="#V"/>rationem invente congruit: quod sic patet. nam scientia per rationem humanam in<lb ed="#V"/>venta 
+  					modum humanum sequitur. modus autem humanus est ut cogni<lb ed="#V"/>tio 
+  					a sensu incipiat: unde et <name ref="#Aristotle">philosophus</name> in primo <title ref="#PosteriorAnalytics">posteriorum</title> vult quod nostra co<lb ed="#V"/>gnitio 
+  					incipit a sensu: et deficiente sensu necesse est et illam 
+  					<lb ed="#V"/>scientiam deficere quae secundum illum sensum est. habet ergo scientia nostra essentialem 
+  					<lb ed="#V"/>comparationem ad sensibilia. igitur omnis talis scientia: vel erit de sen<lb ed="#V"/>sibilibus 
+  					ut naturalis et quae ad naturalem reducuntur. vel de his quae 
+  					<lb ed="#V"/>sunt in sensibilibus ut mathematica vel habet sensibilia substantia sui 
+  					<lb ed="#V"/>partem: ut metaphysica. Sapientia autem divinae nobis inspirata: modum divinum 
+  					<lb ed="#V"/>sequitur: unde dicitur primo <title ref="#deDivinisNominibus">de divinis nominibus</title> quod facit ipsos animos superlucens radius 
+  					<lb ed="#V"/>extentos bene ponderate et recte et commensurabili amore in<lb ed="#V"/>starum 
+  					<unclear>illuminationis</unclear> et quia sacra pagina sequitur modum et mensuram 
+  					<lb ed="#V"/>divinae sapientiae: sicut divina sapientia pro obiecto principali habet seipsam: quia deus 
+  					<lb ed="#V"/>nihil intelligit extra se: per se et primo: sed intelligendo se: intelligi omnia: ita 
+  					<lb ed="#V"/>in sacra pagina solius dei cognitio principaliter est <unclear>licentia</unclear>: et propter cognitionem 
+  					<lb ed="#V"/>dei intenta est cognitio omnium aliorum.</p> 
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e3964">Tertia differentia est: quia omnes 
+  					<lb ed="#V"/>aliae scientiae pro obiecto principali habent aliquod universale. ista autem proprie loquendo 
+  					<lb ed="#V"/>nec habet universale nec particulare. oportet igitur universale aliquod in aliis scien<lb ed="#V"/>tiis 
+  					esse obiectum: quia cum omnes aliae scientiae habeant aliquam per se analogiam 
+  					<lb ed="#V"/>ad ipsa sensibilia: etiam secundum quod scientiae sunt et scientificum particularium 
+  					<lb ed="#V"/>non possit esse scientia: oportet in talibus universale esse obiectum: propter quod in 7o 
+  					<lb ed="#V"/><title ref="#Metaphysics">metaphysica</title>. dicitur quod particularium non est scientia neque diffinitio. Illud autem 
+  					<pb ed="#V" n="3-r"/><cb ed="#V" n="a"/><lb ed="#V"/>quod principaliter in ista scientia intenditur nec est universale nec particulare: cum sit 
+  					<lb ed="#V"/>deus.</p> 
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e3988">Quarta differentia est: quod nulla scientia potest tot cognoscere in propria 
+  					<lb ed="#V"/>forma: quod ista. et ratio est: quia cum aliae scientia considerent universale aliquod: parti<lb ed="#V"/>cularia 
+  					contenta sub illo universali non cognosceret secundum ea quae insunt eis 
+  					<lb ed="#V"/>inquantum particularia sunt: sed inquantum rationem illius universalis induunt. 
+  					<lb ed="#V"/>Scientia aut divina: quia modum divinae sapientia sequitur: licet pro obiecto 
+  					<lb ed="#V"/>principali habeat deum ipsum: sicut ipsa scientia dei: poterit tamen in propria 
+  					<lb ed="#V"/>forma omnia alia cognoscere quae considerant singulae scientiae: sicut et deus 
+  					<lb ed="#V"/>potest: et si non tantum. Quia si aliquod habentes ista scientiam talia non cogno<lb ed="#V"/>scunt: 
+  					hoc non est ex parte eius quod ipsa scientia non sit apta nata cognitionem 
+  					<lb ed="#V"/>talium <unclear>praebere</unclear>: sed ex parte nostra: quia eam imperfecte possidemus.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e4013"><lb ed="#V"/>His visi quaestio de facili solvitur: quia cum quaeritur: utrum theologia 
+  					<lb ed="#V"/>sit communis vel specialis: si consideramus suum obiectum 
+  					<lb ed="#V"/>primum et principale: nulla scientia est a deo specialis ut ista: quia in ista scientia 
+  					<lb ed="#V"/>unius solius rei: absolute loquendo: cognitio intenditur. In aliis 
+  					<lb ed="#V"/>autem scientiis cum habeant pro obiecto universale non intenditur in eis unum 
+  					<lb ed="#V"/>realiter: sed unum secundum ratione. Iuxta illud <ref><name ref="#Averroes">Commentator</name> in primo <title>de anima</title> commento 2o</ref> 
+  					<lb ed="#V"/>intellectus facit universalitatem in rebus. universalis ergo unitas non est unitas rei: 
+  					<lb ed="#V"/>sed rationis sive intellectus. Si autem consideremus ea quae ista scientia habet 
+  					<lb ed="#V"/>non pro obiecto principali: cum nulla scientia ad cognitionem tot rerum in propria 
+  					<lb ed="#V"/>forma se possit extendere: ut ista communissima dici debet. Sed quia in 
+  					<lb ed="#V"/>omnibus advertendum est: quod est per se et principaliter: magis quam aliud: quia 
+  					<lb ed="#V"/>secundum <name ref="#Aristotle">philosophum</name> in fine 5 <title>Ethica</title> de his quae sunt per accidens non 
+  					<lb ed="#V"/>est cura <unclear>arti</unclear>. simpliciter debet concedi quod sit scientia specialis.</p>
+  			</div>
+  			<div type="ad-rationes">
+  				<p xml:id="grl1prolp1p1q2-d1e4063"><ref target="http://scta.info/resource/grl1prolp1p1q2-d1e3512">Ad primum</ref> dicendum quod non sufficit quod consideret de omnibus 
+  					<lb ed="#V"/>ut sit scientia communis: sed oportet quod consideret de 
+  					<lb ed="#V"/>omnibus principaliter inquantum uniuntur in aliquo communi universali vel analogo: ut 
+  					<lb ed="#V"/>metaphysica. quae considerat de omnibus inquantum uniuntur in ente quod theologia 
+  					<lb ed="#V"/>non facit: sed per se et primo considerat de deo solo: ut patuit.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e4074"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p1q2-d1e3547">Ad 
+  					2m</ref> dicendum quod illa proprio non est universaliter vera: quod quanto scientia est ma<lb ed="#V"/>gis 
+  					abstracta: tanto est magis communis: ut patuit per instantiam in 
+  					<lb ed="#V"/>philosophia naturali et mathematica.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e4082"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p1q2-d1e3555">Ad 3m</ref> dicendum quod sciens istam scientiam eset 
+  					<lb ed="#V"/>sciens quoddammodo omnia: et ideo maxime sapiens dici debet: non tamen propter 
+  					<lb ed="#V"/>hoc est artifex communis: quia per se et primo unius rei: dei scilicet cognitionem habet.</p>
+  				
+  				<p xml:id="grl1prolp1p1q2-d1e4090"><pc ana="#pilcrow"/><ref target="http://scta.info/resource/grl1prolp1p1q2-d1e3585">Ad 4m</ref> dicendum quod ista scientia se coaptat omnibus: et assumit quaedam 
+  					<lb ed="#V"/>communia quae omnibus intelligibilia existunt: ut exempla et talia ut parvulos 
+  					<lb ed="#V"/>in fide ad dei cognitionem inducat: sed hoc non est propter istam scientiam: quia 
+  					<lb ed="#V"/>ipsa quantum est de se indigeat talibus. Sed quia nos sic apti nati 
+  					<lb ed="#V"/>scimus manuduci in deum: et ideo deus pater sic providit: ut nos 
+  					<lb ed="#V"/>ad se induceret proponendo quasdam varietates velaminum 
+  					<lb ed="#V"/>secundum quod nostra natura postulat: unde et <ref>primo <title ref="#deCoelestiHierarchia">de caelesti hierarchia</title></ref> scribitur:quod neque 
+  					<lb ed="#V"/>possibile est nobis aliter lucere divinum radium: nisi varietate 
+  					<lb ed="#V"/>sacramentorum velaminum anagoge id est sursum ducendo <unclear>circumvelatum</unclear>: 
+  					<lb ed="#V"/>et his quae secundum nos sunt providentia praesentia communaliter et proprie prae<lb ed="#V"/>paratum: 
+  					quia scilicet sic providit deus pater nos sursum ducere: ut no<lb ed="#V"/>stra 
+  					requirebat natura.</p>
+  			</div>
+  		</div>  
+  	</body>
+  </text>
+</TEI>

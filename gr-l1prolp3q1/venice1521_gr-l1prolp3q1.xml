@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Prologus, Pars 3, Quaestio 1</title>
+        <author>Aegidius Romanus</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-10-19">October 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Sentences Commentary Text Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="V" n="venice1521">Venice 1521</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-10-19" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<pb ed="#V" n="7-r"/><cb ed="#V" n="b"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="gr-l1prolp3q1">
+  			<head>Librum I, Prologus, Pars 3, Quaestio 1</head>
+  			<head type="questionTitle">Utrum solus deus doceat istam scientiam</head>
+  			<p><lb ed="#V"/>Postea quaeritur de 3o principali de causa agen<lb ed="#V"/>te 
+  				huius doctrinae: et 
+  				<lb ed="#V"/>est quaestio. Utrum solus deus doceat eam. Et videtur quod sic: 
+  				<lb ed="#V"/>quia nullus docet aliquem aliquam scientiam: nisi habeat 
+  				<lb ed="#V"/>illam. Sed <unclear>de</unclear> scientia divina dicitur <unclear>primo <title ref="#Metaphysics">metaphysica</title> libro 2</unclear> quod non est <unclear>pos?sio</unclear> 
+  				<lb ed="#V"/>hominis: propter quod est <name>Symonides</name> dicebat: ut ibidem dicitur: quod solus deus 
+  				<lb ed="#V"/>habet hunc sensum: igitur homo non poterit eam docere: quia eam non habet: so<lb ed="#V"/>lus 
+  				deus ipsam docebit.</p>
+  			<p><pc ana="#pilcrow"/>praetera. Non est cognitio rei nisi per 
+  				<lb ed="#V"/>praesentiam speciei in intellectu: ut potest haberi ex <ref>3o <title ref="#deAnima">de anima</title></ref>: et ex primo de me<lb ed="#V"/>moria 
+  				et remi. Sed huiusmodi speciem non potest creare in nobis angelus 
+  				<lb ed="#V"/>cum natura obediat ei solum ad motum et non ad formam: igitur nec 
+  				<lb ed="#V"/>homo qui est minoris <unclear>potentiae</unclear> quam angelus: non ergo docet homo neque ange<lb ed="#V"/>lus 
+  				docet. ergo deus solus.</p>
+  			
+  			<p><pc ana="#pilcrow"/>praeterea. sed <name ref="#Augustine">Augustinus</name> de disciplina christiana. 
+  				<lb ed="#V"/>Cathedram habet in caelo qui corda <unclear>holum</unclear> docet in terris. unde ca<lb ed="#V"/>put 
+  				docet membra sed eundem ibidem. purus ergo homo causa docere non potest.</p>
+  			
+  			<p><lb ed="#V"/>In contrarium est: quia nullus docet nisi alium scien<lb ed="#V"/>tem 
+  				faciet: non enim docetur ali<lb ed="#V"/>quos 
+  				aliquid: nisi quod potest scire. Si ergo deus nos docere potest: et 
+  				<lb ed="#V"/>nos scire possumus. Sed omnino signum scientis est posse do<lb ed="#V"/>cere: 
+  				ut dicitur <ref>primo <title ref="#Metaphysics">metaphysica</title></ref> ergo homines istam scientiam docere possunt.</p>
+  			
+  			<p><pc ana="#pilcrow"/>praeterea. 
+  				<lb ed="#V"/>secundum <name ref="#Dionysius">Dionysium</name> <title ref="#deCoelestiHierarchia">de angelica hierarchia</title> Angeli sanctos patres multa 
+  				<lb ed="#V"/>docuerunt: non igitur solus deus docet.</p>
+  			
+  			<p><lb ed="#V"/>Respondeo dicendum quod secundum quosdam triplex est agens: 
+  				<lb ed="#V"/>vult: particulare: et <unclear>amministrativum</unclear>: sicut 
+  				<pb ed="#V" n="7-v"/><cb ed="#V" n="a"/><lb ed="#V"/>est videre in rebus naturalibus. Nam agens universale: est ipsum corpus 
+  				<lb ed="#V"/>supercaeleste: sive deus: particulare est natura alicuius rei: ut natura 
+  				<lb ed="#V"/>frumenti in productione frumenti: <unclear>amministratitum</unclear> est: quod adhi<lb ed="#V"/>hibet 
+  				semina: vel subministrat ea per quae operatio habet fieri: sicut 
+  				<lb ed="#V"/>est videre in sanitate. Nam agens universale est corpus superceleste 
+  				<lb ed="#V"/>sive deus: particulare est natura hominis: administratum est medicus 
+  				<lb ed="#V"/>qui nihil aliud facit nisi quod scientia adhibit: unde est minister 
+  				<lb ed="#V"/>naturae: sic est et in doctrina sicut est in productione naturalium: nam 
+  				<lb ed="#V"/>agens universale est ibi deus: agnes particulare est ibi ratio humana: 
+  				<lb ed="#V"/>agens administrativum est ibi homo vel angelus. Et sicut videtur 
+  				<lb ed="#V"/>in rebus naturalibus quod sunt ibi quaedam inchoationes seminum ex 
+  				<lb ed="#V"/>quibus seminibus res in esse producuntur: ita 2i in doctrina: suae 
+  				<lb ed="#V"/>enim quaedam seminaria scientiarum in intellectu nostro ex quibus omnes 
+  				<lb ed="#V"/>scientia oriuntur: haec enim seminaria sunt prima principia quae deus uni<lb ed="#V"/>cuique 
+  				naturaliter inservit: et ex istis seminibus scientia efficitur de au<lb ed="#V"/>ctore 
+  				universaliter: ratione particulariter: homine et angelo administrative.</p>
+  			
+  			<p><lb ed="#V"/><pc ana="#pilcrow"/>Et ex hoc patet solutio ad quaestionem: quomodo deus doceat et quomodo 
+  				<lb ed="#V"/>alia.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Sed ista textura non est multum fortis: assumit enim 
+  				<lb ed="#V"/>quaedam quae non habent plenam veritatem. Nam intellectus noster in 
+  				<lb ed="#V"/>sui primordio est sicut tabula rasa in qua nihil est pictum: 
+  				<lb ed="#V"/>ideo principia sunt a nobis acquisita via sensus memoriae et expe<lb ed="#V"/>rientiae. 
+  				Inconveniens enim esset nos habere nobilissimos habi<lb ed="#V"/>tus 
+  				et latere nos: ut dicitur <ref>in fine secundi <title ref="#PosteriorAnalytics">posteriorum</title></ref>. Quomodo 
+  				<lb ed="#V"/>autem principia dicuntur naturaliter cognita: in 2o huius 
+  				<lb ed="#V"/>operis clarius respondetur.</p>
+  			
+  			<p><lb ed="#V"/>Ad quaestionem istam ad praesens respondere possumus quod duo 
+  				<lb ed="#V"/>requiruntur ad hoc quod sciamus: ordinatio 
+  				<lb ed="#V"/>specierum et lumen: sicut videre est in visua potentiam ad hoc quod vi<lb ed="#V"/>sio 
+  				fiat: requiritur ibi lumen: quia sine lumine non fit visio: cum co<lb ed="#V"/>lor 
+  				non moveat visum nisi per actum lucidi: ut dicitur in <ref>2o <title ref="#deAnima">de 
+  					<lb ed="#V"/>anima</title></ref>. Requiritur etiam ordo specierum: quia nisi res visibilis diam<lb ed="#V"/>traliter 
+  				offerretur oculo: ita quod esset indirectum multiplicatio 
+  				<lb ed="#V"/>speciei: nunquam esset visio: quia si sufficeret quaelibet multiplicatio 
+  				<lb ed="#V"/>ad visione: ita videret homo post se sicut et ante se: cum species 
+  				<lb ed="#V"/>color per totum aerem se multiplicent. Et quia quod est oculus 
+  				<lb ed="#V"/>in corpore: hoc est intellectus in anima: ut dicit <ref><name ref="#JohnDamascenus">Damascenus</name> libro 2 capitulo 
+  					<lb ed="#V"/>12</ref>. et ut potest haberi ex <ref>primo <title ref="#Ethics">ethicorum</title></ref> sicut ad hoc quod fiat visio: duo re<lb ed="#V"/>quiruntur: 
+  				lumen et ordinatio specierum ad hoc quod sciamus vel 
+  				<lb ed="#V"/>intelligamus duo requiruntur. Primo lumen: quia intellectus noster 
+  				<lb ed="#V"/><unclear>po?s</unclear> qui est omnia fieri fit in actu per lumen intellectus agentis 
+  				<lb ed="#V"/>qui est omnia facere: unde comparatio intellectus agentis ad intel<lb ed="#V"/>lectum 
+  				potentialem est sicut comparatio artis ad materiam: ut potest haberi 
+  				<lb ed="#V"/>est <ref>3o <title ref="#deAnima">de anima</title> <unclear>id est</unclear> capitulo 16</ref>. Secundo requiritur ibi ordinatio specierum: quia sicut 
+  				<lb ed="#V"/>litterae rectae ordinatae faciunt syllabas et orationes quae eadem aliter 
+  				<lb ed="#V"/>ordinatae nihil constituunt: ita eadem verba uno ordine prolata 
+  				<lb ed="#V"/>faciunt scire: quae prolata aliter non aggenerant scientiam. Dupliciter ergo 
+  				<lb ed="#V"/>altus potest docere alium quantum ad lumen et quantum ad ordinem 
+  				<lb ed="#V"/>specierum. quantum ad lumen dupliciter: vel lumen de novo creando: 
+  				<lb ed="#V"/>vel creatum confortando: et quia angelus nullum lumen in nobis 
+  				<lb ed="#V"/>creat: nec naturale: ut lumen intellectus agentis: nec <unclear>gratuitum</unclear>: ut lu<lb ed="#V"/>men 
+  				fidei et gratiae: ipsam tamen lumen confortare potest. Nam sicut 
+  				<lb ed="#V"/>carbo <unclear>ignitus</unclear> alio carbone ignito in sua ignitione magis 
+  				<lb ed="#V"/>roboratur: sic lumen intellectus nostri ad praesentiam luminis substantiae 
+  				<lb ed="#V"/>separatae magis roboratur: potest etiam angelus efficere in no<lb ed="#V"/>bis 
+  				ordinationem specierum reducendo phantasmata ordinatae ad 
+  				<lb ed="#V"/>principia sensitivum. Utrum autem in ipso intellectu nostro species causare 
+  				<lb ed="#V"/>possit immediate: et quomodo in secundo patebit. Nunc autem secundum quod 
+  				<lb ed="#V"/>spectat ad patris dictum est: homo autem adhuc minus potest quam ange<lb ed="#V"/>lus: 
+  				quia nec potest lumen creare: nec potest ut angelus lumini se 
+  				<lb ed="#V"/>unire per quod lumen confortetur: potest tamen aliquo modo ordinem 
+  				<lb ed="#V"/>phantasmatum efficere inquantum aliqua ordinatae scribit vel 
+  				<lb ed="#V"/>dicit: propter quae audiens vel legens movetur ad scientiam ca<lb ed="#V"/>piendam. 
+  				Et ita patet quod deus docet per omnem modum: quia lumen 
+  				<lb ed="#V"/>potest creare et conformare: et potest ordinare phantasmata et species 
+  				<lb ed="#V"/>Angelus vero aliquo modo: quia lumen potest conformare et ordinare 
+  				<cb ed="#V" n="b"/><lb ed="#V"/>phantasmata: homo autem in docendo minus facit: quia solum causat 
+  				<lb ed="#V"/>aliquo modo phantasmatum ordinationem: verum quia angelus et 
+  				<lb ed="#V"/>homo doceret in virtute divina: conceditur aliquando quod solus deus doceat.</p>
+  			
+  			<p><lb ed="#V"/>Ad primum dicendum quod solus deus eam habet maxime ut 
+  				<lb ed="#V"/>ibidem dicitur: non quod homo nullo modo eam habeat: 
+  				<lb ed="#V"/>unde et solus deus eam docet maxime: et propter hoc non dicitur possessio 
+  				<lb ed="#V"/>hominis: quia non perfecte habetur ab homine in vita.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Ad 2m dicendum quod non 
+  				<lb ed="#V"/>oportet quod angelus causet huiusmodi speciem ad hoc quod homo intelligat vel 
+  				<lb ed="#V"/>sciat quod prius nesciebat: sed sufficit quod phantasmata quae 
+  				<lb ed="#V"/>erant abscondita in memoria: vel laetitia in speciebus redu<lb ed="#V"/>cat 
+  				ordinate ad principium sensitivum.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Ad 3m dicendum quod non vult 
+  				<lb ed="#V"/><name>Augustinus</name> quod nullo modo homo doceat sed quod non principaliter doceat.</p>
+  			
+  		</div>  
+  	</body>
+  </text>
+</TEI>
