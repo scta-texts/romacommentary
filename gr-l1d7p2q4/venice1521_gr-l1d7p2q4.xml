@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 7, P. 2, Quaestio 4</title>
+        <author>Aegidius Romanus</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-11-20">November 20, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="venice1521">Venice 1521</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-11-20" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="45-r"/><cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gr-l1d7p2q4">
+        <head xml:id="gr-l1d7p2q4-Hd1e93">Liber I, Distinctio 7, P. 2, Quaestio 4</head>
+        <p xml:id="gr-l1d7p2q4-d1e96">
+          <lb ed="#V"/>Quarto queritur utrum in divinis possint  
+          <lb ed="#V"/>esse plures filii:
+        </p>
+        <div xml:id="gr-l1d7p2q4-Dd1e103" type="rationes-principales">
+          <p xml:id="gr-l1d7p2q4-d1e105">
+            <lb ed="#V"/>Et videtur quod sic: quia fi<lb ed="#V"/>lius 
+            non gignitur: nisi ex eo quod pater se intelligit: sed 
+            <lb ed="#V"/>sicut pater se intelligit; ita filius se intelligit: sed pater 
+            <lb ed="#V"/>se intelligendo producit filium. ergo filus producit alium 
+            <lb ed="#V"/>filum.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e118">
+            <pc ana="#pilcrow"/>Praeterea. Non maioris potentiae est pater carnalis quam <unclear>celestiae</unclear>. 
+            <lb ed="#V"/>Sed pater carnalis potest generare plures filios et potest dare filio quod ge<lb ed="#V"/>neret 
+            alium filium. igitur celestis hoc poteri. igitur etc.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e130">
+            <pc ana="#pilcrow"/>Praeterea. Quando ali<lb ed="#V"/>quod 
+            produxit aliquod: nisi cesset potentia ad producendum <unclear>interum</unclear> potest 
+            <lb ed="#V"/>aliud producere: sed pater producendo filium non amisit potentiam generandi.
+            <lb ed="#V"/>ergo poteri producere aliud filium.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e144">
+            <pc ana="#pilcrow"/>Praeterea Quarto aliquod est simpliciter 
+            <lb ed="#V"/>tanto in pluribus reperitur: quia quanto simplicius tanto virtuosus: tanto igitur 
+            <lb ed="#V"/>n pluribus filiis poterit reperiri nam divina quam quaecumque nam co<lb ed="#V"/>proalis: 
+            quanto nam divina simplicior est qualibus corporali natura.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e155">
+            <lb ed="#V"/>In contrarium est: quia dicit <name>Commentator</name> in <unclear>caeli</unclear> et <unclear>metaphysica</unclear> 
+            <lb ed="#V"/>quod ex <unclear>proiectione</unclear> universi contingit 
+            <pb ed="#V" n="45-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V"/>quod est universum unum, igitur ex perfectione rei contingentiae quod sit unum 
+            <lb ed="#V"/>tale filius dei est maxime perfectionis ergo etc.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e184">
+            <pc ana="#pilcrow"/>Praeterea plurificatio 
+            <lb ed="#V"/>aliquorum secundum numerum est propter materiam in divinis non est materia ergo 
+            <lb ed="#V"/>non sunt ibi plures filii quia tunc filii illi differrent secundum numerum 
+            <lb ed="#V"/>et haberent materiam
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e195">
+            <pc ana="#pilcrow"/>Praeterea Omnis scriptura clamat ipsum esse unigenitum: 
+            quod non esset si ibi essent plures filii respectu personae patris.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e200">
+            <lb ed="#V"/>Respondeo dicendum quod si volumus loqui de pluralitate aliquorum: 
+            <lb ed="#V"/>oportet nos videre quo illa pergrediuntur in esse. 
+            <lb ed="#V"/>filius autem in divinis per viam generationis accepit esse quia de ratione filii 
+            <lb ed="#V"/>est quod si genitus generatio autem est opus naturae. secundum ergo aliqua di<lb ed="#V"/>versimode 
+            <lb ed="#V"/>naturam habent competit eis diversimode generari. sic 
+            <lb ed="#V"/>enim loquendum est de generatione: ut loquimur de natura. si ergo deus est 
+            <lb ed="#V"/>naturae intellectualis non poterit ibi esse generatio: nisi per modum in<lb ed="#V"/>tellectus 
+            propter hoc vult <ref xml:id="gr-l1d7p2q4-Rd1e221"><name>Augustinus</name> 6 <title>de Trinitate</title> capitulo 2</ref> quod est filius: quia verbum: ex 
+            <lb ed="#V"/>quo habetur quod eius generatio est per modum intellectus: quia ab intellectuali natura 
+            <lb ed="#V"/>procedit verbum. Et ideo si volumus videre utrum in divinis sint 
+            <lb ed="#V"/>plures filii videamus utrum in divinis sint plura verba. hoc autem 
+            <lb ed="#V"/>maxime videre poterimus considerando differentiam inter verbum divinum 
+            <lb ed="#V"/>et nostrum: quia in nobis sunt plura verba. In divinis autem est unum tantum.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e241">
+            <lb ed="#V"/><pc ana="#pilcrow"/>Causa autem quare in nobis sunt plura verba quadruplex assig<lb ed="#V"/>nari 
+            potest. Una est: quia verbum nostrum non semper gignitur de scientia: 
+            <lb ed="#V"/>sed aliquando de ignorantia, ut dicit <ref xml:id="gr-l1d7p2q4-Rd1e250"><name>Augustinus</name> 15 <title>de Trinitate</title> capitulo 15</ref> 
+            <lb ed="#V"/>et ideo quia de scientia et ignorantia gignitur verbum: ideo 
+            <lb ed="#V"/>in nobis est aliud et aliud verbum prout de scientia et igno<lb ed="#V"/>rantia 
+            gignitur.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e266">
+            Secunda est: quia scientia nostra est amissibi<lb ed="#V"/>lis: 
+            et quia ea <quote xml:id="gr-l1d7p2q4-Qd1e270">quorum substantia deperit non redeunt eadem 
+            <lb ed="#V"/>numero</quote><!-- in Auctoritates Aristotelis 4, De Generatione II, n. 51 (p. 171) -->: successive in nobis potest esse alia et alia scientia: 
+            <lb ed="#V"/>ex quo amissibilis est secundum quod dicit <ref xml:id="gr-l1d7p2q4-Rd1e278"><name>Augustinus</name> 15 <title>de trinitate</title> c. 13</ref> et 
+            <lb ed="#V"/>secundum quod in nobis est alia et alia scientia: erit aliud et aliud verbum. 
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e289">
+            <lb ed="#V"/>Tertia ratio esse potest: quia in nobis aliquando verbum habet esse informe: 
+            <lb ed="#V"/>aliquando habet esse formatum. unde dicitur <ref xml:id="gr-l1d7p2q4-Rd1e295">15 <title>de trinitate</title> capitulo 16</ref> quod ante verbum nostrum 
+            <lb ed="#V"/>praecedit cogitatio: et ita possunt plurificari in nobis verba secundum esse 
+            <lb ed="#V"/>informe et formatum.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e307">
+            Quarta ratio sumi potest ex eo quod intelli<lb ed="#V"/>gentia 
+            non potest simul informari omnibus quae sunt in memoria. 
+            <lb ed="#V"/>unde dicitur <ref xml:id="gr-l1d7p2q4-Rd1e313"><sic>15 <!-- actually book 11--></sic> <title>de trinitate</title> capitulo 8</ref>. <quote xml:id="gr-l1d7p2q4-Qd1e322" source="http://scta.info/resource/adt-l11">Quoniam non potest acies animi simul omnia, quae 
+            <lb ed="#V"/>memoria tenet uno aspe<lb ed="#V"/>ctu contueri</quote>: ideo verbum nostrum non 
+            <lb ed="#V"/>ex tota scientia generatur. Et ideo dato quod semper verbum nostrum de scientia 
+            <lb ed="#V"/>gigneretur semper haberet esse formatum numquam scientia nostra esset amis<lb ed="#V"/>sibilis: 
+            quia non totam scientia comprehendit: cum intelligentia non pos<lb ed="#V"/>sit 
+            unico aspectu informari omnibus quae sunt in memoria: oportet 
+            <lb ed="#V"/>in nobis saltem successive esse plura verba.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e341">
+            <pc ana="#pilcrow"/>Verbum autem divi<lb ed="#V"/>num 
+            quia habet conditiones oppositas verbo nostro est ibi unicum so<lb ed="#V"/>lum. 
+            Nam illud verbum divinum semper de scientia dei gignitur: quia ut 
+            <lb ed="#V"/>scribitur <ref xml:id="gr-l1d7p2q4-Rd1e351">15 <title>de trinitate</title> 15</ref> verbum non nisi de scientia gignitur. sed 
+            <lb ed="#V"/>ut scribitur <ref xml:id="gr-l1d7p2q4-Rd1e360">eodem libro capitulo 14</ref> verbum divinum vere est unitas ex quo 
+            <lb ed="#V"/>primo habet conditione oppositam verbo nostro.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e366">
+            Secundo: scientia dei numquam 
+            <lb ed="#V"/>est amissibilis. Et ratio huius assignatur <ref>15 <title>de trinitate</title> capitulo 13</ref> quia scientia 
+            <lb ed="#V"/>dei est subiecta dei et esse dei: sed nihil quod est ipsum esse: esse amittere 
+            <lb ed="#V"/>potest. Sed si deus non amittit esse: non amittit scire vel scientiam: quae 
+            <lb ed="#V"/>sunt idem quod esse eius. Non igitur gignitur divinum verbum ex scientia amis<lb ed="#V"/>sibili: 
+            propter quod habet secundam conditionem oppositam verbo nostro.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e379">
+            Tertio 
+            <lb ed="#V"/>verbum divinum numquam est informe: immo semper est formatum: ut dicitur 
+            <lb ed="#V"/><ref xml:id="gr-l1d7p2q4-Rd1e384">15 <title>de trinitate</title> capitulo 15</ref> propter quod <ref xml:id="gr-l1d7p2q4-Rd1e390">16 capitulo dicti libri</ref> dicitur quod in deo non est cogi<lb ed="#V"/>tatio: 
+            sed verbum. non igitur plurificabitur per esse informe et formatum: 
+            <lb ed="#V"/>ut nostrum verbum: propter quod opponitur 3o verbo nostro.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e398">
+            Quarto: quia verbum 
+            <lb ed="#V"/>divinum gignitur ex tota scientia dei: cum scientia dei simplex sit et non 
+            <lb ed="#V"/>habeat parte et parte. Si gignitur ex scientia dei: ex tota scientia gignitur: 
+            <lb ed="#V"/>et quia illi scientiae coaequatur: nec est aliquid in scientia: quod non sit in 
+            <lb ed="#V"/>verbo: vel in verbo quod non sit in scientia: cum sit ibi una scientia: sicut 
+            <lb ed="#V"/>una subiecta et una essentia: erit ibi unum verbum. Ista autem aequali<lb ed="#V"/>tate 
+            verbi ad divinam scientiam et istam comprehensionem narrat <ref><name>Augustinus</name> 
+            <lb ed="#V"/>15 <title>de trinitate</title> capitulo 14</ref> dicens <quote xml:id="gr-l1d7p2q4-Qd1e421" source="http://scta.info/resource/adt-l15">pater genuit verbum sibi aequale per omnia. 
+            <lb ed="#V"/>Non enim seipsum integre perfecteque dixisset si aliquod amplius 
+            <lb ed="#V"/>aut unus esset in eius verbo.</quote> Et sequitur <quote xml:id="gr-l1d7p2q4-Qd1e428" source="http://scta.info/resource/adt-l15"><sic>quod</sic> quicquid est in ea scientia 
+            <lb ed="#V"/>de quae est genitam: et in ipso est quod in ea non est: nec in ipso 
+            <lb ed="#V"/>est</quote>.
+          </p> 
+          <p xml:id="gr-l1d7p2q4-d1e438">
+            Ex quo patet quod verbum divinum habet quartam conditionem opposi<cb ed="#V" n="b"/><lb ed="#V"/>tam 
+            verbo nostro: quia aequatur divinae scientiae: non autem verbum nostrum nostrae scientiae 
+            <lb ed="#V"/>coaequatur illud igitur verbum est verbum unum: quia non habet unde pluri<lb ed="#V"/>ficetur. 
+            patet igitur quod est ibi unus filius: cum sit ibi unum verbum. 
+            <lb ed="#V"/>Ad probandum et ibi esse unum filium: facit quod ostensum fuit in <ref xml:id="gr-l1d7p2q4-Rd1e449">2o 
+            <lb ed="#V"/>problemate quartae distinctionis</ref> ibi enim ostensum fuit quod per viam 
+            <lb ed="#V"/>generationis in divinis a pluribus personis non procedunt plures: nec a 
+            <lb ed="#V"/>pluribus una: nec ab una plures: sed solum ad una unam: quod si 
+            <lb ed="#V"/>ita est solum una persona eset ibi genita: et ita unus filius.
+          </p>
+        </div>
+        <div xml:id="gr-l1d7p2q4-Dd1e463">
+          <p xml:id="gr-l1d7p2q4-d1e465">
+            <lb ed="#V"/>Ad primum dicendum quod pater intelligendo se producit 
+            <lb ed="#V"/>filium: quia nam in divinis est radicale prin<lb ed="#V"/>cipium 
+            generationis. Attemen ut persona generet oportet suum intelligere: 
+            <lb ed="#V"/>sive suam naturam esse coniunctam cum aliquo respectu cum quo 
+            <lb ed="#V"/>non est coniunctum intelligere filii: et natura filii prout est in filio.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e478">
+            <lb ed="#V"/><pc ana="#pilcrow"/>Ad 2m dicendum quod non est ex impotentia patris caelestis quod non 
+            <lb ed="#V"/>generet plures filios: immo ex potentia et perfectione: quia se in<lb ed="#V"/>tegre 
+            et perfecte per unicum filium se exprimit et manifestari 
+            <lb ed="#V"/>superfluet ibi alius filius.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e490">
+            <pc ana="#pilcrow"/>Ad 3m dicendum quod ratio fallit ex fal<lb ed="#V"/>sa 
+            imaginatione: imaginatur enim in actu generationis filii esse prae<lb ed="#V"/>teritionem: 
+            ita quod pater postquam genuit filium cesset generare: et 
+            <lb ed="#V"/>quia quiescit a generatione: possit iterum generare: sed non sic se habet: 
+            <lb ed="#V"/>quia pater semper gignit et filius semper est genitus.
+          </p>
+          <p xml:id="gr-l1d7p2q4-d1e503">
+            <pc ana="#pilcrow"/>Ad 4m 
+            <lb ed="#V"/>dicendum quod quanto aliquod est simplicius in pluribus reperitur: verum 
+            <lb ed="#V"/>est si illa plura non comprehendunt virtutem eius: sed filius totam 
+            <lb ed="#V"/>scientiam patris comprehendit: ideo non sequitur.
+          </p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
